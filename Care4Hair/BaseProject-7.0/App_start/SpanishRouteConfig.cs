@@ -115,5 +115,7 @@
                 defaults: new RouteValueDictionary { { "controller", "BlogPostPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "BlogPostPageEs" } }
                 );
+
         }
+    }
 }
