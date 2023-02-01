@@ -143,11 +143,94 @@ namespace BaseProject_7_0.App_start
             //PictureIndexBase
             app.MapControllerRoute(
                 name: "PictureIndexBase",
-                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl}",
-                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }},
+                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints } },
                 defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
                 );
+
+            //WebReviewIndexByService
+            app.MapControllerRoute(
+                name: "WebReviewIndexByService",
+                pattern: "{dbServiceUrl}/" + Site.Instance.WebReviews.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "WebReviewIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewIndexByService" } }
+                );
+
+
+            //WebReviewIndexBase
+            app.MapControllerRoute(
+                name: "WebReviewIndexBase",
+                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "WebReviewIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewIndexBase" } }
+                );
+
+            //VideoIndexPageByService
+            app.MapControllerRoute(
+                name: "VideoIndexPageByService",
+                pattern: "{dbServiceUrl}/" + Site.Instance.Videos.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "VideoIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoIndexPageByService" } }
+                );
+
+            //VideoIndexPage
+            app.MapControllerRoute(
+                name: "VideoIndexPage",
+                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "VideoIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoIndexPage" } }
+                );
+
+            //VideoPage
+            app.MapControllerRoute(
+                name: "VideoPage",
+                pattern: Site.Instance.VideoPage.UrlSection + "/{videoUrl}",
+                defaults: new RouteValueDictionary { { "controller", "VideoPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoPage" } }
+                );
+
+            //SpecialIndexPageByService
+            app.MapControllerRoute(
+                name: "SpecialIndexPageByService",
+                pattern: "{dbServiceUrl}/" + Site.Instance.Specials.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "SpecialIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialIndexPageByService" } }
+                );
+
+            //SpecialIndexPageBase
+            app.MapControllerRoute(
+                name: "SpecialIndexPageBase",
+                pattern: Site.Instance.Specials.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "SpecialIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialIndexPageBase" } }
+                );
+
+            //PictureIndexBase
+            app.MapControllerRoute(
+                name: "PictureIndexBase",
+                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
+                );
+
+            //PictureIndexBase
+            app.MapControllerRoute(
+                name: "PictureIndexBase",
+                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
+                );
+
+
 
 
             //Default
