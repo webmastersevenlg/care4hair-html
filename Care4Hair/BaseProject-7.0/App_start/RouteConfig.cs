@@ -65,12 +65,12 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "ServicePage" } }
                 );
 
-            //ProfessionalIndexPage
+            //ProfessionalindexPage
             app.MapControllerRoute(
-                name: "ProfessionalIndexPage",
+                name: "ProfessionalindexPage",
                 pattern: Site.Instance.Professionals.UrlSection,
-                defaults: new RouteValueDictionary { { "controller", "ProfessionalIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "ProfessionalIndexPage" } }
+                defaults: new RouteValueDictionary { { "controller", "ProfessionalindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "ProfessionalindexPage" } }
                 );
 
             //ProfessionalPage
@@ -82,20 +82,20 @@ namespace BaseProject_7_0.App_start
                  dataTokens: new RouteValueDictionary { { "__RouteName", "ProfessionalPage" } }
                  );
 
-            //TestimonialIndexPage
+            //TestimonialindexPage
             app.MapControllerRoute(
-                name: "TestimonialIndexPage",
+                name: "TestimonialindexPage",
                 pattern: Site.Instance.Testimonials.UrlSection,
-                defaults: new RouteValueDictionary { { "controller", "TestimonialIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "TestimonialIndexPage" } }
+                defaults: new RouteValueDictionary { { "controller", "TestimonialindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "TestimonialindexPage" } }
                 );
 
-            //FinancingOptionIndexPage
+            //FinancingOptionindexPage
             app.MapControllerRoute(
-                name: "FinancingOptionIndexPage",
+                name: "FinancingOptionindexPage",
                 pattern: Site.Instance.FinancingOptions.UrlSection,
-                defaults: new RouteValueDictionary { { "controller", "FinancingOptionIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "FinancingOptionIndexPage" } }
+                defaults: new RouteValueDictionary { { "controller", "FinancingOptionindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "FinancingOptionindexPage" } }
                 );
 
             //FinancingOptionPage
@@ -115,12 +115,12 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialOfferPage" } }
                 );
 
-            //BlogIndexPage
+            //BlogindexPage
             app.MapControllerRoute(
-                name: "BlogIndexPage",
+                name: "BlogindexPage",
                 pattern: Site.Instance.Blog.UrlSection,
-                defaults: new RouteValueDictionary { { "controller", "BlogIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "BlogIndexPage" } }
+                defaults: new RouteValueDictionary { { "controller", "BlogindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "BlogindexPage" } }
                 );
 
             //BlogPostPage
@@ -131,59 +131,59 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "BlogPostPage" } }
                 );
 
-            //PictureIndexByService
+            //PictureindexByService
             app.MapControllerRoute(
-                name: "BlogIndexPage",
+                name: "BlogindexPage",
                 pattern: "{dbServiceUrl}/" + Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexByService" } }
+                defaults: new RouteValueDictionary { { "controller", "PictureindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureindexByService" } }
                 );
 
-            //PictureIndexBase
+            //PictureindexBase
             app.MapControllerRoute(
-                name: "PictureIndexBase",
+                name: "PictureindexBase",
                 pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
+                defaults: new RouteValueDictionary { { "controller", "PictureindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureindexBase" } }
                 );
 
-            //WebReviewIndexByService
+            //WebReviewindexByService
             app.MapControllerRoute(
-                name: "WebReviewIndexByService",
+                name: "WebReviewindexByService",
                 pattern: "{dbServiceUrl}/" + Site.Instance.WebReviews.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "WebReviewIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewIndexByService" } }
+                defaults: new RouteValueDictionary { { "controller", "WebReviewindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewindexByService" } }
                 );
 
 
-            //WebReviewIndexBase
+            //WebReviewindexBase
             app.MapControllerRoute(
-                name: "WebReviewIndexBase",
+                name: "WebReviewindexBase",
                 pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "WebReviewIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewIndexBase" } }
+                defaults: new RouteValueDictionary { { "controller", "WebReviewindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewindexBase" } }
                 );
 
-            //VideoIndexPageByService
+            //VideoindexPageByService
             app.MapControllerRoute(
-                name: "VideoIndexPageByService",
+                name: "VideoindexPageByService",
                 pattern: "{dbServiceUrl}/" + Site.Instance.Videos.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "VideoIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoIndexPageByService" } }
+                defaults: new RouteValueDictionary { { "controller", "VideoindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoindexPageByService" } }
                 );
 
-            //VideoIndexPage
+            //VideoindexPage
             app.MapControllerRoute(
-                name: "VideoIndexPage",
+                name: "VideoindexPage",
                 pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "VideoIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoIndexPage" } }
+                defaults: new RouteValueDictionary { { "controller", "VideoindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoindexPage" } }
                 );
 
             //VideoPage
@@ -194,51 +194,103 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "VideoPage" } }
                 );
 
-            //SpecialIndexPageByService
+            //SpecialindexPageByService
             app.MapControllerRoute(
-                name: "SpecialIndexPageByService",
+                name: "SpecialindexPageByService",
                 pattern: "{dbServiceUrl}/" + Site.Instance.Specials.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "SpecialIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialIndexPageByService" } }
+                defaults: new RouteValueDictionary { { "controller", "SpecialindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialindexPageByService" } }
                 );
 
-            //SpecialIndexPageBase
+            //SpecialindexPageBase
             app.MapControllerRoute(
-                name: "SpecialIndexPageBase",
+                name: "SpecialindexPageBase",
                 pattern: Site.Instance.Specials.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "SpecialIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialIndexPageBase" } }
+                defaults: new RouteValueDictionary { { "controller", "SpecialindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialindexPageBase" } }
                 );
 
-            //PictureIndexBase
+            //SpecialPage
             app.MapControllerRoute(
-                name: "PictureIndexBase",
-                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl}",
-                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
+                name: "SpecialPage",
+                pattern: Site.Instance.SpecialPage.UrlSection + "/{specialUrl}/{id?}",
+                defaults: new RouteValueDictionary { { "controller", "SpecialPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialPage" } }
                 );
 
-            //PictureIndexBase
+
+            //Robots
             app.MapControllerRoute(
-                name: "PictureIndexBase",
-                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl}",
-                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints } },
-                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
+                name: "Robots",
+                pattern: "robots.txt",
+                defaults: new RouteValueDictionary { { "controller", "Robots" }, { "action", "index" }},
+                dataTokens: new RouteValueDictionary { { "__RouteName", "Robots" } }
                 );
 
+            //Robots
+            app.MapControllerRoute(
+                name: "Robots",
+                pattern: "robots.txt",
+                defaults: new RouteValueDictionary { { "controller", "Robots" }, { "action", "index" } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "Robots" } }
+                );
 
+            //SiteMap
+            app.MapControllerRoute(
+                name: "Default",
+                pattern: "sitemap.xml",
+                defaults: new RouteValueDictionary { { "controller", "SiteMap" }, { "action", "SiteMap" } },
+                dataTokens: new RouteValueDictionary{{ "__RouteName", "SiteMap" } }
+                );
 
+            //SiteMapImages
+            app.MapControllerRoute(
+                name: "SiteMapImages",
+                pattern: "sitemap_images.xml",
+                defaults: new RouteValueDictionary { { "controller", "SiteMap" }, { "action", "SiteMapImages" } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SiteMapImages" } }
+                );
+
+            //SitemapVideos
+            app.MapControllerRoute(
+                name: "SitemapVideos",
+                pattern: "sitemap_video.xml",
+                defaults: new RouteValueDictionary { { "controller", "SiteMap" }, { "action", "SitemapVideos" } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SitemapVideos" } }
+                );
+
+            //Call
+            app.MapControllerRoute(
+                name: "Call",
+                pattern: "call/{number}",
+                defaults: new RouteValueDictionary { { "controller", "call" }, { "action", "index" } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "Call" } }
+                );
+
+            //Call
+            app.MapControllerRoute(
+                name: "Call",
+                pattern: "call/{number}",
+                defaults: new RouteValueDictionary { { "controller", "call" }, { "action", "index" } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "Call" } }
+                );
+
+            //FreeConsultation
+            app.MapControllerRoute(
+                name: "FreeConsultation",
+                pattern: "freeconsultation/{sourcePlatformDetail}/{professionalUrl}",
+                defaults: new RouteValueDictionary { { "controller", "freeconsultation" }, { "action", "index" } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "FreeConsultation" } }
+                );
 
             //Default
             app.MapControllerRoute(
                 name: "Default",
-                pattern: "{controller=Home}/{action=Index}/{id?}",
+                pattern: "{controller=Home}/{action=index}/{id?}",
                 defaults: new RouteValueDictionary { { "abbreviatedLanguage", EnglishAbbreviation } },
-                dataTokens: new RouteValueDictionary{{ "__RouteName", "Default" }}
+                dataTokens: new RouteValueDictionary { { "__RouteName", "Default" } }
                 );
         }
     }
