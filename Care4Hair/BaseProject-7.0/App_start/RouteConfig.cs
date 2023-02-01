@@ -5,6 +5,7 @@ using BaseProject_7_0.XmlTools;
 using System;
 using System.Reflection;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Data.SqlClient;
 
 namespace BaseProject_7_0.App_start
 {
@@ -36,6 +37,8 @@ namespace BaseProject_7_0.App_start
         public static void RegisterRoutes(WebApplication app)
         {
             GetConstraints();
+
+            //UncategorizedPage
             app.MapControllerRoute(
                 name: "UncategorizedPage",
                 pattern: "{uncategorizedPageUrl}",
@@ -44,6 +47,7 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "UncategorizedPage" } }
                 );
 
+            //CategoryPage
             app.MapControllerRoute(
                 name: "CategoryPage",
                 pattern: "{categoryUrl}",
@@ -52,6 +56,7 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "CategoryPage" } }
                 );
 
+            //ServicePage
             app.MapControllerRoute(
                 name: "ServicePage",
                 pattern: "{serviceUrl}",
@@ -60,16 +65,61 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "ServicePage" } }
                 );
 
+            //ProfessionalIndexPage
             app.MapControllerRoute(
-                name: "ServicePage",
-                pattern: "{serviceUrl}",
-                defaults: new RouteValueDictionary { { "controller", "ServicePage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
-                constraints: new RouteValueDictionary { { "serviceUrl", ServiceUrlContraints } },
-                dataTokens: new RouteValueDictionary { { "__RouteName", "ServicePage" } }
+                name: "ProfessionalIndexPage",
+                pattern: Site.Instance.Professionals.UrlSection,
+                defaults: new RouteValueDictionary { { "controller", "ProfessionalIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "ProfessionalIndexPage" } }
                 );
 
+            //ProfessionalPage
             app.MapControllerRoute(
-                name: "default",
+                 name: "ProfessionalPage",
+                 pattern: "{professionalUrl}",
+                 defaults: new RouteValueDictionary { { "controller", "ProfessionalPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                 constraints: new RouteValueDictionary { { "professionalUrl", ProfessionalUrlContraints } },
+                 dataTokens: new RouteValueDictionary { { "__RouteName", "ProfessionalPage" } }
+                 );
+
+            //TestimonialIndexPage
+            app.MapControllerRoute(
+                name: "TestimonialIndexPage",
+                pattern: Site.Instance.Testimonials.UrlSection,
+                defaults: new RouteValueDictionary { { "controller", "TestimonialIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "TestimonialIndexPage" } }
+                );
+
+            //FinancingOptionIndexPage
+            app.MapControllerRoute(
+                name: "FinancingOptionIndexPage",
+                pattern: Site.Instance.FinancingOptions.UrlSection,
+                defaults: new RouteValueDictionary { { "controller", "FinancingOptionIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "FinancingOptionIndexPage" } }
+                );
+
+            //FinancingOptionPage
+            app.MapControllerRoute(
+                 name: "FinancingOptionPage",
+                 pattern: Site.Instance.FinancingOptionPage.UrlSection + "/{financingOptionUrl}",
+                 defaults: new RouteValueDictionary { { "controller", "FinancingOptionPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                 constraints: new RouteValueDictionary { { "professionalUrl", ProfessionalUrlContraints } },
+                 dataTokens: new RouteValueDictionary { { "__RouteName", "FinancingOptionPage" } }
+                 );
+
+            //SpecialOfferPage
+            app.MapControllerRoute(
+                name: "SpecialOfferPage",
+                pattern: Site.Instance.SppecialOfferPage.UrlSection + "/{specialOfferUrl}/{view}",
+                defaults: new RouteValueDictionary { { "controller", "SpecialOfferPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialOfferPage" } }
+                );
+
+        
+
+            //Default
+            app.MapControllerRoute(
+                name: "Default",
                 pattern: "{controller=Home}/{action=Index}/{id?}",
                 defaults: new RouteValueDictionary { { "abbreviatedLanguage", EnglishAbbreviation } },
                 dataTokens: new RouteValueDictionary{{ "__RouteName", "Default" }}
