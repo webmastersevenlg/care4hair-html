@@ -180,7 +180,7 @@ namespace BaseProject_7_0.App_start
             //VideoindexPage
             app.MapControllerRoute(
                 name: "VideoindexPage",
-                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
+                pattern: Site.Instance.Videos.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
                 defaults: new RouteValueDictionary { { "controller", "VideoindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "VideoindexPage" } }

@@ -116,6 +116,99 @@
                 dataTokens: new RouteValueDictionary { { "__RouteName", "BlogPostPageEs" } }
                 );
 
+            //PictureIndexByServiceEs
+            app.MapControllerRoute(
+                name: "PictureIndexByServiceEs",
+                pattern: Settings.GetSpanishUrl + "{dbServiceUrl}/" + Site.Instance.Pictures.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexByService" } }
+                );
+            //PictureIndexBaseEs
+            app.MapControllerRoute(
+                name: "PictureIndexBaseEs",
+                pattern: Settings.GetSpanishUrl + "/" + Site.Instance.Pictures.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbServiceUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBaseEsEs" } }
+                );
+
+
+            //WebReviewIndexByServiceEs
+            app.MapControllerRoute(
+                name: "WebReviewIndexBaseEs",
+                pattern: Settings.GetSpanishUrl + "/{dbServiceUrl}/" + Site.Instance.WebReviews.UrlSectionSpanish + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "WebReviewIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewIndexByServiceEs" } }
+                );
+
+
+            //WebReviewIndexBaseEs
+            app.MapControllerRoute(
+                name: "WebReviewIndexBaseEs",
+                pattern: Settings.GetSpanishUrl + "/" + Site.Instance.WebReviews.UrlSectionSpanish + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "WebReviewIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "WebReviewIndexBaseEs" } }
+                );
+
+            //VideoIndexPageByServiceEs
+            app.MapControllerRoute(
+                name: "VideoIndexPageByServiceEs",
+                pattern: Settings.GetSpanishUrl + "/{dbServiceUrl}/" + Site.Instance.Videos.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "VideoIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoIndexPageByServiceEs" } }
+                );
+
+            //VideoIndexPageEs
+            app.MapControllerRoute(
+                name: "VideoIndexPageEs",
+                pattern: Settings.GetSpanishUrl + "/" + Site.Instance.Videos.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "VideoIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoIndexPageEs" } }
+                );
+
+            //VideoPageEs
+            app.MapControllerRoute(
+                name: "VideoPageEs",
+                pattern: Settings.GetSpanishUrl + "/" + Site.Instance.VideoPage.UrlSectionSpanish + "/{videoUrl}",
+                defaults: new RouteValueDictionary { { "controller", "VideoPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "VideoPageEs" } }
+                );
+            //SpecialIndexPageByServiceEs
+            app.MapControllerRoute(
+                name: "SpecialIndexPageByServiceEs",
+                pattern: Settings.GetSpanishUrl + "/{dbServiceUrl}/" + Site.Instance.Specials.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "SpecialIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialIndexPageByServiceEs" } }
+                );
+
+
+
+            //SpecialIndexPageBaseEs
+            app.MapControllerRoute(
+                name: "SpecialIndexPageEs",
+                pattern: Settings.GetSpanishUrl + "/" + Site.Instance.Specials.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "SpecialIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialIndexpageEs" } }
+                );
+
+            //SpecialPageEs
+            app.MapControllerRoute(
+                name: "SpecialPageEs",
+                pattern: Settings.GetSpanishUrl + Site.Instance.SpecialPage.GetUrlSection(SpanishAbbreviation) + "/{specialUrl}/{id?}",
+                defaults: new RouteValueDictionary { { "controller", "SpecialPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialPageEs" } }
+                );
+
+
+
+
         }
     }
 }
