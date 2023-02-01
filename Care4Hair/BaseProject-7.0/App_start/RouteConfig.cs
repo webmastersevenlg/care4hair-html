@@ -110,7 +110,7 @@ namespace BaseProject_7_0.App_start
             //SpecialOfferPage
             app.MapControllerRoute(
                 name: "SpecialOfferPage",
-                pattern: Site.Instance.SppecialOfferPage.UrlSection + "/{specialOfferUrl}/{view}",
+                pattern: Site.Instance.SppecialOfferPage.UrlSection + "/{specialOfferUrl}/{view?}",
                 defaults: new RouteValueDictionary { { "controller", "SpecialOfferPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialOfferPage" } }
                 );
@@ -125,11 +125,30 @@ namespace BaseProject_7_0.App_start
 
             //BlogPostPage
             app.MapControllerRoute(
-                name: "BlogIndexPage",
+                name: "BlogPostPage",
                 pattern: Site.Instance.BlogPostPage.UrlSection + "/{blogUrl}",
                 defaults: new RouteValueDictionary { { "controller", "BlogPostPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "BlogPostPage" } }
                 );
+
+            //PictureIndexByService
+            app.MapControllerRoute(
+                name: "BlogIndexPage",
+                pattern: "{dbServiceUrl}/" + Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
+                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexByService" } }
+                );
+
+            //PictureIndexBase
+            app.MapControllerRoute(
+                name: "PictureIndexBase",
+                pattern: Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl}",
+                constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }},
+                defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexBase" } }
+                );
+
 
             //Default
             app.MapControllerRoute(
