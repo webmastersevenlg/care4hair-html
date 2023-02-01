@@ -115,7 +115,21 @@ namespace BaseProject_7_0.App_start
                 dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialOfferPage" } }
                 );
 
-        
+            //BlogIndexPage
+            app.MapControllerRoute(
+                name: "BlogIndexPage",
+                pattern: Site.Instance.Blog.UrlSection,
+                defaults: new RouteValueDictionary { { "controller", "BlogIndexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "BlogIndexPage" } }
+                );
+
+            //BlogPostPage
+            app.MapControllerRoute(
+                name: "BlogIndexPage",
+                pattern: Site.Instance.BlogPostPage.UrlSection + "/{blogUrl}",
+                defaults: new RouteValueDictionary { { "controller", "BlogPostPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "BlogPostPage" } }
+                );
 
             //Default
             app.MapControllerRoute(
