@@ -1,0 +1,6 @@
+﻿ Install-Package Microsoft.EntityFrameworkCore.Tools 
+ 
+ Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+
+Scaffold-DbContext "Server=sql.savvyhawk.net;Database=bscrm-care4hair; user=sa; password=staff7811/*-; Trusted_Connection=false;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/EntityModels/DbEntities -f -Tables WebBanners, ActiveWebPictures, WebContactForms, WebPicResults, WebPictureResolutions, WebPictures, WebProcedures, WebRelatedDoctors, WebRelatedProcedureCategory, WebRelatedProcedures, WebRelatedProceduresRequiredPhotosPerSession, WebSpecials, ActiveWebBanner, ActiveWebPictures, ActiveWebSpecials,  ActiveWebSpecialsGroupedWithJoins, ActiveWebSpecialsWithJoins, ActiveWebSpecialsWithRelations, WebSpecialsGroupedWithJoins, WebSpecialProcedures, WebSpecialProcedures, WebSpecialDoctors

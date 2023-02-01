@@ -1,0 +1,285 @@
+footer {
+    position: relative;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background-color: #0f0f0f;
+    color: var(--light-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 180px 0 0 0;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+footer .col-header {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
+}
+
+footer p, footer li {
+    color: var(--footer-text-color);
+}
+
+footer p {
+    line-height: 1.875;
+}
+
+footer ul {
+    margin-top: 25px;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    max-width: 270px;
+}
+
+footer ul li img {
+    width: 17px;
+    margin-right: 15px;
+}
+
+footer li a {
+    display: flex;
+    align-items: center;
+}
+
+footer .cols-wrap {
+    display: flex;
+    align-items: center;
+}
+
+footer .message-col {
+    margin: 0 150px;
+    max-width: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-col p {
+    margin: 40px 0;
+}
+
+.links-col {
+    width: 270px;
+}
+
+.links-col ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.links-col ul li {
+    align-self: flex-end;
+}
+
+.links-col .col-header {
+    text-align: right;
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+footer .copyright {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    color: var(--footer-text-color);
+}
+
+.copyright a {
+    color: var(--accent-text-color);
+}
+
+.top-line {
+    position: absolute;
+    top: 100px;
+    width: 100vw;
+    left: 0;
+    height: 1px;
+    background-color: var(--footer-border-color);
+}
+
+.bottom-line {
+    position: absolute;
+    bottom: 100px;
+    width: 100vw;
+    left: 0;
+    height: 1px;
+    background-color: var(--footer-border-color);
+}
+
+.left-line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    left: 100px;
+    height: 100%;
+    background-color: var(--footer-border-color);
+}
+
+.right-line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    right: 100px;
+    height: 100%;
+    background-color: var(--footer-border-color);
+}
+
+@media screen and (max-width: 1500px) {
+    
+    footer .message-col {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    footer {
+        font-size: .875rem;
+    }
+
+    .footer-wrap {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    
+    footer {
+        font-size: .875rem;
+        padding-top: 100px;
+    }
+
+    .footer-wrap {
+        padding: 0 50px;
+    }
+
+    .cols-wrap {
+        flex-direction: column;
+        margin-top: 330px;
+    }
+
+    .message-col {
+        position: absolute;
+        top: 0;
+    }
+
+    .message-col p {
+        margin: 20px 0 10px 0;
+    }
+
+    footer .footer-logo {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .top-line {
+        top: 50px;
+    }
+    
+    .bottom-line {
+        bottom: 50px;
+    }
+    
+    .left-line {
+        left: 50px;
+    }
+    
+    .right-line {
+        right: 50px;
+    }
+
+    .col {
+        margin-bottom: 30px;
+    }
+
+    footer .col-header {
+        margin-bottom: 10px;
+        text-align: center !important;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    footer .col ul {
+        margin-top: 15px;
+    }
+
+    .links-col ul li {
+        align-self: center;
+    }
+
+    footer ul li {
+        text-align: center !important;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center !important;
+    }
+
+    footer .copyright {
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .message-col p {
+        padding: 0 30px;
+    }
+    
+}
+
+@media screen and (max-width: 550px) {
+
+    footer {
+        width: 100vw;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 70px;
+    }
+
+    footer .copyright {
+        text-align: center;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100vw;
+        height: unset;
+        padding-bottom: 20px;
+    }
+
+    footer .footer-wrap p {
+        padding: 0 20px;
+    }
+
+    .cols-wrap {
+        margin-top: 370px;
+    }
+
+    .footer-line {
+        display: none;
+    }
+}

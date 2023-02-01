@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+
+	<!--Avana Instagram-->
+	<SoucePlatformDetailEntity id="avanaplasticsurgery"
+								active="true"
+								name="@avanaplasticsurgery"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"/>
+
+  <!--Avana Mailchimp-->
+  <SoucePlatformDetailEntity id="avanaemails"
+								active="true"
+								name="Avana Mailchimp Account"
+								sourceplatform="Mailchimp"
+								sourcecategory="Email Marketing"/>
+
+	<!--Avana TikTok-->
+	<SoucePlatformDetailEntity id="avana_plasticsurgery"
+								active="true"
+								name="@avana_plasticsurgery"
+								sourceplatform="TikTok"
+								sourcecategory="Organic Social"
+							    professionalurl=""/>
+  
+  <!--Avana YouTube-->
+  <SoucePlatformDetailEntity id="AvanaPlasticSurgery"
+								active="true"
+								name="@AvanaPlasticSurgery"
+								sourceplatform="YouTube"
+								sourcecategory="Organic Social"
+							    professionalurl=""/>
+
+	<!--Dr Moradian Instagram-->
+	<SoucePlatformDetailEntity id="dr_scottmoradian"
+								active="true"
+								name="@dr.scottmoradian"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-scott-moradian"/>
+
+
+	<!--Dr Scurlock Instagram-->
+	<SoucePlatformDetailEntity id="drscurlock"
+								active="true"
+								name="@drscurlock"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-joshua-scurlock"/>
+
+	<!--Dr McDaniel Instagram-->
+	<SoucePlatformDetailEntity id="dr_mcdaniel_cosmetics"
+								active="true"
+								name="@dr_mcdaniel_cosmetics"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-shane-mcdaniel"/>
+
+	<!--Dr Mameniskis Instagram-->
+	<SoucePlatformDetailEntity id="drmameniskis"
+								active="true"
+								name="@drmameniskis"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-algird-mameniskis"/>
+
+	<!--Dr Dress Instagram-->
+	<SoucePlatformDetailEntity id="drchristopherdress"
+								active="true"
+								name="@drchristopherdress"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-christopher-dress"/>
+
+
+	<!--Dr Luster Instagram-->
+	<SoucePlatformDetailEntity id="dr_luster"
+								active="true"
+								name="@dr.luster"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-stephanie-luster"/>
+	
+	<!--Dr Valladares Instagram-->
+	<SoucePlatformDetailEntity id="valladarescosmeticsurgery"
+								active="true"
+								name="valladarescosmeticsurgery"
+								sourceplatform="Instagram"
+								sourcecategory="Organic Social"
+							    professionalurl="dr-eric-valladares"/>
+
+	<!--Dr Hasan Instagram-->
+	<SoucePlatformDetailEntity id="hasancosmeticsurgery"
+							   active="true"
+							   name="@hasancosmeticsurgery"
+							   sourceplatform="Instagram"
+							   sourcecategory="Organic Social"
+							   professionalurl="anthony-hasan"/>
+
+	<!--Dr Zeichner Instagram-->
+	<SoucePlatformDetailEntity id="drgreatshape"
+							   active="true"
+							   name="@drgreatshape"
+							   sourceplatform="Instagram"
+							   sourcecategory="Organic Social"
+							   professionalurl="daniel-zeichner"/>
+
+	<!--Dr Harrel Instagram-->
+	<SoucePlatformDetailEntity id="drharellplasticsurgery"
+							   active="true"
+							   name="@drharellplasticsurgery"
+							   sourceplatform="Instagram"
+							   sourcecategory="Organic Social"
+							   professionalurl="jon-harrell"/>
+	
+</Data>
+
+

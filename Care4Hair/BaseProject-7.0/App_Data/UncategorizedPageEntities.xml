@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<UncategorizedPagesEntities>
+  <UncategorizedPageEntity id="contact" url="contact" urlspanish="contacto" name="Contact" namespanish="Contacto">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="about" url="about" urlspanish="acerca" name="About Us" namespanish="Acerca de Nuestro Centro">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="privacypolicy" url="privacy-policy" urlspanish="politica-privacidad" name="Privacy Policy" namespanish="Política de Privacidad">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="outoftownpatients" url="out-of-town-patients" urlspanish="paciente-fuera-cuidad" name="Out of Town Patients" namespanish="Pacientes fuera de la ciudad">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="cancellationpolicy" url="reschedule-and-cancellation-policy" urlspanish="politica-cancelacion" name="Cancellation Policy" namespanish="Política de cancelación">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="disclaimer" url="disclaimer" urlspanish="aviso" name="Disclaimer" namespanish="Aviso">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="miami" url="miami-fl-location" urlspanish="ubicacion-miami" name="Miami Location" namespanish="Ubicación en Miami">
+  </UncategorizedPageEntity>
+
+  <!--<UncategorizedPageEntity id="las-vegas" url="las-vegas-nv-location" urlspanish="" name="Las Vegas Location" namespanish="">
+	</UncategorizedPageEntity>-->
+
+  <UncategorizedPageEntity id="bmi-requirements" url="calculate-your-bmi" urlspanish="calculate-your-bmi" name="Calculate your BMI" namespanish="Calcula tu BMI ">
+  </UncategorizedPageEntity>
+  
+  <UncategorizedPageEntity id="request-consultation" url="request-consultation" urlspanish="request-consultation" name="Avana Plastic Surgery, your plastic surgery center" namespanish="">
+  </UncategorizedPageEntity>
+  
+  <UncategorizedPageEntity id="post-op-massage" url="post-op-lymphatic-drainage-massage" urlspanish="masaje-post-operatorio" name="Post-op lymphatic drainage massage" namespanish="Masaje Post-Operatorio">
+  </UncategorizedPageEntity>
+
+  <UncategorizedPageEntity id="request-free-consultation" url="request-free-consultation" urlspanish="" name="Request your free conultation" namespanish="">
+  </UncategorizedPageEntity>
+  <UncategorizedPageEntity id="press-release" url="press-release" urlspanish="nota-prensa" name="Press Release" namespanish="Nota de prensa">
+  </UncategorizedPageEntity>
+  </UncategorizedPagesEntities>

@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Videos-->
+<VideoEntities>
+<!--<VideoEntity 
+  title=""
+  active="true"
+  language="En"
+  src="uR1bcQ1it2M"
+  url="leticia-video-testimony-bbl-procedure"
+  genre=""
+  targeredkeyword=""
+  datepublished="05/10/2019"
+  datemodificate="05/10/2019"
+  description="Leticia video testimony. This patient underwent a Brazilian Butt Lift (BBL) procedure with Dr. Earle, she is very happy with her new body and thinks that Dr. Earle did a great job. Schedule your fat transfer procedure today.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>-->
+
+  <!--<VideoEntity title="" active="true"
+               language="En"
+               src="0eojV1RuhTc"
+               url="meet-dr-s-alexander-earle-plastic-surgeon"
+               genre=""
+               targeredkeyword=""
+               datepublished="11/30/2018"
+               datemodificate="11/30/2018"
+               description="Dr. Earle graduated from New York University School of Medicine in 2002. He completed his education and medical training at prestigious institutions such as Duke University and Jackson Memorial Hospital. Learn more about Dr. Earle. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+
+  <!--<VideoEntity title="" active="true"
+             language="En"
+             src="UBEdWHiCAPM"
+             url="22-age-for-silicone-implants-true-or-false"
+             genre=""
+             targeredkeyword=""
+             datepublished="12/03/2018"
+             datemodificate="12/03/2018"
+             description="Is true or false that women have to wait until 22 to get silicone breast implants? Age for breast implants is a common concern among our patients .Dr. Earle answer this question in the video. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+
+ <!-- <VideoEntity title="" active="true"
+           language="En"
+           src="jrueYOoCHqw"
+           url="which-look-more-natural-silicone-or-saline"
+           genre=""
+           targeredkeyword=""
+           datepublished="12/03/2018"
+           datemodificate="12/03/2018"
+           description="Which type of breast implant looks more natural, silicone or saline? Silicone breast implants have become more popular and versatile en the last years. Find out why in this video where Dr. Earle speaks about the topic.">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+
+ <!-- <VideoEntity title="" active="true"
+       language="En"
+       src="YAfRaJwWqEo"
+       url="brazilian-butt-lift-by-dr-alex-earle"
+       genre=""
+       targeredkeyword=""
+       datepublished="03/05/2019"
+       datemodificate="03/05/2019"
+       description="Watch a Brazilian Butt Lift Procedure performed by Dr. Earle at Avana Plastic Surgery. The doctor explains how the BBL combines the liposuction and fat transfer to sculpt new curves in the body of the patient.">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+
+ <!-- <VideoEntity title="" active="true"
+     language="En"
+     src="4kShQfrgeAQ"
+     url="breast-lift-with-implants-surgery-by-dr-earle"
+     genre=""
+     targeredkeyword=""
+     datepublished="03/14/2019"
+     datemodificate="03/14/2019"
+     description="Usually, a breast lift is combined with breast implants to make breasts more firm and perky. In the video, Dr. Earle performs breast lift surgery with implants and get amazing results for the patient. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+
+ <!-- <VideoEntity title="" active="true"
+   language="En"
+   src="c5TUp0BO0Fg"
+   url="tummy-tuck-surgery-by-dr-alex-earl"
+   genre=""
+   targeredkeyword=""
+   datepublished="04/22/2019"
+   datemodificate="04/22/2019"
+   description="Tummy Tuck surgery (Abdominoplasty) by Dr. Alex Earle. This procedure achieves dramatic results contouring the body and restoring the skin and muscles of the abdomen, and can also be combined with lipo for best outcomes. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+  
+<VideoEntity 
+   title="" 
+   active="true"
+   language="En"
+   src="J6e5ibBc7gY"
+   url="patient-testimonial-about-avana-plastic-surgery"
+   genre=""
+   targeredkeyword=""
+   datepublished="05/03/2019"
+   datemodificate="05/03/2019"
+   description="Patient testimonial. This patient is really happy with her cosmetic surgery journey at Avana Plastic Surgery. Very respectful, helpful and nice staff were some of her compliments about our clinic. View more in the video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity 
+   title="" 
+   active="true"
+   language="En"
+   src="3wKJv1HWRlc"
+   url="meet-dr-scott-moradian-cosmetic-surgeon"
+   genre=""
+   targeredkeyword=""
+   datepublished="05/09/2019"
+   datemodificate="05/09/2019"
+   description="Meet Dr. Moradian, a cosmetic surgeon who specializes in body contouring procedures and weight loss surgeries such as the gastric sleeve. Dr. Moradian is also highly trained in minimally invasive techniques. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity 
+   title="" 
+   active="true"
+   language="En"
+   src="KPzn7lUmMac"
+   url="the-twins-transformation-mommy-makeovers"
+   genre=""
+   targeredkeyword=""
+   datepublished="05/31/2019"
+   datemodificate="05/31/2019"
+   description="Darcey Silva and Stacey Silva are two entertainers who choose Avana and Dr. Abuzeni for their transformation. Both are mothers and wanted a mommy makeover to embrace their beauty. Watch the twin's realty video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity 
+  title="" 
+  active="true"
+  language="En"
+  src="I1RF3BFzEBc"
+  url="tummy-tuck-surgery-by-dr-moradian"
+  genre=""
+  targeredkeyword=""
+  datepublished="07/12/2019"
+  datemodificate="07/12/2019"
+  description="Tummy Tuck by Dr. Moradian. In the video, you can see  Dr. Moradian performing one of his favorites procedures to do, an abdominoplasty. The 1-2 hour surgery restores the abdominal wall and removes the excess of skin.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+
+  
+<!--<VideoEntity title="" active="true"
+language="En"
+src="cfvUaCh8Kwk"
+url="meet-dr-patrick-abuzeni-cosmetic-surgeon"
+genre=""
+targeredkeyword=""
+datepublished="06/04/2019"
+datemodificate="06/04/2019"
+description="Dr. Abuzeni is a cosmetic surgeon who has been practicing in Miami Florida for more than a decade. If you want to learn more about Dr. Abuzeni medical education, his areas of expertise and interest, watch this video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+      <Professional id="" type="ref" group="Professional"/>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+
+<VideoEntity 
+  title="" 
+  active="true"
+  language="En"
+  src="qr5H4BtAeZ0"
+  url="quick-questions-with-dr-moradian"
+  genre=""
+  targeredkeyword=""
+  datepublished="08/20/2019"
+  datemodificate="08/20/2019"
+  description="Dr. Moradian answers quick questions about his preferences, likes, favorite things to do, eat, watch, and other interesting information about himself. Know the human being behind the professional.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity 
+   title="" 
+   active="true"
+   language="En"
+   src="CssMCQ4qpwU"
+   url="avana-infocomercial"
+   genre=""
+   targeredkeyword=""
+   datepublished="08/29/2019"
+   datemodificate="08/29/2019"
+   description="Avana Plastic Surgery es la clínica de cirugía cosmética con la tecnología más avanzada del Sur de La Florida. Instalaciones de primer nivel, cirujanos certificados, realizamos todo tipo de procedimientos cosméticos incuyendo cirugías de reducción de peso como la de manga gástrica. Contáctenos al (305) 501-6000.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+  
+<VideoEntity 
+    title="" 
+    active="true"
+    language="En"
+    src="bv0Z8yFVy5w"
+    url="Lipo-360-and-breast-reduction-by-dr-moradian"
+    genre=""
+    targeredkeyword=""
+    datepublished="09/13/2019"
+    datemodificate="09/13/2019"
+    description="Dr. Moradian is going to perform a lipo 360 procedure to a patient who also wants to correct a previous breast reduction surgery. Doctor Moradian explains about the procedure while marks the areas where he needs to remove the fat. Watch the video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity 
+    title=""
+    active="true"
+    language="En"
+    src="w7V9k8Il-lQ"
+    url="bbl-lipo360-breast-lift-no-implants-by-dr-moradian"
+    genre=""
+    targeredkeyword=""
+    datepublished="09/13/2019"
+    datemodificate="09/13/2019"
+    description="Video Testimonial. This patient speaks about her experience at Avana Plastic Surgery and with Dr. Moradian. She underwent a breast lift with no implants and she also shows us her previous BBL and Lipo 360 results.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="fMUPtRoh3l4"
+  url="dr-scott-moradian-speaks-about-bbl"
+  genre=""
+  targeredkeyword=""
+  datepublished="09/16/2019"
+  datemodificate="09/16/2019"
+  description="Watch Dr. Moradian talks about Brazilian Butt Lift specifically about what a Brazilian Butt Lift is and the best candidates for this procedure. Also, find out which BMI Dr. Moradian consider optimal for this kind of cosmetic procedure.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+  
+<VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="fJfT7GX7stU"
+  url="dr-scott-moradian-talks-about-breast-augmentation"
+  genre=""
+  targeredkeyword=""
+  datepublished="09/16/2019"
+  datemodificate="09/16/2019"
+  description="Watch Dr. Moradian talks about your breast implant incision options. Regarding breast augmentation, Dr. Moradian prefers the inframammary incision, watch the video to discover his reasons.">
+    <Tags>
+    </Tags>
+    <Professionals>
+     <!-- <Professional id="" type="ref" group="Professional"/>-->
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity
+   title=""
+   active="true"
+   language="En"
+   src="9bqfVy4p3Jo"
+   url="fat-transfer-bbl-with-dr-stover-melissa-testimony"
+   genre=""
+   targeredkeyword=""
+   datepublished="09/17/2019"
+   datemodificate="09/17/2019"
+   description="Dr. Stover talks with the patient Melissa, who is going to have a fat transfer procedure known as Brazilian Butt Lift.  Melissa talks to us about how she choose Dr. Stover and why. Watch her video testimony.">
+    <Tags>
+    </Tags>
+    <Professionals>
+     
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity
+   title=""
+   active="true"
+   language="En"
+   src="cJKLvN1c3Cw"
+   url="anesthesia-questions-and-answers"
+   genre=""
+   targeredkeyword=""
+   datepublished="09/19/2019"
+   datemodificate="09/19/2019"
+   description="Our anesthetist talks about interesting tips and facts related to anesthesia in the different stages of your surgery: before, during and after. Learn about medication intake recommendations and the recovery from anesthesia process in this video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+     
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+</VideoEntity>
+
+<VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="6E1xgNVVNC4"
+   url="mommy-makeover-surgery-marking-process"
+   genre=""
+   targeredkeyword=""
+   datepublished="09/19/2019"
+   datemodificate="09/19/2019"
+   description="Mommy Makeover surgery involves different procedures and changes in the body. Breasts and abdomen are involved in the transformation. In the video, you can watch Dr. Moradian marking a patient in those areas before a Mommy Makeover procedure.">
+    <Tags>
+    </Tags>
+    <Professionals>
+     
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+<VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="GAs00sOfEmY"
+   url="post-surgery-massage-benefits"
+   genre=""
+   targeredkeyword=""
+   datepublished="09/20/2019"
+   datemodificate="09/20/2019"
+   description="What are the benefits or advantages of having post-surgical massages? Mara our massage therapist give us the answer to this question and talks about why it's so important to have massages at Avana Plastic Surgery.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+<VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="FePIMWJrZVM"
+   url="beneficios-del-masaje-posoperatorio"
+   genre=""
+   targeredkeyword=""
+   datepublished="09/20/2019"
+   datemodificate="09/20/2019"
+   description="Conoce en este video cúales son los beneficios del masaje de drenaje linfático explicado por nuestra masajista terapeuta, Mara. ¿Por qué son tan importantes? Ella te aclara las principales ventajas y por qué es crucial hacértelos aquí en nuestra clínica Avana Plastic Surgery. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+      
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+<VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="mp9UN6Jk4z8"
+   url="lipo-360-by-dr-moradian-amalia-reality"
+   genre=""
+   targeredkeyword=""
+   datepublished="09/26/2019"
+   datemodificate="09/26/2019"
+   description="In the video, Dr. Moradian performs circumferential liposuction or lipo 360 on a patient. The areas of lipo treated are the abdomen, waist, back, and arms. You can watch the whole journey from preo-op to the final results in the video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+<VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="-Am7swfMQWU"
+   url="zelie-timothy-breast-augmentation-reality"
+   genre=""
+   targeredkeyword=""
+   datepublished="10/08/2019"
+   datemodificate="10/08/2019"
+   description="Zélie Timothy is an influencer, model, and Instagram star who choose doctor Moradian and Avana Plastic Surgery for her breast augmentation procedure. She wanted to look natural and Dr. Moradian guides her to the best options for her breast implants. The video is a testimony of her cosmetic surgery journey for every stage of the surgery process.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+  <VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="4FJ3amJajuY"
+   url="what-is-a-brazilian-butt-lift"
+   genre=""
+   targeredkeyword=""
+   datepublished="10/09/2019"
+   datemodificate="10/09/2019"
+   description="Want to know in simple words what is a Brazilian Butt Lift, doctor Mameniskis explains in this video the essential concepts related to this popular cosmetic procedure.">
+    <Tags>
+    </Tags>
+    <Professionals>
+     
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+  
+  <VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="p3JAlB8SfoM"
+   url="who-is-a-good-candidate-for-a-brazilian-butt-lift"
+   genre=""
+   targeredkeyword=""
+   datepublished="10/09/2019"
+   datemodificate="10/09/2019"
+   description="If you want to know who is a good candidate for the Brazilian Butt Lift (BBL) procedure, you must watch this video. Learn more about skin conditions, fat amount and other characteristics that a person needs to be a BBL candidate.">
+    <Tags>
+    </Tags>
+    <Professionals>
+     
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+   
+ <VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="7XgkwHo-eL4"
+   url="what-if-i-dont-have-enough-fat-for-bbl"
+   genre=""
+   targeredkeyword=""
+   datepublished="10/09/2019"
+   datemodificate="10/09/2019"
+   description="The amount of body fat is very important for the Brazilian Butt Lift to be effective. What if I don't have enough fat for BBL? Discover what are your options in those cases. Dr. Mameniskis explains.  ">
+    <Tags>
+    </Tags>
+    <Professionals>    
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+ <VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="SMEyDUImKEU"
+   url="how-long-does-brazilian-butt-lift-last"
+   genre=""
+   targeredkeyword=""
+   datepublished="10/09/2019"
+   datemodificate="10/09/2019"
+   description="How long does Brazilian Butt Lift last? The patient can achieve some permanent results after the procedure. The results of the Brazilian Butt Lift depends on the healing of fat cells transferred during the procedure. Watch the video.">
+    <Tags>
+    </Tags>
+    <Professionals>     
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+  
+ <VideoEntity 
+   title=""
+   active="true"
+   language="En"
+   src="pkuo3HrkVDg"
+   url="abdominal-etching-candidates"
+   genre=""
+   targeredkeyword=""
+   datepublished="10/10/2019"
+   datemodificate="10/10/2019"
+   description="Abdominal etching is the procedure designed to carve abdominal muscles through the liposuction. Dr. Moradian explains in the video what is abdominal etching and what are the best candidates for this procedure.">
+    <Tags>
+    </Tags>
+    <Professionals>    
+    </Professionals>
+    <Category id="" />
+    <Service id="" />  
+</VideoEntity>
+
+  <VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="SvmVWv6Mujg"
+  url="how-much-weight-will-lose-with-liposuction"
+  genre=""
+  targeredkeyword=""
+  datepublished="10/21/2019"
+  datemodificate="10/21/2019"
+  description="How much weight will lose with liposuction? Is liposuction a fast way to lose weight? Can you expect to lose weight after liposuction? Dr. Mameniskis explains this popular concern in this video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+  
+<VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="EbM_UUxWXRE"
+  url="will-liposuction-get-rid-of-loose-skin"
+  genre=""
+  targeredkeyword=""
+  datepublished="10/21/2019"
+  datemodificate="10/21/2019"
+  description="Will liposuction get rid of loose skin? This a common question that many people have. How lipo can help you to tighten your skin? Discover the answer in the video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+  <VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="zd33OA4cYSk"
+  url="will-liposuction-reduce-cellulite"
+  genre=""
+  targeredkeyword=""
+  datepublished="10/21/2019"
+  datemodificate="10/21/2019"
+  description="Will liposuction reduce cellulite? Is liposuction an effective procedure for cellulite? Dr. Mameniskis talks about liposuction and if it could improve the cellulite im some degree in this video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+  
+ <VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="q4res-cpPao"
+  url="are-liposuction-results-permanent"
+  genre=""
+  targeredkeyword=""
+  datepublished="10/21/2019"
+  datemodificate="10/21/2019"
+  description="Are Liposuction results permanent? If you want that the liposuction results be permanent, you must follow some important recommendations that Dr. Mameniskis gives in this video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+ <VideoEntity
+ title=""
+ active="true"
+ language="En"
+ src="ew-rR0LA3e4"
+ url="what-is-a-tummy-tuck"
+ genre=""
+ targeredkeyword=""
+ datepublished="10/28/2019"
+ datemodificate="10/28/2019"
+ description="What is a Tummy Tuck or Abdominoplasty? The Tummy tuck procedure restores the abdomen muscles and removes the excess of the skin to achieve a more attractive body contour. Doctor Mameniskis define the tummy tuck procedure in a few words.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+  
+ <VideoEntity
+ title=""
+ active="true"
+ language="En"
+ src="ggUH8n_zBio"
+ url="how-long-after-tummy-tuck-do-you-see-results"
+ genre=""
+ targeredkeyword=""
+ datepublished="10/30/2019"
+ datemodificate="10/30/2019"
+ description="How long after tummy tuck do you see results? The tummy Tuck is one of the procedures where the changes in your body are noticed immediately. Although you can have some swelling after the surgery the final results are achieved in 1 or two weeks. ">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+  <VideoEntity
+title=""
+active="true"
+language="En"
+src="eQf_-9m47mo"
+url="who-is-a-good-candidate-for-a-tummy-tuck"
+genre=""
+targeredkeyword=""
+datepublished="10/28/2019"
+datemodificate="10/28/2019"
+description="Who is a good candidate for a Tummy Tuck? Not all individuals qualify for an abdominoplasty procedure. Doctor Mameniskis give us in the video his criteria for tummy tuck candidates.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+  <VideoEntity
+    title=""
+    active="true"
+    language="En"
+    src="UNhRtAjOhR8"
+    url="are-tummy-tuck-results-permanent"
+    genre=""
+    targeredkeyword=""
+   datepublished="10/30/2019"
+   datemodificate="10/30/2019"
+   description="Are Tummy Tuck results permanent? Patients need to take care properly of their bodies to maintain their results. Dr. Mameniskis give some recommendations to achieve permanent results.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+  <VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="lAxnhEOBq6o"
+  url="claire-testimony-bbl-with-dr-moradian"
+  genre=""
+  targeredkeyword=""
+ datepublished="11/01/2019"
+ datemodificate="11/01/2019"
+ description="Claire talks to us about her Brazilian Butt Lift procedure with doctor Moradian which was performed 11 days ago. She is very grateful to the doctor and also to all the Avana Plastic surgery staff. Watch her video testimony.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+   
+ <VideoEntity
+  title=""
+  active="true"
+  language="En"
+  src="MtRGfBf-OUg"
+  url="hd-lipo-j-plasma-dr-moradian"
+  genre=""
+  targeredkeyword=""
+ datepublished="11/05/2019"
+ datemodificate="11/05/2019"
+ description="Renuvion J-Plasma® is an advanced technology that allows getting great results in skin tightening. In the video, doctor Moradian performs an HD lipo in the abdomen and arms and shows us how J-plasma technology works. Learn more in the video.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>
+
+  <!--<VideoEntity
+ title=""
+ active="true"
+ language="En"
+ src="mPWh6lKf_9U"
+ url="dr-joseph-greco-presentation"
+ genre=""
+ targeredkeyword=""
+datepublished="05/25/2020"
+datemodificate="05/25/2020"
+description="Meet Dr. Joseph Greco. Dr. Greco has been practicing Plastic surgery for more than 12 years. He has joined to Avana Plastic Surgery Team and in this video you can get to know about his career, medical experience, and goals.">
+    <Tags>
+    </Tags>
+    <Professionals>
+    </Professionals>
+    <Category id="" />
+    <Service id="" />
+  </VideoEntity>-->
+   
+</VideoEntities>
+
+
+
+
+<!--End Videos-->

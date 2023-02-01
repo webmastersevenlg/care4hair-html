@@ -1,0 +1,915 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bankruptcy" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BlogPosts" xml:space="preserve">
+    <value />
+  </data>
+  <data name="By" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Call" xml:space="preserve">
+    <value>Llame</value>
+  </data>
+  <data name="Chat" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ConsultUs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="ContactUs" xml:space="preserve">
+    <value>Contáctenos</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Correo Electrónico</value>
+  </data>
+  <data name="Family" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FAQS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Immigration" xml:space="preserve">
+    <value />
+  </data>
+  <data name="In" xml:space="preserve">
+    <value />
+  </data>
+  <data name="InThisPage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Labor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LegalVideos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OurFirm" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OurProfessionals" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalInjury" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Leer Más</value>
+  </data>
+  <data name="RealState" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RelatedBlogPosts" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RelatedVideos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Servicios</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VideoFAQs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ViewAll" xml:space="preserve">
+    <value>Ver Todos</value>
+  </data>
+  <data name="ViewAllVideoFAQs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WhereFound" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WorkerCompensation" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BankruptcyProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CriminalProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FamilyProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImmigrationProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LaborProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PersonalInjuryProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RealStateProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WorkerCompensationProfessional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SearchFAQs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ForTheKeyword" xml:space="preserve">
+    <value />
+  </data>
+  <data name="criminal" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ask" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NeedToKnowMore" xml:space="preserve">
+    <value />
+  </data>
+  <data name="VisitFaqPageEngagementSentence" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AskAndLetUsHelpYourSentence" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HaveAQuestion" xml:space="preserve">
+    <value>Tiene una Pregunta</value>
+  </data>
+  <data name="SatistiedCustomers" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Ver Más</value>
+  </data>
+  <data name="ProfessionalContactFormText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Optional" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StudentConsent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="After" xml:space="preserve">
+    <value>Después</value>
+  </data>
+  <data name="Before" xml:space="preserve">
+    <value>Antes</value>
+  </data>
+  <data name="Blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="GetApprovedNow" xml:space="preserve">
+    <value>Califique Ahora Mismo</value>
+  </data>
+  <data name="PlasticSurgeon" xml:space="preserve">
+    <value>Cirujano Plástico</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>Ver Más</value>
+  </data>
+  <data name="ApplyNow" xml:space="preserve">
+    <value>Aplique Ahora</value>
+  </data>
+  <data name="FinancingAvailable" xml:space="preserve">
+    <value>Financiamiento Disponible</value>
+  </data>
+  <data name="FinancingTagline" xml:space="preserve">
+    <value>Financiamiento especial con bajos intereses para quienes califiquen</value>
+  </data>
+  <data name="Specialties" xml:space="preserve">
+    <value>Especialidades</value>
+  </data>
+  <data name="Our" xml:space="preserve">
+    <value>Nuestro</value>
+  </data>
+  <data name="PlasticSurgeons" xml:space="preserve">
+    <value>Cirujanos Plásticos</value>
+  </data>
+  <data name="BeforeAndAfterPictures" xml:space="preserve">
+    <value>Fotos De Antes Y Después</value>
+  </data>
+  <data name="Of" xml:space="preserve">
+    <value>De</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Fotos</value>
+  </data>
+  <data name="TheInPluralAndFemale" xml:space="preserve">
+    <value>Las</value>
+  </data>
+  <data name="ViewAllFemale" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Gallery" xml:space="preserve">
+    <value>Galería</value>
+  </data>
+  <data name="LifeChangingResults" xml:space="preserve">
+    <value>Resultados Que Cambian Vidas</value>
+  </data>
+  <data name="RealPatientResults" xml:space="preserve">
+    <value>Fotos Reales De Pacientes</value>
+  </data>
+  <data name="LearnMoreOutOfTown" xml:space="preserve">
+    <value>Descubre Como Puedes Quedarte Con Nosotros Durante Tu Estancia</value>
+  </data>
+  <data name="OutOfTownPatients" xml:space="preserve">
+    <value>PACIENTES FUERA DE LA CIUDAD</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Acerca de Nuestro Centro</value>
+  </data>
+  <data name="AccreditedSurgicalFacility" xml:space="preserve">
+    <value>Nuestro Centro Quirúrgico</value>
+  </data>
+  <data name="Financing" xml:space="preserve">
+    <value>FINACIAMIENTO</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="MeetTheStaff" xml:space="preserve">
+    <value>Conoce Nuestro Equipo</value>
+  </data>
+  <data name="SurgeryCenter" xml:space="preserve">
+    <value>Centro De Cirugía</value>
+  </data>
+  <data name="VisitUsToday" xml:space="preserve">
+    <value>Visitenos Hoy</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="SendMessage" xml:space="preserve">
+    <value>Enviar Mensaje</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="America" xml:space="preserve">
+    <value>América</value>
+  </data>
+  <data name="North" xml:space="preserve">
+    <value>Norte</value>
+  </data>
+  <data name="SelectYourLanguage" xml:space="preserve">
+    <value>Seleccione Su Idioma</value>
+  </data>
+  <data name="South" xml:space="preserve">
+    <value>Sur</value>
+  </data>
+  <data name="OurProcedures" xml:space="preserve">
+    <value>Procedimientos</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Enlaces de Utilidad</value>
+  </data>
+  <data name="ViewOnInstagram" xml:space="preserve">
+    <value>Ver en Instagram</value>
+  </data>
+  <data name="CheckOurInstagram" xml:space="preserve">
+    <value>Chequea Nuestro Instagram</value>
+  </data>
+  <data name="InstagramPostsSubtitle" xml:space="preserve">
+    <value>Visite nuestro Instagram y vea fotos, comentarios, testimonios videos y más.</value>
+  </data>
+  <data name="AllRightsReserved" xml:space="preserve">
+    <value>Todos Los Derechos Reservados</value>
+  </data>
+  <data name="PatientResources" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="MediaContent" xml:space="preserve">
+    <value>Contenido Audiovisual</value>
+  </data>
+  <data name="AboutTheCenter" xml:space="preserve">
+    <value>Nuestro Centro</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="NonSurgical" xml:space="preserve">
+    <value>No Quirúrgicos</value>
+  </data>
+  <data name="Surgical" xml:space="preserve">
+    <value>Cirugías</value>
+  </data>
+  <data name="Videos" xml:space="preserve">
+    <value>Videos</value>
+  </data>
+  <data name="Bio" xml:space="preserve">
+    <value>Biografía</value>
+  </data>
+  <data name="MessageSentSuccessfully" xml:space="preserve">
+    <value>¡Mensaje Enviado Con Éxito!</value>
+  </data>
+  <data name="RequestConsultation" xml:space="preserve">
+    <value>Solicite una Consulta</value>
+  </data>
+  <data name="Procedure" xml:space="preserve">
+    <value>Procedimiento</value>
+  </data>
+  <data name="ArmLift" xml:space="preserve">
+    <value>Braquiplastia</value>
+  </data>
+  <data name="Botox" xml:space="preserve">
+    <value>Botox</value>
+  </data>
+  <data name="BreastAugmentation" xml:space="preserve">
+    <value>Aumento De Senos</value>
+  </data>
+  <data name="BreastLift" xml:space="preserve">
+    <value>Levantamiento De Senos</value>
+  </data>
+  <data name="BreastReduction" xml:space="preserve">
+    <value>Reducción De Senos</value>
+  </data>
+  <data name="FaceLift" xml:space="preserve">
+    <value>Lifting Facial</value>
+  </data>
+  <data name="Gynocomastia" xml:space="preserve">
+    <value>Ginocomastia</value>
+  </data>
+  <data name="LaserHairRemoval" xml:space="preserve">
+    <value>Depilación Laser</value>
+  </data>
+  <data name="Liposuction" xml:space="preserve">
+    <value>Liposucción</value>
+  </data>
+  <data name="Month" xml:space="preserve">
+    <value>Mes</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>Meses</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="Rhinoplasty" xml:space="preserve">
+    <value>Rinoplastia</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Seleccione</value>
+  </data>
+  <data name="Timeframe" xml:space="preserve">
+    <value>Fecha Estimada</value>
+  </data>
+  <data name="TummyTuck" xml:space="preserve">
+    <value>Abdominoplastia</value>
+  </data>
+  <data name="Year" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="ExcellenceandExperienceincosmeticsurgeryinMiami" xml:space="preserve">
+    <value>Excelencia Y Experiencia en cirugía cosmética en Miami</value>
+  </data>
+  <data name="WalkInside" xml:space="preserve">
+    <value>Recorrido Dentro del Dentro</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="CallOrContact" xml:space="preserve">
+    <value>Llámenos o envíenos su información y nos pondremos en contacto con usted pronto.</value>
+  </data>
+  <data name="ServicesInThisCategory" xml:space="preserve">
+    <value>Servicios En Esta Categoría</value>
+  </data>
+  <data name="Doctor" xml:space="preserve">
+    <value>Doctor</value>
+  </data>
+  <data name="Doctors" xml:space="preserve">
+    <value>Doctores</value>
+  </data>
+  <data name="Surgeon" xml:space="preserve">
+    <value>Cirujano</value>
+  </data>
+  <data name="Surgeons" xml:space="preserve">
+    <value>Cirujanos</value>
+  </data>
+  <data name="RelatedServices" xml:space="preserve">
+    <value>Servicios Relacionados</value>
+  </data>
+  <data name="OurSurgeons" xml:space="preserve">
+    <value>Nuestros Cirujanos</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>Información de Contacto</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="MondayThroughFriday" xml:space="preserve">
+    <value>De lunes a viernes</value>
+  </data>
+  <data name="OfficeHours" xml:space="preserve">
+    <value>Horario de Oficinas</value>
+  </data>
+  <data name="OpenInMap" xml:space="preserve">
+    <value>Abrir En Mapa</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="SpecialOfferDisclaimer" xml:space="preserve">
+    <value>El paciente y cualquier otra persona responsable del pago tiene el derecho de rechazar el pago, cancelar el pago, o ser reembolsado por el pago de cualquier servicio, examen o tratamiento que sea realizado dentro de las 72 horas de haber respondido  a la promoción gratuita, con descuento, o con precio reducido del servicio, examen o tratamiento.</value>
+  </data>
+  <data name="RelatedOffers" xml:space="preserve">
+    <value>Ofertas Relacionadas</value>
+  </data>
+  <data name="SpecialDetails" xml:space="preserve">
+    <value>Detalles De la Oferta</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Apellidos</value>
+  </data>
+  <data name="Specials" xml:space="preserve">
+    <value>Especiales</value>
+  </data>
+  <data name="SorryWeCouldntFindAny" xml:space="preserve">
+    <value>No se ha encontrado algun(a)</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="CancellationPolicy" xml:space="preserve">
+    <value>Política de Cancelación</value>
+  </data>
+  <data name="SendRequest" xml:space="preserve">
+    <value>Enviar Solicitud</value>
+  </data>
+  <data name="BusinessHours" xml:space="preserve">
+    <value>Horario de Trabajo</value>
+  </data>
+  <data name="Closed" xml:space="preserve">
+    <value>Cerrado</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Dirección de Correo Electrónico</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Viernes</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Nombre Completo</value>
+  </data>
+  <data name="GetIn" xml:space="preserve">
+    <value>GetIn</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Lunes</value>
+  </data>
+  <data name="Office" xml:space="preserve">
+    <value>Oficina</value>
+  </data>
+  <data name="PleaseEnterAValidEmailAddress" xml:space="preserve">
+    <value>Por favor introdusca una dirección de correo válida</value>
+  </data>
+  <data name="PleaseEnterTheSubject" xml:space="preserve">
+    <value>Por favor introdusca el asunto</value>
+  </data>
+  <data name="PleaseEnterYourMessage" xml:space="preserve">
+    <value>Por favor introdusca su mensaje</value>
+  </data>
+  <data name="PleaseEnteYourEmailAddress" xml:space="preserve">
+    <value>Por favor introdusca su dirección de correo </value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="ThereWasAnErrorSendingYourMessage" xml:space="preserve">
+    <value>ThereWasAnErrorSendingYourMessage</value>
+  </data>
+  <data name="Touch" xml:space="preserve">
+    <value>Touch</value>
+  </data>
+  <data name="YourMessageHasBeenSentToUs" xml:space="preserve">
+    <value>YourMessageHasBeenSentToUs</value>
+  </data>
+  <data name="ViewMore" xml:space="preserve">
+    <value>Ver Más</value>
+  </data>
+  <data name="PleaseEnterThePhone" xml:space="preserve">
+    <value>Por favor introdusca el número de telefono</value>
+  </data>
+  <data name="ContactUsOrGiveUsACallToDiscoverHowWeCanHelp" xml:space="preserve">
+    <value>Contáctenos o llámenos para descubrir como podemos ayudarlo</value>
+  </data>
+  <data name="Us" xml:space="preserve">
+    <value>Nosotros</value>
+  </data>
+  <data name="AboutOurCosmeticSurgeryCenter" xml:space="preserve">
+    <value>Acerca de Nuestro Centro de Cirugía Estética</value>
+  </data>
+  <data name="teamtext3" xml:space="preserve">
+    <value>Nuestra filosofía de tratamiento personalizado incomparable y experiencia quirúrgica ha atraído a muchos pacientes locales y de fuera de la ciudad que buscan restaurar sus sueños de belleza. Teniendo en cuenta los deseos de cada paciente y sus características anatómicas únicas, creamos resultados "personalizados" que duran. Si está pensando en someterse a una cirugía plástica para convertirse en su mejor yo, o si está preparado para comenzar su viaje quirúrgico, ¡pruébenos!</value>
+  </data>
+  <data name="Profile" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="InTheNews" xml:space="preserve">
+    <value>En Las Noticias</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Recursos</value>
+  </data>
+  <data name="CanWeContactYouViaEmailWithSpecialOffers" xml:space="preserve">
+    <value>¿Podemos enviarle ofertas especiales por Email?</value>
+  </data>
+  <data name="CanWeContactYouViaSmsWithSpecialOffers" xml:space="preserve">
+    <value>¿Podemos enviarle ofertas especiales por SMS?</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="PleaseSelect" xml:space="preserve">
+    <value>Seleccione</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Iniciar</value>
+  </data>
+  <data name="MayContainNudity" xml:space="preserve">
+    <value>Imagenes de desnudos</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="ScheduleAFreeConsultationToday" xml:space="preserve">
+    <value>Programe un consulta gratuita hoy</value>
+  </data>
+  <data name="CancellationPolity" xml:space="preserve">
+    <value>Politica de Cancelación</value>
+  </data>
+  <data name="FreeConsultation" xml:space="preserve">
+    <value>Consulta Gratis</value>
+  </data>
+  <data name="AtAvana" xml:space="preserve">
+    <value>En Avana, nos esforzamos por cumplir y superar sus expectativas. Nuestra práctica brinda una excelente atención quirúrgica con gran compasión y respeto, y nuestros cirujanos utilizan las técnicas más avanzadas para producir los mejores resultados posibles...</value>
+  </data>
+  <data name="AvanaPlasticSurgeryTourOurMiamiFacility" xml:space="preserve">
+    <value>Avana Plastic Surgery - Recorre Nuestra Instalación en Miami</value>
+  </data>
+  <data name="BookConsultation" xml:space="preserve">
+    <value>Reserve una Consulta</value>
+  </data>
+  <data name="Commitment" xml:space="preserve">
+    <value>Compromiso</value>
+  </data>
+  <data name="COVID19Crisis" xml:space="preserve">
+    <value>Crisis de la COVID-19</value>
+  </data>
+  <data name="Disclaimer" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="Financingcalltoaction1" xml:space="preserve">
+    <value>Tenemos las mejores</value>
+  </data>
+  <data name="Financingcalltoaction2" xml:space="preserve">
+    <value>opciones de financiamientos</value>
+  </data>
+  <data name="Financingcalltoaction3" xml:space="preserve">
+    <value>para ti</value>
+  </data>
+  <data name="Financingcalltoaction4" xml:space="preserve">
+    <value>Ahora es más fácil que nunca pagar los costos de la cirugía estética, haga clic en el botón y vea nuestros planes</value>
+  </data>
+  <data name="FindYourProcedure" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HaveALookAround" xml:space="preserve">
+    <value>Echa un Vistazo a su Alrededor</value>
+  </data>
+  <data name="PopularProcedures" xml:space="preserve">
+    <value>Procedimientos Populares</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Política de Privacidad</value>
+  </data>
+  <data name="Reviews" xml:space="preserve">
+    <value>Comentarios</value>
+  </data>
+  <data name="SeePhotoGallery" xml:space="preserve">
+    <value>Ver Galería de Fotos</value>
+  </data>
+  <data name="SpecialsWith" xml:space="preserve">
+    <value>Especial con</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TakeTour" xml:space="preserve">
+    <value>Haga un recorrido por nuestra clínica y sus principales salas de servicio</value>
+  </data>
+  <data name="teamtext1" xml:space="preserve">
+    <value>Avana es un centro de cirugía plástica de primer nivel ubicado en el corazón de Miami. Ofrecemos una amplia gama de servicios, que incluyen procedimientos cosméticos de alta demanda y tratamientos estéticos innovadores para satisfacer sus necesidades cosméticas más desafiantes.</value>
+  </data>
+  <data name="teamtext2" xml:space="preserve">
+    <value>En Avana Plastic Surgery, esculpimos tu nuevo yo con arte y manos hábiles. Nuestro objetivo principal es producir resultados sutiles o dramáticos en línea con sus objetivos estéticos más preciados, siempre teniendo en cuenta su seguridad y satisfacción.</value>
+  </data>
+  <data name="ToCommunityDuring" xml:space="preserve">
+    <value>Con la Comunidad Durante la</value>
+  </data>
+  <data name="ViewGallery" xml:space="preserve">
+    <value>Ver Galería</value>
+  </data>
+  <data name="ViewPressRelease" xml:space="preserve">
+    <value>Ver Nota de Prensa</value>
+  </data>
+  <data name="CalculateYouBMI" xml:space="preserve">
+    <value>CALCULA TU BMI</value>
+  </data>
+  <data name="ChangeLang" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="FinacingOptions" xml:space="preserve">
+    <value>OPCIONES DE FINACIAMIENTO</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="WhyUS" xml:space="preserve">
+    <value>Porque Nosotros ?</value>
+  </data>
+  <data name="WhereToFindUs" xml:space="preserve">
+    <value>Dónde Encontrarnos?</value>
+  </data>
+  <data name="FilterBy" xml:space="preserve">
+    <value>Filtrar por</value>
+  </data>
+  <data name="Accepted" xml:space="preserve">
+    <value>aceptado</value>
+  </data>
+  <data name="AskForYourOptions" xml:space="preserve">
+    <value>Pregunta para tus opciones</value>
+  </data>
+  <data name="BMIOf" xml:space="preserve">
+    <value>BMI de</value>
+  </data>
+  <data name="Calculate" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="ConsultationRoom" xml:space="preserve">
+    <value>sala de consulta</value>
+  </data>
+  <data name="Feet" xml:space="preserve">
+    <value>Pies</value>
+  </data>
+  <data name="ForA" xml:space="preserve">
+    <value>para una</value>
+  </data>
+  <data name="FrontDesk" xml:space="preserve">
+    <value>recepción</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="Inches" xml:space="preserve">
+    <value>Pulgadas</value>
+  </data>
+  <data name="IsCurrently" xml:space="preserve">
+    <value>actualmente es</value>
+  </data>
+  <data name="MaxBMIForABBL" xml:space="preserve">
+    <value>Max BMI Para una BBL</value>
+  </data>
+  <data name="MaximumAcceptedBMIByDoctorsForA" xml:space="preserve">
+    <value>BMI máximo aceptado por los médicos para una</value>
+  </data>
+  <data name="OurOffice" xml:space="preserve">
+    <value>Nuestra Oficina</value>
+  </data>
+  <data name="OutTheRangeAccepted" xml:space="preserve">
+    <value>fuera de rango aceptado</value>
+  </data>
+  <data name="Pounds" xml:space="preserve">
+    <value>Libras</value>
+  </data>
+  <data name="PreOpConsultationForm" xml:space="preserve">
+    <value>Formulario de Consulta pre-operatoria</value>
+  </data>
+  <data name="Reception" xml:space="preserve">
+    <value>recepción</value>
+  </data>
+  <data name="ScheduleAConsultation" xml:space="preserve">
+    <value>Programe una consulta</value>
+  </data>
+  <data name="SurgeryRoom" xml:space="preserve">
+    <value>Sala de Cirugía</value>
+  </data>
+  <data name="WaitingRoom" xml:space="preserve">
+    <value>sala de espera</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="YourBMIis" xml:space="preserve">
+    <value>Tu BMI es</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="Allergies" xml:space="preserve">
+    <value>Alergias</value>
+  </data>
+  <data name="Childbirths" xml:space="preserve">
+    <value>Partos</value>
+  </data>
+  <data name="Cigarretes" xml:space="preserve">
+    <value>Cigarrillos</value>
+  </data>
+  <data name="Explain" xml:space="preserve">
+    <value>Explique</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="HealthConditions" xml:space="preserve">
+    <value>Condiciones de Salud</value>
+  </data>
+  <data name="HowMany" xml:space="preserve">
+    <value>Cuantos</value>
+  </data>
+  <data name="HowOften" xml:space="preserve">
+    <value>Con qué frecuencia</value>
+  </data>
+  <data name="PleaseSelectDoctor" xml:space="preserve">
+    <value>-Por favor seleccione el Doctor-</value>
+  </data>
+  <data name="PleaseSelectProcedure" xml:space="preserve">
+    <value>-Por favor seleccione el procedimiento-</value>
+  </data>
+  <data name="PreviousSurgeries" xml:space="preserve">
+    <value>Cirugías Previas</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="ContactUSTo" xml:space="preserve">
+    <value>Contáctenos para programar su cirugía hoy.</value>
+  </data>
+  <data name="Our1" xml:space="preserve">
+    <value>Nuestra</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Nuestro equipo está a la espera de sus inquietudes o preguntas.</value>
+  </data>
+  <data name="ViewDirections" xml:space="preserve">
+    <value>VER DIRECCION</value>
+  </data>
+</root>

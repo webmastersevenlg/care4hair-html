@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <FinancingOptionEntity id="united"
+                   active="true"
+                   name="United Medical Credit"
+                   url="united-medical-credit"
+                   providerurl="https://www.unitedmedicalcredit.com/start-an-application/?pid=0010y00001b483v"
+                   logofilename="united.jpg"
+                   briefintro="United Medical Credit can help you to obtain the cosmetic surgery financing that you want."
+                   briefintrospanish="United Medical Credit puede ayudarle a obtener el financiamiento necesario para su cirugía estética" />
+  
+ <!-- <FinancingOptionEntity
+                  id="carecredit"
+                  active="true"
+                  name="Care Credit"
+                  url="care-credit"
+                  providerurl="https://www.carecredit.com/apply/confirm.html?encm=VjcEPQdlAmcCPgZiUGUOZgU3VzcBZAIwUT0GMF0zCDs"
+                  logofilename="/content/img/logo/care-credit-logo.png"
+                  briefintro="CareCredit is the credit card exclusively created for healthcare and wellness services"
+                  briefintrospanish="CareCredit es la tarjeta de crédito por excelencia para servicios de cuidados de la salud y bienestar." />-->
+
+  <FinancingOptionEntity
+                id="alphaeon"
+                active="true"
+                name="Alphaeon Credit"
+                url="alphaeon-credit"
+                providerurl="https://d.comenity.net/alphaeoncosmetic/pub/apply/ApplyIntro.xhtml"
+                logofilename=""
+                briefintro=""
+                briefintrospanish="" />
+	
+ <!--<FinancingOptionEntity
+			   id="cherry"
+			   active="true"
+			   name="Cherry"
+			   url="cherry-credit"
+			   providerurl="https://pay.withcherry.com/avanaplasticsurgery"
+			   logofilename=""
+			   briefintro=""
+			   briefintrospanish="" />-->
+
+	<FinancingOptionEntity id="patientfi"
+                   active="false"
+                   name="PatientFi"
+                   url="patientfi"
+                   providerurl="https://app.patientfi.com/v2/avanaps/apply"
+                   logofilename="patientfi.jpg"
+                   briefintro="PatientFi partners with healthcare practices to remove cost barriers by offering patients friendly monthly plans."
+                   briefintrospanish="PatientFi se asocia con prácticas de atención médica para eliminar las barreras de costos al ofrecer planes mensuales para los pacientes." />
+</Data>
+
+
