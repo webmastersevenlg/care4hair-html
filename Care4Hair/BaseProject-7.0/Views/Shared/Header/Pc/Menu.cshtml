@@ -18,10 +18,7 @@
         </h2>
         <ul>
             <li>
-                @{
-                    var professionalsActive = TempData["ActiveMenuElement"]?.ToString() == "professionals" ? "active" : "";
-                }
-                <div class="menu-doctor @professionalsActive">
+                <div class="menu-doctor">
                     @Vocabulary.Doctors
                     <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
                 </div>
@@ -75,12 +72,9 @@
             </li>
         </ul>
         <div class="doctors-submenu submenu">
-            @{
-                var professionalsItemActive = TempData["ActiveMenuElement"]?.ToString() == "professionals" ? "active" : "";
-            }
             @foreach(var professional in Model.Professionals)
             {
-                <a class="submenu-item @professionalsItemActive" href="@professional.GetPageUrl()">@professional.GetHonorificPrefix @professional.GetName, @professional.GetHonorificSuffix</a>
+                <a class="submenu-item" href="@professional.GetPageUrl()">@professional.GetHonorificPrefix @professional.GetName, @professional.GetHonorificSuffix</a>
             }           
         </div>
         <div class="hairloss-submenu submenu">
