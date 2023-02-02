@@ -8,27 +8,8 @@
 						dateto ="September 10"  
 						url="bbl"
 						regularprice ="4500"
-						price = "3500"  />
+						price = "3500"  />	
 	
-	<SpecialOfferEntity id="mmo"
-						active="false"
-						servicename="Mommy Makeover"
-						requirements ="New Patients Only"
-						includes = ""
-						dateto ="September 10"  
-						url="mommy-makeover"
-						regularprice ="7000"
-						price = "6000"  />
-
-<SpecialOfferEntity id="tummy-tuck"
-						active="false"
-						servicename="Tummy Tuck"
-						requirements ="New Patients Only"
-						includes = ""
-					    dateto ="September 10"  
-						url="tummy-tuck"
-						regularprice ="5000"
-						price = "4000"  />
 </Data>
 
 

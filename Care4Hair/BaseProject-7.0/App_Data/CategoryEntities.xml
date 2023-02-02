@@ -1,63 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <CategoryEntity id="body"
+  <CategoryEntity id="hairtransplant"
                          featured="true"
-                         icon="body-icon.png"
-                         url="body"
-                         name="Body"
+                         icon="hairtransplant-icon.png"
+                         url="hair-transplant"
+                         name="Hair Transplant"
                          urlspanish=""
-                         namespanish="Cuerpo"
+                         namespanish="Trasplante Cabello"
                          briefintro = " "
                          briefintrospanish = "">
   </CategoryEntity>
-  <CategoryEntity  id="breast"
-                          featured="true"
-                          icon="breast-icon.png"
-                          url="breast"
-                          name="Breast"
-                          urlspanish=""
-                          namespanish="Senos"
-                          briefintro = " "
-                          briefintrospanish = "">
-  </CategoryEntity>
-  <CategoryEntity id="face"
-                         featured="true"
-                         icon="face-icon.png"
-                         url="face"
-                         name="Face"
-                         urlspanish=""
-                         namespanish="Rostro"
-                         briefintro = " "
-                         briefintrospanish = "">
-  </CategoryEntity>
-  <!--<CategoryEntity id="weight-loss"
-                         featured="true"
-                         icon=""
-                         url="weight-loss"
-                         name="Weight Loss"
-                         urlspanish=""
-                         namespanish=""
-                         briefintro = " "
-                         briefintrospanish = "">
-  </CategoryEntity>-->
-  <CategoryEntity id="vaginal"
-                         featured="true"
-                         icon="vagina-icon.png"
-                         url="vaginal"
-                         name="Vaginal"
-                         urlspanish=""
-                         namespanish="Vaginal"
-                         briefintro = " "
-                         briefintrospanish = "">
-  </CategoryEntity>
+
   <CategoryEntity id="nonsurgical"
                          featured="true"
-                         icon=""
-                         url="non-surgical"
-                         name="Non surgical"
+                         icon="no-surgical-icon.png"
+                         url="no-surgical"
+                         name="Non Surgical"
                          urlspanish=""
-                         namespanish="No Quirúgico"
+                         namespanish="No Quirúgicos"
                          briefintro = " "
                          briefintrospanish = "">
-  </CategoryEntity>
+   </CategoryEntity>
+  
 </Data>
