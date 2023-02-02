@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/female-hair-transplant-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Female Hair Transplant in Miami
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                Female Hair Transplant in Miami
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-image-sec">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100">
+                <img src="../../../media/services-pages/female-hair-transplant-img-1.webp" alt="">
+            </div>
+            <div class="text-wrap flex-col">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Hair Transplant For Women
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>The greatest myth surrounding hair transplants is that they only work for men. Care4Hair specializes in reviving the confidence of women suffering hair loss with hair transplantation.  Women from Miami and worldwide trust our team of hair specialists to restore their hairlines, eyebrows, and more! Whether your hair loss is significant or you seek to make a minor cosmetic change, Care4Hair is experienced and equipped to walk you through your beauty journey. Our clinic successfully improves forehead shapes, lowers hairlines, covers bald spots, hides facelift or brow lift scars,  and fills eyebrows in just one hair transplant session. A female hair transplant procedure is minimally invasive, requires almost no downtime, and produces permanent results for an everlasting youthful look.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-loss-bg">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/woman-hair-restoration-1.png" alt="background image" class="bg-img">
+        </div>
+        <div class="heading-wrap center-heading-wrap">
+            <h2 class="h2-heading">
+                Types Of Hair Transplants For Women
+            </h2>
+            <img class="separator" src="../../../media/separator.svg" alt="separator">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <p style="margin-top: 55px;">
+                    Care4Hair offers women various hair restoration options. Not only can our female patients undergo a standard scalp hair transplant, but the doctor can graft hair for minor cosmetic purposes. Women trust our team of Miami hair specialists to change their forehead shapes, lower their hairlines, hide facelift or brow lift scars, and reshape their eyebrows.
+                    <br>
+                </p>
+                <ul>
+                    <li>Scalp Hair Grafting: The standard hair restoration procedure at the Care4Hair clinic is scalp hair transplantation. Typically, our patients have exhausted all other reparation methods by the time they enter our Miami clinic. If a woman’s hair loss is not remediated with lifestyle changes or prescribed solutions, a hair transplant is the only option to achieve full, natural-looking results. The surgeon removes hair follicles from a donor area during a hair transplant and implants them into the balding recipient areas. The methods and technologies for this procedure vary, but each one yields permanent results.</li>
+                    <li>Forehead Reduction: Hair transplants harmonize the faces of women born with an uncomplimentary hairline or those with thinning hair in the forelock and temples. Women who style their</li>
+                </ul>
+            </div>
+            
+            <div class="text-wrap">
+                <p style="padding-left: 15px;" class="mt-50">hair in tight hairdos will notice their hairlines receding over time. This hair loss causes the forehead to appear larger, uneven, and unnatural. Female patients who want a more youthful and balanced hairline or just a slight change in its overall shape can achieve the results they want at Care4Hair.
+                </p>
+                <ul>
+                    <li>Scar Revision and Hiding: A hair transplant easily conceals the residual scars of a facelift or brow lift that are usually visible at the edge of the hairline and temples. Therefore, by taking follicular units from a donor area of the head and placing them along the scarred area, the patient gains a more youthful hairline with no visible scarring from their previous cosmetic procedures.</li>
+                    <li><a href="https://care4hairmiami.com/eyebrow-hair-transplant-miami">Eyebrow Transplant</a>: Dense and shapely eyebrows are a symbol of female vitality. Since they greatly influence facial harmony, an eyebrow hair transplant is life-changing for individuals with sparse brows. Eyebrow hair is transplanted in the same way as it is on the scalp. The doctor removes donor hair from the back of the head or behind the ear and carefully implants it in the eyebrow area to grow in a natural-looking pattern. Patients can achieve the look they want in one non-invasive procedure.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Female Hair Transplant Methods And Technologies
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p">
+                Care4Hair performs hair transplants using <a href="https://care4hairmiami.com/fue-hair-transplant-in-miami">Follicular Unit Extraction (FUE)</a>. This method involves extracting individual hair follicles from donor areas and implanting them into the thinning recipient areas.
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-10 active" onclick="activateSelector10()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/follicle-extraction-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Traditional FUE
+                    </div>
+                </div>
+                
+            </div>
+            <div class="selector-sec-text">
+                <div class="selector-sec-text-10 active">During an FUE hair transplant, the doctor creates tiny incisions in the recipient area where the transplanted follicles should go. They are then grafted from the donor area using technologies like NeoGraft or ARTAS and manually inserted into the canals.
+                </div>
+            </div>
+            <p class="selector-sec-p">
+                Care4Hair performs the FUT hair transplant on specific patients requiring it, but the FUE technique is more favorable since it does not require stitches or the linear bald scar that the FUT method imposes.
+            </p>
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Are All Women Suitable Candidates For A Hair Transplant?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    A woman must have enough donor hair in the back and sides of her head to fill the balding parts of her scalp or eyebrows. Therefore, patients with Diffuse Unpatterned Alopecia are not ideal candidates for a hair transplant since they usually do not have enough donor follicles to harvest. Care4hair also recommends that patients be a minimum of 25 years old, ideally between 30 and 50, which is when hair loss begins to stabilize.
+                    <br><br>
+                    Other excellent candidates for a female hair transplant include:
+                </p>
+                <ul>
+                    <li>Women whose hair loss is caused by trauma, burn injuries, or surgery.</li>
+                    <li>Women whose hair loss is worsening despite prescribed solutions.</li>
+                    <li>Women whose hair loss is not caused by a chronic medical condition that will cause the hair to keep falling</li>
+                </ul>
+            </div>
+            
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        How Is Hair Transplantation Different For Women And Men?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    Hair transplantation methods are the same for both men and women. However, female hair transplants require the skill of an experienced surgeon that understands how the hairline should frame the female face. Women’s hairlines are naturally positioned lower than men’s and must be fashioned to appear either rounder, more oval, or rectangular with softened corners. The doctor takes a woman’s face shape and proportions into account when designing a new hairline to ensure the most natural-looking results.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-sec">
+        <div class="before-after-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Hair Transplant Before And After
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="before-after">
+                <div class="ba-wrap">
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-4.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-4.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-9.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-9.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+            <div class="button">view more results</div>
+
+        </div> 
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">Female Hair Transplant Cost
+            </div>
+            <p>TCare4Hair’s cost-per-graft is competitively priced at $2.00 to $3.50USD per graft. Patients of any gender can expect to pay anywhere between $6.00 to $10.00USD per graft for a hair transplant in the United States. Contact Care4Hair in Miami to receive a free, private consultation and personalized quote today!
+            </p>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <section class="solo-text-sec">
+        <img src="../../../media/services-pages/female-hair-transplant-2.png" alt="background image" class="solo-text-img">          
+        <div class="solo-text-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Hair Transplant Recovery And Results
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                The hair transplant recovery time varies depending on the chosen method and the body area being treated. Recovery from an FUE hair transplant procedure is reasonably short, as this technique does not require surgical incisions or stitching. Some patients return to work that same day while others take a day or two, or even an entire week off to focus on aftercare. The recovery process should not take longer than 7-10 days. However, it may take up to one year to see full, permanent results.
+                <br><br>
+                It is important to note that transplanted hair will go through a resting phase called “shock loss,” where the body sheds a few weeks after the procedure. While some patients do not experience this, most patients will as it is their body’s natural response to the surgery. Rest assured, even though the hair falls, the grafts remain healthy under the skin and will grow back in the months to follow if all aftercare instructions are heeded.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq-sec">
+        <div class="faq-wrap">
+            <div class="faq-header-wrap">
+                <h1>FAQS</h1>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="accordion">How soon after my hair transplant can I color my hair?</button>
+                    <div class="panel">
+                        <p>Care4Hair recommends our patients wait at least 4-6 weeks after their hair transplant surgery before dyeing their hair. Allowing the scalp time to recover after surgery will procure the best results.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">What hair transplant procedures are recommended for women?
+                    </button>
+                    <div class="panel">
+                        <p>Hair transplant methods and technologies are the same for both men and women. At your initial consultation, the doctor will recommend the best procedure for your specific hair loss type, medical history, and aesthetic goals.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Will the procedure be painful?</button>
+                    <div class="panel">
+                        <p>Care4Hair administers a local anesthetic so your hair transplant procedure will not be painful.
+                        </p>
+                    </div>
+                    
+                    <button class="accordion">Are there any risks associated with a hair transplant?
+                    </button>
+                    <div class="panel">
+                        <p>Yes. As with any surgical procedure, there will always be a risk of complications when undergoing a hair transplant. While these risks vary depending on the type of transplant you elect and your medical history, general risks include:
+                        </p>
+                        <ul class="panel-ul">
+                            <li>Excessive bleeding</li>
+                            <li>Nerve damage</li>
+                            <li>Swelling around the eyes</li>
+                            <li>Bruising</li>
+                            <li>Infection</li>
+                            <li>Scarring</li>
+                        </ul>
+                        <p>Any questions or concerns you may have must be discussed exclusively with the doctor at your first evaluation, as this is not an extensive list of potential complications. He will provide individualized care and recommendations based on your medical history.
+                        </p>
+                    </div>
+                    
+                    <button class="accordion">What is shock loss after a female hair transplant?
+                    </button>
+                    <div class="panel last">
+                        <p>Shock loss is a common reaction where the body sheds hair as a response to the trauma of the surgery. While it can be concerning to see your hair fall after undergoing a transplant intended to grow your hair, this reaction is perfectly normal. The follicles remain intact, and new, healthy hair will grow 2-3 months following your transplant.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="faq">
+                    <button class="accordion">Can I get a hair transplant after pregnancy?
+                    </button>
+                    <div class="panel">
+                        <p>Absolutely! We suggest waiting until after your post-partum hormones regulate and your hair loss stabilizes to determine the scope of work more accurately.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">When can I expect my full, permanent results?
+                    </button>
+                    <div class="panel">
+                        <p>Healthy hairs will begin to form after the shock loss phase that takes place 1 to 5 weeks following your hair transplant. Hair will grow back steadily in the next 3 to 4 months, and final results will appear one year to 18 months post-procedure.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Can a hair transplant treat postmenopausal hair loss in women?
+                    </button>
+                    <div class="panel">
+                        <p>A hair transplant can significantly improve postmenopausal hair loss as long as the patient has sufficient donor hair.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">What exactly are the cycles of hair growth?</button>
+                    <div class="panel last">
+                        <p>Hair grows and sheds in three cycles:
+                        </p>
+                        <ul class="panel-ul">
+                            <li><span>The anagen phase</span>: This is the standard growing phase that lasts between 2 to 6 years and accounts for 85% to 90% of the hair on your head.</li>
+                            <li><span>The catagen phase</span>: The catagen phase begins when the anagen phase ends. This is a transitional stage that lasts about 2 to 3 weeks when the outer root of the hair stops growing, and the follicles shrink.
+                            </li>
+                            <li><span>The telogen phase</span>: Hair in the telogen phase rests for 2 to 4 months and then sheds completely.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>

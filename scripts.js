@@ -3,26 +3,40 @@ if (window.innerWidth < 1000) {
 }
 
 
-menuDoctor = document.querySelector('.menu-doctor');
-submenuDoctor = document.querySelector('.doctors-submenu');
+const menuDoctor = document.querySelector('.menu-doctor');
+const submenuDoctor = document.querySelector('.doctors-submenu');
 
-menuHairloss = document.querySelector('.menu-hairloss');
-submenuHairloss = document.querySelector('.hairloss-submenu');
+const menuHairloss = document.querySelector('.menu-hairloss');
+const submenuHairloss = document.querySelector('.hairloss-submenu');
 
-menuHairtransplant = document.querySelector('.menu-hairtransplant');
-submenuHairtransplant = document.querySelector('.hairtransplant-submenu');
+const menuHairtransplant = document.querySelector('.menu-hairtransplant');
+const submenuHairtransplant = document.querySelector('.hairtransplant-submenu');
 
-menuNonsurgical = document.querySelector('.menu-nonsurgical');
-submenuNonsurgical = document.querySelector('.nonsurgical-submenu');
+const menuNonsurgical = document.querySelector('.menu-nonsurgical');
+const submenuNonsurgical = document.querySelector('.nonsurgical-submenu');
 
-menuResources = document.querySelector('.menu-resources');
-submenuResources = document.querySelector('.resources-submenu');
+const menuResources = document.querySelector('.menu-resources');
+const submenuResources = document.querySelector('.resources-submenu');
 
-menuDoctor.addEventListener('mouseover', activateMenuDoctor);
-menuHairloss.addEventListener('mouseover', activateMenuHairloss);
-menuHairtransplant.addEventListener('mouseover', activateMenuHairtransplant);
-menuNonsurgical.addEventListener('mouseover', activateMenuNonsurgical);
-menuResources.addEventListener('mouseover', activateMenuResources);
+if (menuDoctor) {
+    menuDoctor.addEventListener('mouseover', activateMenuDoctor);
+}
+
+if (menuHairloss) {
+    menuHairloss.addEventListener('mouseover', activateMenuHairloss);
+}
+
+if (menuHairtransplant) {
+    menuHairtransplant.addEventListener('mouseover', activateMenuHairtransplant);
+}
+
+if (menuNonsurgical) {
+    menuNonsurgical.addEventListener('mouseover', activateMenuNonsurgical); 
+}
+
+if (menuResources) {
+    menuResources.addEventListener('mouseover', activateMenuResources);
+}
 
 function activateMenuDoctor() {
     submenuDoctor.classList.add('active');
@@ -256,121 +270,139 @@ function activateDot6() {
     dot1.classList.remove('active');
 }
 
-dot1.addEventListener('click', () => {
-    
-    activateDot1();
+if (dot1) {
+    dot1.addEventListener('click', () => {
 
-    imageCarousel.classList.add('group-1');
+        activateDot1();
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot2.addEventListener('click', () => {
-        
-    activateDot2();
+        imageCarousel.classList.add('group-1');
 
-    imageCarousel.classList.add('group-2');
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot3.addEventListener('click', () => {
-        
-    activateDot3();
+if (dot2) {
+    dot2.addEventListener('click', () => {
+            
+        activateDot2();
 
-    imageCarousel.classList.add('group-3');
+        imageCarousel.classList.add('group-2');
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot4.addEventListener('click', () => {
-        
-    activateDot4();
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
-    imageCarousel.classList.add('group-4');
+if (dot3) {
+    dot3.addEventListener('click', () => {
+            
+        activateDot3();
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot5.addEventListener('click', () => {
-        
-    activateDot5();
+        imageCarousel.classList.add('group-3');
 
-    imageCarousel.classList.add('group-5');
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-6');
-});
-dot6.addEventListener('click', () => {
-        
-    activateDot6();
+if (dot4) {
+    dot4.addEventListener('click', () => {
+            
+        activateDot4();
 
-    imageCarousel.classList.add('group-6');
+        imageCarousel.classList.add('group-4');
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-1');
-});
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
+if (dot5) {
+    dot5.addEventListener('click', () => {
+            
+        activateDot5();
+
+        imageCarousel.classList.add('group-5');
+
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-6');
+    });
+}
+
+if (dot6) {
+    dot6.addEventListener('click', () => {
+            
+        activateDot6();
+
+        imageCarousel.classList.add('group-6');
+
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-1');
+    });
+}
 
 // setInterval(function(){
 
-if (imageCarousel.classList.contains('group-1')) {
-        
-    activateDot1();
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.add('group-2');
-}
-else if (imageCarousel.classList.contains('group-2')) {
-        
-    activateDot2();
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.add('group-3');
-}
-else if (imageCarousel.classList.contains('group-3')) {
-        
-    activateDot3();
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.add('group-4');
-}
-else if (imageCarousel.classList.contains('group-4')) {
-        
-    activateDot4();
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.add('group-5');
-}
-else if (imageCarousel.classList.contains('group-5')) {
-        
-    activateDot5();
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.add('group-6');
-}
-else if (imageCarousel.classList.contains('group-6')) {
-        
-    activateDot6();
-    imageCarousel.classList.remove('group-6');
-    imageCarousel.classList.add('group-1');
-}
-else {
-    activateDot1();
-    imageCarousel.classList.add('group-1')
+if (imageCarousel){
+    if (imageCarousel.classList.contains('group-1')) {
+            
+        activateDot1();
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.add('group-2');
+    }
+    else if (imageCarousel.classList.contains('group-2')) {
+            
+        activateDot2();
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.add('group-3');
+    }
+    else if (imageCarousel.classList.contains('group-3')) {
+            
+        activateDot3();
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.add('group-4');
+    }
+    else if (imageCarousel.classList.contains('group-4')) {
+            
+        activateDot4();
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.add('group-5');
+    }
+    else if (imageCarousel.classList.contains('group-5')) {
+            
+        activateDot5();
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.add('group-6');
+    }
+    else if (imageCarousel.classList.contains('group-6')) {
+            
+        activateDot6();
+        imageCarousel.classList.remove('group-6');
+        imageCarousel.classList.add('group-1');
+    }
+    else {
+        activateDot1();
+        imageCarousel.classList.add('group-1')
+    }
 }
 
 
@@ -430,7 +462,6 @@ function activateProcedure4() {
     procedureText3.classList.remove('active');
     procedureText1.classList.remove('active');
 }
-
 
 
 // FAQ Accordion
