@@ -28,5 +28,8 @@
   
   <UncategorizedPageEntity id="robotichairtransplant" url="robotic-hair-transplant-miami" urlspanish="artas-trasplante-de-cabello-robotizado-en-miami" name="Robotic Hair Transplant Miami" namespanish="ARTAS Trasplante de Cabello Robotizado en Miami">
   </UncategorizedPageEntity>
+
+	<UncategorizedPageEntity id="outoftownpatients" url="out-of-town-hair-transplant-patients" urlspanish="pacientes-fuera-de-la-ciudad" name="Out-of-Town Hair Transplant Patients" namespanish="Pacientes fuera de la ciudad">
+	</UncategorizedPageEntity>	
   
   </UncategorizedPagesEntities>
