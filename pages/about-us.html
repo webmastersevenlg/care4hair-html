@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../index.html" class="logo">
+                <img src="../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../media/sec-6-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>About Us
+            </h1>
+            <span>
+                <a href="../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                About Us
+            </span>
+        </div>
+    </section>
+
+
+    <section class="hair-loss-text-image-sec about-us">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100">
+                <img src="../media/services-pages/virtual-consultation.png" class="borr-500" alt="beard hair transplant image">
+            </div>
+            <div class="text-wrap flex-col">
+                <div class="heading-wrap">
+                    <span class="subheader">about care4hair</span>
+                    <h2 class="h2-heading">
+                        Hair Restoration By The Best
+                    </h2>
+                    <img class="separator" src="../media/separator.svg" alt="separator">
+                </div>
+                <p>Care4Hair provides patients suffering from unwanted hair loss with safe and affordable hair transplant methods that yield natural-looking and permanent results. Our team is equipped to transform the sparse or bald regions of your scalp, eyebrows, and beard to their fullest capacity. They will evaluate your condition in a private consultation and recommend the best procedural techniques and technologies to achieve your aesthetic goals.
+                    <br><br>
+                    Our certified hair transplant specialists have guided hundreds of local and out-of-town patients through their hair restoration journeys, restoring their hairlines and reviving their confidence once more!                    
+                </p>
+                <a class="button" href="#">view our work</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sec-9">
+        <img class="bg-img" src="../media/team/bg-img.jpeg" alt="background image">
+        <div class="our-practice-sec">
+            <div class="overlay"></div>
+            <span class="subheader">
+                our practice
+            </span>
+            <h1>What Sets Us Apart?</h1>
+            <img class="separator" src="../media/separator.svg" alt="separator">
+
+            <div class="our-practice-items-wrap">
+                <div class="practice-item">
+                    <div class="front-header">
+                        Mission
+                    </div>
+                    <div class="back-content">
+                        Care4Hair’s mission is to restore hairlines and revive confidence in patients struggling with hair loss. We aim to provide every one of our patients a comfortable, safe, and affordable hair transplant procedure that yields permanent results. 
+                    </div>
+                </div>
+                <div class="practice-item">
+                    <div class="front-header">
+                        vision
+                    </div>
+                    <div class="back-content">
+                        Not only does Care4Hair envision new, healthy hair on patients affected by hair loss, but we make it happen every day. We ensure that heredity, stress, disease, or trauma do not dictate what you see when you look in the mirror.                     
+                    </div>
+                </div>
+                <div class="practice-item">
+                    <div class="front-header">
+                        values
+                    </div>
+                    <div class="back-content">
+                        Care4Hair operates with transparency and only recommends the procedures that best benefit you. Our certified hair specialists have maintained lifelong relationships with clients by demonstrating excellence, integrity, and unparalleled precision.                     
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="sec-9-wrap">
+            <span class="subheader">
+                our professionals
+            </span>
+            <h1>Meet Our Skilled Team</h1>
+            <img class="separator" src="../media/separator.svg" alt="separator">
+
+            <div class="team">
+                <a href="#" class="member">
+                    <div class="overlay"></div>
+                    <img src="../media/team/doctor-2.jpeg" alt="image of doctor">
+                    <div class="text">
+                        <div class="doctor-name">
+                            lorayne enriquez
+                        </div>
+                    </div>
+                    <span>
+                        [ aprn ]
+                    </span>
+                </a>
+                <a href="#" class="member">
+                    <div class="overlay"></div>
+                    <img src="../media/team/doctor-3.jpeg" alt="image of doctor">
+                    <div class="text">
+                        <div class="doctor-name">
+                            marianela lopez
+                        </div>
+                    </div>
+                    <span>
+                        [ aprn ]
+                    </span>
+                </a>
+                <a href="#" class="member">
+                    <div class="overlay"></div>
+                    <img src="../media/team/doctor-1.jpeg" alt="image of doctor">
+                    <div class="text">
+                        <div class="doctor-name">
+                            manuel s. mendizabal
+                        </div>
+                    </div>
+                    <span>
+                        [ surgeon ]
+                    </span>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-testimonials-sec">
+        <div class="about-us-testimonials-sec-wrap">
+            <span class="subheader">
+                testimonials
+            </span>
+            <h1>What Patients Say</h1>
+            <img class="separator" src="../media/separator.svg" alt="separator">
+
+            <div class="about-us-testimonials">
+                <div class="about-us-testimonial">
+                    <p>"Definitely I am super happy with my results. I was kind of nervous because they evaluate me online for 1800 follicles and Miami was a new place for me but I received an excellent service. I even changed my mind to get more follicles and they talked to the doctors and to the manager of the clinic and she approved it. So it was an amazing experience. I recommend this place 100 percent."
+                    </p>
+                    <div class="person-info">
+                        Oli R
+                        <span>PATIENT</span>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="surgery-and-restoration-sec">
+        <img src="../media/hair-restoration-miami-men-women.jpeg" alt="background image">
+        <div class="surgery-and-restoration-sec-wrap">
+            <div class="surgery-and-restoration-text">
+                <h2 class="h2-heading">
+                    Hair Transplant Surgery And Restoration
+                </h2>
+                <p>Hair loss is a disorder affecting millions of men and women all over the world. At Care4Hair, we offer treatment for hair loss that’s mild or severe, regardless of the factors that caused this condition. Our welcoming, patient-focused approach is shown throughout our services and compassionate care. Our leading-edge NeoGraft hair transplant results demonstrate our surgical expertise. We are pleased to offer our patients the most advanced procedures available so that they take advantage of a pain-free, discreet and efficient hair transplant.
+                    <br><br>
+                    To learn more about Care4Hair, you can reach out to us today to schedule your initial consultation with our doctor. We will be happy to answer your questions, regardless of the possible causes of hair loss.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us-gallery-sec">
+        <div class="about-us-gallery-sec-wrap">
+            <span class="subheader">
+                gallery
+            </span>
+            <h1>Explore Our Facilities</h1>
+            <img class="separator" src="../media/separator.svg" alt="separator">
+
+            <div class="about-us-gallery-wrap">
+                <div class="about-us-gallery gallery-img-1">
+                    <img src="../media/gallery/img1.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img2.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img3.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img4.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img5.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img6.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img7.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img8.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img9.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img10.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img11.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img12.jpeg" alt="gallery image">
+                    <img src="../media/gallery/img13.jpeg" alt="gallery image">
+                </div>
+            </div>
+            <div class="about-us-gallery-dots gallery-img-1">
+                <div class="gallery-dot-1 active" onclick="activateGalleryDot1()"></div>
+                <div class="gallery-dot-2" onclick="activateGalleryDot2()"></div>
+                <div class="gallery-dot-3" onclick="activateGalleryDot3()"></div>
+                <div class="gallery-dot-4" onclick="activateGalleryDot4()"></div>
+                <div class="gallery-dot-5" onclick="activateGalleryDot5()"></div>
+                <div class="gallery-dot-6" onclick="activateGalleryDot6()"></div>
+                <div class="gallery-dot-7" onclick="activateGalleryDot7()"></div>
+                <div class="gallery-dot-8" onclick="activateGalleryDot8()"></div>
+                <div class="gallery-dot-9" onclick="activateGalleryDot9()"></div>
+                <div class="gallery-dot-10" onclick="activateGalleryDot10()"></div>
+                <div class="gallery-dot-11" onclick="activateGalleryDot11()"></div>
+                <div class="gallery-dot-12" onclick="activateGalleryDot12()"></div>
+                <div class="gallery-dot-13" onclick="activateGalleryDot13()"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../scripts.js"></script>
+    <script src="../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>
