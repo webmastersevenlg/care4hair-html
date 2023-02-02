@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/beard-hair-transplant-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Beard Hair Transplant in Miami
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                Beard Hair Transplant in Miami
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-image-sec">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100">
+                <img src="../../../media/services-pages/beard-hair-transplant-img-1.png" alt="beard hair transplant image">
+            </div>
+            <div class="text-wrap flex-col">
+                <p>Do you want a thick, full beard? The specialists at Care4Hair in Miami are here to make it happen. No other part of the body gets as much attention as the face, with facial hair being the focal point. Therefore, it is one of our doctor’s most widely requested procedures. A beard hair transplant involves removing follicles from the back of the scalp and implanting them into patchy areas of the beard. This procedure is minimally invasive, requires almost no downtime, and produces permanent results for outstanding patient satisfaction.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-transplant-bg">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/beard-hair-transplant-img-2.png" alt="background image" class="bg-img">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Types Of Hair Transplants For Men
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p style="margin-top: 55px;">
+                    The best candidates for a beard hair transplant have enough viable follicles in the donor site, usually between 2,000 and 2,500. Many candidates suffer from uneven patches or scarring from burns that they wish to conceal. The doctor will evaluate your hair loss causes and analyze your donor area at your free consultation to determine if you are a prime candidate for a beard hair transplant.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec selector-no-text">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Beard Hair Transplant Process
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p darker-text">
+                The beard hair transplant process is performed primarily through Follicular Unit Extraction (FUE). The FUE technique is a method of grafting hair follicles from a donor area of the scalp- typically the back of the head- to a thinning or balding area, formally known as the recipient area. Care4Hair employs the FUE technique as the best approach to perform a beard hair transplant since it is non-invasive and does not leave linear scarring.
+            </p>
+            <p class="selector-sec-p mt-50">
+                The FUE beard hair transplant goes as follows:
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-7" onclick="activateSelector7()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/trim-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Trim
+                    </div>
+                    <div class="selector-item-text">
+                        The donor area is trimmed for direct access to the skin and hair
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-8" onclick="activateSelector8()">
+                    <span class="number">
+                        02
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/anesthesia-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Anesthesia
+                    </div>
+                    <div class="selector-item-text">
+                        A Care4Hair specialist administers a local anesthetic to numb the area
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-9" onclick="activateSelector9()">
+                    <span class="number">
+                        03
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/follicle-extraction-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Graft Extraction
+                    </div>
+                    <div class="selector-item-text">
+                        The doctor either removes the follicles manually, with a NeoGraft machine.
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-9" onclick="activateSelector9()">
+                    <span class="number">
+                        04
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/graft-implantation-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Implantation
+                    </div>
+                    <div class="selector-item-text">
+                        Follicles are sorted and implanted into the sparse areas of the beard, following the design you and the surgeon decided upon.
+                    </div>
+                </div>
+            </div>
+            <p class="selector-sec-p darker-text mt-50">
+                The hair specialists will lastly clean and bandage the affected area. We will ensure you have all the necessary aftercare instructions for optimal results and your overall satisfaction in the end.
+            </p>
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+    
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Beard Hair Transplant Results
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    Beard hair transplant results will be permanent so long as the patient follows the proper aftercare directions. However, these results may take some months to show. Within the first 2-3 weeks, your body will likely undergo “shock loss,” a period where your hair will shed. Shock loss is the body’s natural reaction to the surgery and does not indicate that the procedure failed. Rest assured, the grafts will remain secure and facial growth will show after 3-4 months. The results should fully mature by the 12th month.
+                </p>
+                <div class="heading-wrap mt-50">
+                    <h2 class="h2-heading">
+                        Recovery After A Beard Hair Transplant
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    Recovery after a beard hair transplant is virtually painless but does require careful adherence to aftercare instructions. Patients will need to keep the surgical area completely dry soon after surgery so the grafts can set well. After 2-3 days, you can gently shampoo the beard with soap and water to remove the crusts.
+                </p>
+            </div>
+            
+            <div class="text-wrap">                
+                <p>
+                    Some activities to avoid after surgery include:
+                </p>
+                <ul>
+                    <li>Touching, scratching, or rubbing the surgical area</li>
+                    <li>Sun exposure</li>
+                    <li>Heavy physical activities</li>
+                    <li>Taking blood thinners or any other medication– only as prescribed by your surgeon</li>
+                    <li>Smoking or using tobacco products</li>
+                    <li>Drinking alcohol</li>
+                    <li>Swimming, using hot tubs, or saunas</li>
+                </ul>
+                <p>
+                    Redness in the face can occur, especially to patients with a fair complexion, but it will resolve in a few weeks. Regrowth onsets after six months; this new hair can be groomed like any other hair.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-sec">
+        <div class="before-after-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Hair Transplant Before And After
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="before-after">
+                <div class="ba-wrap">
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-10.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-10.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-11.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-11.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+            <div class="button">view more results</div>
+
+        </div> 
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">Beard Hair Transplant Cost
+            </div>
+            <p>
+                A beard hair transplant is not very expensive when compared to other grooming procedures. Patients usually pay for the number of grafts prepared and transplanted. Therefore, the beard transplant price can differ from patient to patient. The more grafts required, the higher the price. At Care4Hair, we charge an average of $2.00- $3.50USD per graft.
+                <br><br>
+                To receive a personalized quote, schedule a free consultation with our doctor and his team at Care4Hair in Miami. Let’s achieve your desired look and revive your confidence together!
+            </p>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <section class="solo-text-sec">
+        <img src="../../../media/services-pages/beard-hair-transplant-img-3.png" alt="background image" class="solo-text-img">          
+        <div class="solo-text-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Beard Hair Transplant Side Effects
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                Your face and scalp may experience these side effects following a beard hair transplant:
+            </p>
+            <ul>
+                <li>Swelling</li>
+                <li>Redness</li>
+                <li>Tightness</li>
+                <li>Numbness</li>
+                <li>Temporary scabs or crustiness</li>
+            </ul>
+            <p>The FUE method might leave tiny, unnoticeable scars on the donor area; regardless, your natural hair growth will cover it up. Your face will not undergo any scarring, but there will be some temporary scabs. If crustiness, redness, swelling, or irritation continues after a couple of weeks, be sure to inform the doctor at your follow-up appointment.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq-sec">
+        <div class="faq-wrap">
+            <div class="faq-header-wrap">
+                <h1>FAQS</h1>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="accordion">How long is the beard transplant procedure?</button>
+                    <div class="panel">
+                        <p>It takes an average of 8 hours to complete a beard transplant. However, it depends on the number of follicular units extracted and the size of targeted areas. Some patients may require as little as 2-4 hours to get the beard transplant results they want in the patchy areas. For example, patients who wish to undergo a goatee or mustache hair transplant will not need as much hair as those who desire a full beard.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">What are the main causes of facial baldness?
+                    </button>
+                    <div class="panel">
+                        <p>The primary reason for hair loss in men is genetics. Likewise, conditions such as thyroid or autoimmune diseases, infections, and hormonal factors may also affect hair growth.  Facial scarring can also result in patchy areas since hair typically doesn’t grow in scars unless a beard hair transplant is performed.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">How many grafts are required for a beard hair transplant?
+                    </button>
+                    <div class="panel last">
+                        <p>A beard hair transplant procedure typically involves the placement of 200-250 grafts per sideburn, 350-500 grafts to form a mustache, 300-700 grafts for a cheek beard, and 600-700 grafts for a full goatee.
+                        </p>
+                    </div>
+
+                    
+                </div>
+                <div class="faq">
+                    <button class="accordion">Where does the donor hair come from?
+                    </button>
+                    <div class="panel">
+                        <p>Hair follicles cannot be donated by someone else; they must be grafted from another area of the patient’s own body. The transplanted hair mostly comes from the back and sides of the scalp, where the hair is the thickest. The doctor will determine which area is the closest match to the hair in the targeted area. Donor hair on the sides of the scalp is typically a good fit for the sideburns and upper cheeks.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Can I shave my transplanted hair?
+                    </button>
+                    <div class="panel">
+                        <p>Implanted hair takes up to 2-3 weeks to take root, so patients should wait at least two weeks to a month to trim. The transplanted hair must remain in place as intended and grow in the right direction. Make sure you are gentle while shaving, as the face may feel sensitive, especially if you shave earlier than the recommended time.
+                        </p>
+                    </div>
+
+                    <button class="accordion">Will the results of my beard hair transplant be permanent?</button>
+                    <div class="panel">
+                        <p>A beard hair transplant yields permanent results and should continue growing for years thereafter. It is vital to adhere closely to Care4Hair’s aftercare instructions to attain satisfactory results in the end.
+                        </p>
+                    </div>
+                    
+                    <button class="accordion">How much time should I take off from work for a beard transplant?
+                    </button>
+                    <div class="panel last">
+                        <p>While this is a minimally invasive procedure, some patients prefer to take a few days to a week off from work for recovery. The doctor will assess your specific situation and suggest how much time you should take off from work prior to the procedure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>

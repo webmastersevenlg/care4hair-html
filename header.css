@@ -247,6 +247,14 @@ header.header-bg {
     padding: 3px;
 }
 
+.submenu-header {
+    text-transform: uppercase;
+    color: var(--accent-text-color);
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
 .doctors-submenu {
     right: 50px;
     top: 250px;
@@ -274,11 +282,10 @@ header.header-bg {
 
 .submenu-list .submenu-subheader {
     text-transform: uppercase;
-    color: var(--accent-text-color);
+    color: #b6b6b6;
     font-weight: 600;
     font-size: 1rem;
     margin-bottom: 5px;
-    margin-top: 30px;
 }
 
 .submenu-subheader {

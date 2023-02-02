@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/hairline-restoration-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Hairline Restoration in Miami
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                Hairline Restoration in Miami
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-image-sec">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100 borr-500">
+                <img src="../../../media/services-pages/men-hair-loss-1.jpeg" class="borr-500" alt="hair transplant image">
+            </div>
+            <div class="text-wrap flex-col">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Hairline Restoration With Care4Hair In Miami
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>Care4Hair specializes in restoring hairlines and reviving the confidence of patients in Miami and worldwide. Patients typically call our doctor when the frontal regions of their hairlines begin to recede. The frontal area also called the “forelock” or “central forelock,” is the frontal zone of the hair, including the hair around the temples. This area frames the face and receives the most attention, which is why hairline restoration is a popular procedure at Care4Hair in Miami.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-loss-bg-2">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/male-hair-transplant-img-1.png" alt="background image" class="bg-img">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        What Is A Receding Hairline?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p style="margin-top: 55px;">
+                    If you are continually losing hair and your hairline is moving higher, it is receding. While a receding hairline does not indicate that you will go completely bald, it signals male or female-patterned baldness. The average scalp contains approximately 100,000 hairs. Shedding anywhere between 50 and 100 strands a day is entirely normal; losing more daily is considerable and may indicate an underlying issue. Many individuals fail to notice the thinning until they have lost 50% of their hair and call Care4Hair for a solution.
+                    <br><br>
+                    Telltale signs of a receding hairline include:
+                </p>
+                <ul>
+                    <li>Hair thinning at the temples in an “M” shape- The hairline retreats in the temple area during the earliest stages of hair loss. Thinning in the temples causes the hairline to follow an “M” shape that later withdraws to the top or back of the head.
+                    </li>
+                    <li>Uneven appearance: If the hairline begins to dwindle in an irregular pattern, it is a sign of a receding hairline; hairlines that are simply maturing recede more uniformly.
+                    </li>
+                    <li>Hair is shedding more than usual- While hair loss often goes unnoticed until bald patches become more noticeable, individuals may notice more hair falling than usual.
+                    </li>
+                </ul>
+                <p>It is essential to remain vigilant of changes in the hairline and scalp to mitigate the issue as soon as possible. The longer it takes a patient to identify and mediate this damage, the more work will be required.
+                </p>
+            </div>
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Causes Of A Receding Hairline
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p style="margin-top: 55px;">
+                    Receding hairlines are caused mainly by factors such as genetics, age, disease, and hormonal changes. Some of these may be temporary, but they may be irreversible without hair transplantation if present for an extended period.
+                    <br><br>
+                    <span class="bolden-span">Genetic factors</span>: Male and female pattern baldness is called androgenic alopecia and has a common genetic cause. Unfortunately, hair loss caused by pattern baldness is hardly, if ever, reversible but can be remediated with a hair transplant.
+                    <br><br>
+                    <span class="bolden-span">Age</span>: More than 50% of men over 50 have noticeable hair loss, while women risk losing their hair after menopause. However, female hair loss tends to be more diffuse in contrast to male hair loss that tends to start at the hairline.
+                    <br><br>
+                    <span class="bolden-span">Hormones</span>: Women experience hair loss due to hormonal changes after childbirth or thyroid issues. Men can also experience changes in thyroid hormone levels, but more commonly, they suffer from a rise in their dihydrotestosterone (DHT) levels that causes excessive hair loss from the scalp. DHT is a sex hormone that plays a role in developing male characteristics (e.g., penis, prostate gland) during fetal development. It conducts hair cycling and causes the growth phase in hair cycles to shorten over time. This leads to hair follicles becoming smaller and thinner with every stage of growth, resulting in thinning hair.
+                    <br><br>
+                    <span class="bolden-span">Lifestyle</span>: Lifestyle factors such as smoking, poor diet, and stress can aggravate hair loss. Hair loss caused by these factors may be temporary but could require hair transplantation surgery if carried out for long periods. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    How Does Care4Hair Design My New Hairline?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p">
+                At Care4Hair, we understand that designing a new hairline requires surgical and artistic skills. Our doctor successfully delivers an appropriate and look natural for all of our patients by being mindful of:
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-10 active" onclick="activateSelector10()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/hairline-positioning-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Hairline Positioning
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-11" onclick="activateSelector11()">
+                    <span class="number">
+                        02
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/hairline-shape-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        The Shape Of The Hairline
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-12" onclick="activateSelector12()">
+                    <span class="number">
+                        03
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/hair-density-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Hair Density
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-13" onclick="activateSelector13()">
+                    <span class="number">
+                        04
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/hair-caliber-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Hair Caliber/Texture
+                    </div>
+                </div>
+            </div>
+            <div class="selector-sec-text">
+                <div class="selector-sec-text-10 active">The central hairline is placed up to 3 inches or 4 fingers above the eyebrows and two fingers above the top wrinkle in the forehead. The receding hairline on the sides of the head should be leveled with the eye. It is vital to enlist a qualified surgeon like our doctor to place the hairline correctly since it is challenging to raise an imprecise hairline after a frontal hairline transplant.
+                </div>
+                <div class="selector-sec-text-11">The shape of the hairline should fit the patient’s facial skeletal anatomy for aesthetically pleasing results.
+                </div>
+                <div class="selector-sec-text-12">The desired hair density is based on the amount of donor hair available. Donor hair is mainly on the back and sides of the scalp. If you lack sufficient donor hair for your aesthetic goals, the right surgeon will work with you to design a realistic hairline according to the hair density you do have.
+                </div>
+                <div class="selector-sec-text-13">Hair caliber is the size of the hair follicle-- some are thin, others thick. Caliber plays a critical role when constructing a hairline plan. Another hair characteristic is hair texture. Whether you have curly, wavy, or straight hair these essential characteristics need to be considered when designing your hairline.
+                </div>
+            </div>
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        FUE Hair Transplant Methods For Hairline Restoration
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    If you have researched hair restoration options, you may be familiar with the two primary hair restoration techniques: Follicular Unit Transplantation (FUT) and Follicular Unit Extraction (FUE). The primary difference between FUE and FUT is the way that hair follicles are extracted from the donor area.
+                    <br><br>
+                    During a FUT, the surgeon cuts a section of hair-bearing skin from the back of the head. Since this incision is several inches long, it must be closed with stitches or staples. The surgeon then dissects the skin into separate follicular units that are transplanted individually into the recipient area. During an FUE, the surgeon extracts individual hair follicles from the donor area rather than removing a section of skin. These follicles are then harvested into micro-incisions on the recipient areas of the scalp for permanent growth.
+                </p>
+            </div>
+            
+            <div class="text-wrap">          
+                <p class="mt-0">
+                    Due to its quicker recovery time and noninvasiveness, Care4Hair typically performs the FUE procedure on our patients. An FUE can be performed manually or using other methods, such as NeoGraft and ARTAS technologies. Your surgeon will remove hair follicles from a donor area and implant them into balding areas to eventually grow new hair.
+                    <br><br>
+                    Book a free consultation with our doctor and the Care4Hair specialists to decipher which hair transplantation method is suitable for you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-sec">
+        <div class="before-after-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Hair Transplant Before And After
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="before-after">
+                <div class="ba-wrap">
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-15.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-15.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-7.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-7.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+            <div class="button">view more results</div>
+
+        </div> 
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">Hairline Restoration Cost
+            </div>
+            <p>
+                The cost of a hair restoration procedure is calculated on a per-graft basis, with each graft consisting of 1, 2, 3, or 4 hair follicles. The average hairline transplant price is currently $6.00 to $12.00USD per graft. We only charge our patients an average of $2.00 to $3.50USD per graft, depending on the method and technology utilized.
+                <br><br>
+                Schedule a consultation with our doctor to determine how many follicles you need to achieve your desired goals. Recover your hairline and confidence in one day!                                
+            </p>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <section class="solo-text-sec">
+        <img src="../../../media/services-pages/hairline-restoration-1.png" alt="background image" class="solo-text-img">          
+        <div class="solo-text-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    How Many Hair Grafts Will I Need For My Hair Transplant Procedure?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                Every patient has different hair restoration goals. Therefore, the number of grafts needed will vary. In general, however, it can range anywhere from 600 to 3,000 grafts. Male and female pattern baldness differs in that women’s hair sheds from all over their head, starting at their part line, and men’s hair loss follows a more predictable pattern beginning at the hairline and working its way back. Men can classify their hair loss stage using the Norwood-Hamilton scale, and women can use the Ludwig scale. The greater the hair loss, the more grafts are needed to restore density. Speaking directly to our surgeon or a Care4Hair specialist about your specific problem areas is the best way to determine how many grafts you need.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq-sec">
+        <div class="faq-wrap">
+            <div class="faq-header-wrap">
+                <h1>FAQS</h1>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="accordion">What are the benefits of FUE hairline restoration?</button>
+                    <div class="panel">
+                        <p>FUE is more advantageous than FUT since it involves no downtime, stitches, scars or large incisions. Patients recover faster and do not experience restriction of movement during recovery. They can also wear short hairstyles since FUE leaves no visible scarring. The FUE method is performed using various technologies.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Is hair transplant surgery the best approach to hair loss?
+                    </button>
+                    <div class="panel">
+                        <p>Hairline transplant surgery is the only permanent solution for nearly all patients. Typically, our patients exhaust other treatment options before coming to Care4Hair.
+                        </p>
+                    </div>
+
+                    <button class="accordion">Can a hair transplant minimize my broad forehead?
+                    </button>
+                    <div class="panel">
+                        <p>Yes! A lower, natural-looking hairline can be transplanted to create a smaller forehead as long as there is adequate donor hair. Hair is harvested from the back of your head and placed in individual units along the hairline to frame the face as desired. 
+                        </p>
+                    </div>
+
+                    <button class="accordion">How long does hair transplant recovery take?
+                    </button>
+                    <div class="panel">
+                        <p>Patients undergoing FUE frontal hairline restoration should expect a full recovery within a week. However, FUT hair transplant surgery usually involves an average of three weeks to recover.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Can an FUE hair transplant cover scars from a previous transplant?
+                    </button>
+                    <div class="panel last">
+                        <p>Yes, both the FUE hair transplant method cover scars from previous transplants. FUT transplants were performed more commonly in the past before the rise of newer technologies. Since the FUT method requires removing a strip of skin from the back of the head, it leaves a scar behind. FUT is not used as often anymore (except for on select patients), yet, countless individuals contact our hair specialists seeking to hide these residual scars.
+                        </p>
+                    </div>
+
+                    
+                </div>
+                <div class="faq">
+                    <button class="accordion">Which hair transplant technique is best?
+                    </button>
+                    <div class="panel">
+                        <p>Most clinics, including Care4Hair, recommend the FUE technique since it is the most advanced hairline restoration techniques. It involves removing individual hair follicles from the scalp and are far less invasive than the FUT method. However, select patients are better suited for a FUT frontal hairline transplant.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">What is a good age for hair transplantation?
+                    </button>
+                    <div class="panel">
+                        <p>Candidates should be over the age of 25, preferably within the 30-50 year range to undergo hair transplantation. Hair loss in patients under 30 oscillates, making it difficult to determine how this type of hair loss will develop with age. Yet, hair transplantation can be performed on younger patients depending on their hair loss type. We recommend scheduling a free consultation with the specialists at Care4Hair to evaluate your unique circumstance.
+                        </p>
+                    </div>
+                  
+                    <button class="accordion">Who is a good candidate for a hair transplant?
+                    </button>
+                    <div class="panel">
+                        <p>The ideal candidates for a hair transplant are:
+                        </p>
+                        <ul>
+                            <li>Patients experiencing hair loss caused by male or female pattern baldness
+                            </li>
+                            <li>Patients whose hair loss is worsening in spite of prescription drugs
+                            </li>
+                            <li>Patients experiencing a more stable loss pattern after years of balding
+                            </li>
+                            <li>Patients whose hair loss is caused by trauma, burn injuries, or surgery
+                            </li>
+                        </ul>
+                        <p>However, other types of individuals can be suitable candidates. Please call our Care4Hair office in Miami to learn more.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Are hair restoration results natural-looking?
+                    </button>
+                    <div class="panel">
+                        <p>Yes, our goal at Care4Hair is for all patients to achieve permanent, natural-looking results.  Check our before and after gallery
+                        </p>
+                    </div>
+                    
+                    <button class="accordion">How long does it take for transplanted hair to grow?
+                    </button>
+                    <div class="panel">
+                        <p>You should expect "shock loss" following your hair transplant. Shock loss is a shedding of the hair that occurs 2-3 weeks after the procedure as your body's innate response to the surgery. The grafts will grow again; by the 6th month, you will see 50-60% of the final growth. Full results should be visible approximately 12-18 months following the operation.
+                        </p>
+                    </div>
+
+                    <button class="accordion">Is frontal hair transplant surgery painful?
+                    </button>
+                    <div class="panel">
+                        <p>No. We administer a local anesthetic prior to the commencement of any surgery so patients will not feel pain during the procedure.
+                        </p>
+                    </div>
+
+                    <button class="accordion">Are there any complications associated with hair transplant procedures?
+                    </button>
+                    <div class="panel last">
+                        <p>Care4Hair’s hair transplant procedures yield a high success rate, so complications are uncommon. The surgeon will discuss any potential concerns with you during the initial consultation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>
