@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+<div class="header-top header-top-borders hidden-plus" style="width:100%">
+    <div class="container h-100">
+        <div class="header-row h-100">
+            <div class="header-column justify-content-start">
+                <div class="header-row">
+                    <nav class="header-nav-top">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item nav-item-borders py-2">
+                                <a href="tel:@Settings.GetPhone"><i class="fa fa-phone text-color-primary fa-2x" style="top: 0;"></i> @Settings.GetPhoneFormated</a>
+                            </li>                           
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header-column justify-content-end">
+                <div class="header-row">
+                    <nav class="header-nav-top">
+                        <ul class="nav nav-pills">
+                            <li class="nav-item nav-item-borders py-2">
+                                <a class="btn btn-light" href="@Site.Instance.Contact.GetPageUrl()"> @Vocabulary.ContactUs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
