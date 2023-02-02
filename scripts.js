@@ -362,7 +362,7 @@ if (dot6) {
 
 // setInterval(function(){
 
-if (imageCarousel){
+if (imageCarousel) {
     if (imageCarousel.classList.contains('group-1')) {
             
         activateDot1();
@@ -480,4 +480,369 @@ for (i = 0; i < accordion.length; i++) {
     } 
   });
 }
+
+
+// Gallery on about us page
+
+let aboutUsGallery = document.querySelector('.about-us-gallery');
+let galleryDots = document.querySelectorAll('.about-us-gallery-dots div');
+
+let galleryDot1 = document.querySelector('.gallery-dot-1');
+let galleryDot2 = document.querySelector('.gallery-dot-2');
+let galleryDot3 = document.querySelector('.gallery-dot-3');
+let galleryDot4 = document.querySelector('.gallery-dot-4');
+let galleryDot5 = document.querySelector('.gallery-dot-5');
+let galleryDot6 = document.querySelector('.gallery-dot-6');
+let galleryDot7 = document.querySelector('.gallery-dot-7');
+let galleryDot8 = document.querySelector('.gallery-dot-8');
+let galleryDot9 = document.querySelector('.gallery-dot-9');
+let galleryDot10 = document.querySelector('.gallery-dot-10');
+let galleryDot11 = document.querySelector('.gallery-dot-11');
+let galleryDot12 = document.querySelector('.gallery-dot-12');
+let galleryDot13 = document.querySelector('.gallery-dot-13');
+
+function activateGalleryDot1() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-1');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot1.classList.add('active');
+}
+function activateGalleryDot2() {
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-2');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot2.classList.add('active');
+}
+function activateGalleryDot3() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-3');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot3.classList.add('active');
+}
+function activateGalleryDot4() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-4');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot4.classList.add('active');
+}
+function activateGalleryDot5() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-5');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot5.classList.add('active');
+}
+function activateGalleryDot6() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-6');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot6.classList.add('active');
+}
+function activateGalleryDot7() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-7');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot7.classList.add('active');
+}
+function activateGalleryDot8() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-8');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot8.classList.add('active');
+}
+function activateGalleryDot9() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-9');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot9.classList.add('active');
+}
+function activateGalleryDot10() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-10');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot10.classList.add('active');
+}
+function activateGalleryDot11() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-11');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot11.classList.add('active');
+}
+function activateGalleryDot12() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-12');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot12.classList.add('active');
+}
+function activateGalleryDot13() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.add('gallery-img-13');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot13.classList.add('active');
+}
+
+setInterval(function(){
+
+if (aboutUsGallery) {
+    if (aboutUsGallery.classList.contains('gallery-img-1')) {
+            
+        activateGalleryDot2();
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-2')) {
+            
+        activateGalleryDot3();
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-3')) {
+            
+        activateGalleryDot4();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-4')) {
+            
+        activateGalleryDot5();
+       
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-5')) {
+            
+        activateGalleryDot6();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-6')) {
+            
+        activateGalleryDot7();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-7')) {
+            
+        activateGalleryDot8();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-8')) {
+            
+        activateGalleryDot9();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-9')) {
+            
+        activateGalleryDot10();
+       
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-10')) {
+            
+        activateGalleryDot11();
+      
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-11')) {
+            
+        activateGalleryDot12();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-12')) {
+            
+        activateGalleryDot13();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-13')) {
+            
+        activateGalleryDot1();
+
+    }
+}
+
+}, 6000);
+
 
