@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../media/services-pages/traveling-patients-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Out-of-Town Hair Transplant Patients
+            </h1>
+            <span>
+                <a href="../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                Out-of-Town Hair Transplant Patients
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-image-sec">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100">
+                <img src="../../media/services-pages/traveling-patients-img-1.png" alt="beard hair transplant image">
+            </div>
+            <div class="text-wrap flex-col">
+                <div class="heading-wrap">
+                    <span class="subheader" style="color: #9f9e9e">
+                        VIRTUAL CONSULTATION
+                    </span>
+                    <h2 class="h2-heading">
+                        Exclusive Attention From Home
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>Do you want a thick, full beard? The specialists at Care4Hair in Miami are here to make it happen. No other part of the body gets as much attention as the face, with facial hair being the focal point. Therefore, it is one of our doctor’s most widely requested procedures. A beard hair transplant involves removing follicles from the back of the scalp and implanting them into patchy areas of the beard. This procedure is minimally invasive, requires almost no downtime, and produces permanent results for outstanding patient satisfaction.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hair-loss-free-text-sec bg-accent">
+        <div class="hair-loss-free-text-sec-wrap">
+            <div class="heading-wrap">
+                <span class="subheader" style="color: #9f9e9e">
+                    NEW HAIR AND A VACATION
+                </span>
+                <h2 class="h2-heading">
+                    We Make It Worth The Trip
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="free-text-p">
+                Care4Hair’s affordable pricing makes the trip worth it! Our hair transplant clinic holds competitive pricing in the Miami area and the entire United States. While the average cost of hair transplantation in the United States is $3.00 to $9.00 USD per graft, Care4Hair typically charges between $2.50 to $4.00 USD per graft depending on the chosen method and technologies.
+                <br><br>
+                While we do not recommend sweating or excessive movement following a hair transplant, we do encourage you to enjoy your trip to Miami! Explore the leisurely activities Miami has to offer at the trendiest neighborhoods near us:            </p>
+        </div>
+    </section>
+
+    <section class="destinations-wrap bg-accent">
+        <div class="destination">
+            <img src="../../media/services-pages/destination-1.jpeg" alt="destination">
+            <span>miami design district
+                <br>8 MILES / 15 MIN AWAY
+            </span>
+        </div>
+        <div class="destination mt-20">
+            <img src="../../media/services-pages/destination-2.jpeg" alt="destination">
+            <span>LITTLE HAVANA
+                <br>4 MILES / 8 MIN AWAY
+            </span>
+        </div>
+        <div class="destination">
+            <img src="../../media/services-pages/destination-3.jpeg" alt="destination">
+            <span>miami beach
+                <br>12 MILES / 25 MIN AWAY
+            </span>
+        </div>
+        <div class="destination mt-20">
+            <img src="../../media/services-pages/destination-4.jpeg" alt="destination">
+            <span>downtown miami
+                <br>7 MILES / 12 MIN AWAY
+            </span>
+        </div>
+        <div class="destination">
+            <img src="../../media/services-pages/destination-5.jpeg" alt="destination">
+            <span>brickell
+                <br>8 MILES / 18 MIN AWAY
+            </span>
+        </div>
+
+    </section>
+
+    <section class="selector-sec selector-no-text">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <span class="subheader" style="color: #9f9e9e">
+                    ACCOMMODATIONS
+                </span>
+                <h2 class="h2-heading">
+                    A Centralized Location For Your Convenience
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p">
+                Our hair transplant center is located in the heart of Miami, only minutes away from Miami International Airport, reputable hotels, and the city’s trendiest restaurants. Your comfort is our top priority, so we have compiled a list of accommodations nearest to us.
+            </p>
+            
+            <iframe loading="lazy" src="https://maps.google.com/maps?q=Miami%20International%20Airport%2C%20care4hair&amp;t=m&amp;z=13&amp;output=embed&amp;iwloc=near" title="Miami International Airport, care4hair" aria-label="Miami International Airport, care4hair"></iframe>
+
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Restaurants Nearest To Care4Hair
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="split-sec">
+        <div class="split-wrap">
+            <div class="split-text">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Distance From Miami International Airport To Care4Hair: 10 Mins
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <ul class="split-list">
+
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/94th+Aero+Squadron+Restaurant+1395+NW+57th+Ave,+Miami,+FL+33126/@25.7811497,-80.3479812,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9dd314dc1e5:0xea61285f3cc2fc1c!2m2!1d-80.2875746!2d25.7850673">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            94th Aero Squadron Restaurant 1395 NW 57th Ave, Miami, FL 33126 (3 min drive)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Casa+Juan+Restaurant+5755+NW+7th+St,+Miami,+FL+33126/@25.7810707,-80.3484177,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9c51c462129:0x8a48382dee31a89f!2m2!1d-80.2904502!2d25.7790754">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            Casa Juan Restaurant 5755 NW 7th St, Miami, FL 33126 (4 min drive)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Amor+di+Pasta+Blue+Lagoon+536+NW+57th+Ave,+Miami,+FL+33126/@25.7810707,-80.3483559,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9c44e79ff13:0x6eafb7d1333ba75f!2m2!1d-80.2885076!2d25.7768356">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            Amor di Pasta Blue Lagoon 536 NW 57th Ave, Miami, FL 33126 (4 min drive)                        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Bellacapri+Italian+Restaurant+5749+NW+7th+St,+Miami,+FL+33126/@25.7810707,-80.3484177,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9c51c480a8f:0xe8c8777e9851cb3e!2m2!1d-80.2904169!2d25.7792989">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            Bellacapri Italian Restaurant 5749 NW 7th St, Miami, FL 33126 (4 min drive)                        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/La+Patagonia+Argentina+Restaurant+4802+NW+7th+St,+Miami,+FL+33126/@25.7770988,-80.3412158,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b7624ac99625:0x8fd4ecc99f625a54!2m2!1d-80.2740438!2d25.7783372">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            La Patagonia Argentina Restaurant 4802 NW 7th St, Miami, FL 33126 (6 min drive)                        
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Pasion+5915+SW+8th+St,+Miami,+FL+33144/@25.771885,-80.3500643,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b83334a4fded:0x8459b8473470d703!2m2!1d-80.2917434!2d25.7635704">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            Pasion 5915 SW 8th St, Miami, FL 33144 (8 min drive)                    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/El+Churrascaso+Grill+7300+W+Flagler+St,+Miami,+FL+33144/@25.7761446,-80.3436446,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b91cb1547541:0xe06d2c35cf604fc5!2m2!1d-80.3139213!2d25.7697718">
+                            <img src="../../media/fork-icon.svg" alt="fork icon">
+                            El Churrascaso Grill 7300 W Flagler St, Miami, FL 33144 (10 min drive)                    
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <img src="../../media/services-pages/split-img-1.jpeg" alt="image" class="split-image">
+        </div>
+    </section>
+    
+    <section class="split-sec">
+        <div class="split-wrap row-reverse">
+            <div class="split-text">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Distance From Miami International Airport To Care4Hair: 10 Mins
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <ul class="split-list bed-icons">
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Hilton+Miami+Airport+Blue+Lagoon+5101+Blue+Lagoon+Dr,+Miami,+FL+33126/@25.7810707,-80.3442669,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9de8e60b8ab:0xe8813dc90dbbc358!2m2!1d-80.2801519!2d25.7819093">
+                            <img src="../../media/bed-icon.svg" alt="fork icon">
+                            Hilton Miami Airport Blue Lagoon 5101 Blue Lagoon Dr, Miami, FL 33126 (3 min drive)                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Hampton+Inn+%26+Suites+by+Hilton+Miami+Airport+South+Blue+Lagoon+777+NW+57th+Ave,+Miami,+FL+33126/@25.7770988,-80.3481574,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9c4ce64d3fd:0x4dc7b777271faa97!2m2!1d-80.2880457!2d25.779042">
+                            <img src="../../media/bed-icon.svg" alt="fork icon">                            
+                            Hampton Inn & Suites by Hilton Miami Airport South Blue Lagoon 777 NW 57th Ave, Miami, FL 33126 (5 min drive)                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Regency+Miami+Airport+Hotel+1000+NW+42nd+Ave,+Miami,+FL+33126/@25.7778989,-80.3358604,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b76884681179:0x55b47010e284938d!2m2!1d-80.2648122!2d25.781771">
+                            <img src="../../media/bed-icon.svg" alt="fork icon">                            
+                            Regency Miami Airport Hotel 1000 NW 42nd Ave, Miami, FL 33126 (6 min drive)                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/TownePlace+Suites+by+Marriott+Miami+Airport+4021+NW+11th+St,+Miami,+FL+33126/@25.7778989,-80.3354988,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b769ae71e465:0xf56ba362138d2e20!2m2!1d-80.2627216!2d25.7825896">
+                            <img src="../../media/bed-icon.svg" alt="fork icon">                            
+                            TownePlace Suites by Marriott Miami Airport 4021 NW 11th St, Miami, FL 33126 (7 min drive)                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Best+Western+Premier+Miami+Intl+Airport+Hotel+%26+Suites+Coral+Gables+4100+W+Flagler+St,+Miami,+FL+33134/@25.7774486,-80.3354975,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b7704d1d3809:0xecc7067d8aee0580!2m2!1d-80.262816!2d25.771277">
+                            <img src="../../media/bed-icon.svg" alt="fork icon">                            
+                            Best Western Premier Miami Intl Airport Hotel & Suites Coral Gables 4100 W Flagler St, Miami, FL 33134 (9 min drive)                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Courtyard+by+Marriott+Miami+Airport+1201+N+Le+Jeune+Rd,+Miami,+FL+33126/@25.7783956,-80.3349944,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b76835f8c481:0xebb406f20e0b1fc1!2m2!1d-80.2622268!2d25.7847929">
+                            <img src="../../media/bed-icon.svg" alt="fork icon">                            
+                            Courtyard by Marriott Miami Airport 1201 N Le Jeune Rd, Miami, FL 33126 (10 min drive)                        </a>
+                    </li>
+                </ul>
+            </div>
+            <img src="../../media/services-pages/split-img-2.jpeg" alt="image" class="split-image">
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap" style="position: relative;">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading mt-50">
+                        Pharmacies Nearest To Care4Hair
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                
+                <div class="mt-20 title-2" style="margin-bottom: 10px;">
+                    Walgreens Pharmacy
+                </div>
+                <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Walgreens+Pharmacy/@25.7810707,-80.3479582,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9dad40a03bf:0xaaccc8891de97cc9!2m2!1d-80.2877887!2d25.777821">655 NW 57th Ave, Miami, FL 33126</a>
+                <p class="text-p" style="margin-top: 10px;">
+                    (4 min drive)
+                </p>
+
+                <div class="mt-20 title-2" style="margin-bottom: 10px;">
+                    CVS Pharmacy y más
+                </div>
+                <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/690+NW+57th+Ave,+Miami,+FL+33126/@25.7810707,-80.3483626,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9c524b7a075:0x8ee3a2c22b525877!2m2!1d-80.2888373!2d25.7775106">690 NW 57th Ave, Miami, FL 33126</a>
+                <p class="text-p" style="margin-top: 10px;">
+                    (4 min drive)
+                </p>
+                <img src="../../media/services-pages/pharmacy-img.png" alt="image of pharmacy icon" class="img-2">
+            </div>
+            
+            <div class="text-wrap" style="position: relative;">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading mt-50">
+                        Supermarkets Nearest To Care4Hair
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                
+                <div class="mt-20 title-2" style="margin-bottom: 10px;">
+                    Publix Super Market at Airpark Plaza
+               </div>
+                <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Publix+Super+Market+at+Airpark+Plaza+5715+NW+7th+St,+Miami,+FL+33126/@25.7810707,-80.3484177,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9c51c2f9813:0x68630c382b0b0b83!2m2!1d-80.2891943!2d25.7799063">5715 NW 7th St, Miami, FL 33126</a>
+                <p class="text-p" style="margin-top: 10px;">
+                    (3 min drive)
+                </p>
+
+                <div class="mt-20 title-2" style="margin-bottom: 10px;">
+                    Sedano’s Supermarket
+                </div>
+                <a href="https://www.google.com/maps/dir/25.7818624,-80.3274752/Sedano's+Supermarket+6709+W+Flagler+St,+Miami,+FL+33144/@25.7762438,-80.3339559,14z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88d9b9b1554ec5bd:0x1e267a3929761b30!2m2!1d-80.3046187!2d25.7706849">6709 W Flagler St, Miami, FL 33144</a>
+                <p class="text-p" style="margin-top: 10px;">
+                    (7 min drive)
+                </p>
+                <img src="../../media/services-pages/supermarket-img.png" alt="image of Supermarket icon" class="img-2">
+            </div>
+        </div>
+    </section>
+
+    <section class="accent-contact-sec transparent-bg">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../scripts.js"></script>
+    <script src="../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/robotic-hair-transplant-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Robotic Hair Transplant Miami
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                Robotic Hair Transplant Miami
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-image-sec">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100">
+                <img src="../../../media/services-pages/artas-system.png" alt="">
+            </div>
+            <div class="text-wrap flex-col">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        ARTAS® Hair Restoration Technology
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>The specialists at Care4Hair in Miami know that hair loss affects confidence and self-image. For this reason, we facilitate your hair restoration journey so you can focus less on the issue and more on preparing for long-lasting results. Most patients suffering hair loss are exceptional candidates for an ARTAS hair transplant and even request this method over more traditional ones.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-loss-bg">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/fue-text-sec-bg.jpeg" alt="background image" class="bg-img">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        What Is An ARTAS Robotic Hair Transplant?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    ARTAS is a fully automatic <a href="https://care4hairmiami.com/fue-hair-transplant-in-miami">Follicular Unit Extraction (FUE)</a> hair transplanting device that operates via computer programming. ARTAS technology utilizes 3-D stereoscopic vision technology to analyze the hair from different angles and determine which follicles are most suitable for grafting. The ARTAS hair transplant process follows that of a typical FUE procedure. Follicles are removed from the patient’s donor zone and harvested in thinning or balding recipient areas.
+                </p>
+            </div>
+            
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Who Is The Best Candidate For An ARTAS Robotic Hair Transplant?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>Since every patient’s needs and hair loss types differ, it is best to schedule a free consultation with our doctor to accurately determine if you are a prime candidate for the ARTAS robotic hair transplant. However, patients with the following characteristics have been known to achieve better success with ARTAS:
+                </p>
+                <ul>
+                    <li>Patients with dark hair, as it is easier for the machine to detect dark hair follicles</li>
+                    <li>Straight-haired patients</li>
+                    <li>Males and females over the age of 25, ideally between 30-50 years of age</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    How Does The ARTAS® Robotic Hair Transplant Work?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p darker-text">
+                The ARTAS hair transplant process will initiate as it would any FUE procedure. At your initial evaluation, you will consult with the doctor to determine if you are an adequate candidate for this procedure. If so, the specialists at Care4Hair will collaborate with you and design a hairline that suits your needs and aesthetic goals.
+                <br><br>
+                What differentiates an ARTAS hair transplant from other FUE methods is that it is fully computerized. Therefore, on the day of your surgery, you will sit in a chair connected to the ARTAS system, and it will monitor the donor area at a rate of 60 times per second to detect which follicles are optimal for grafting. The ARTAS digital mapping allows for safe and thorough graft dissection so that the thousandth graft maintains the same stellar quality as the first graft.
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-10" onclick="activateSelector10()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/evaluation-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Evaluation
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-11" onclick="activateSelector11()">
+                    <span class="number">
+                        02
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/follicle-extraction-2-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Follicle Extraction
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-12" onclick="activateSelector12()">
+                    <span class="number">
+                        03
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/graft-implantation-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Graft Implantation
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-13" onclick="activateSelector13()">
+                    <span class="number">
+                        04
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/clean-and-bandage-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Clean & Bandage
+                    </div>
+                </div>
+            </div>
+    
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Benefits Of The ARTAS Robotic Hair Transplant
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    Undergoing a hair transplant with ARTAS technology has many benefits. The ARTAS system harvests up to 1,000 grafts per hour, making it up to 50% faster than other <a href="https://care4hairmiami.com/fue-hair-transplant-in-miami">FUE</a> hair transplant methods. Its computerized digital imaging determines the best follicles to extract with micron-level accuracy. The system also preserves the integrity of the hair better than other technologies. Since it grafts follicles with protective tissue surrounding them, they do not dry out quickly, resulting in better quality grafts.
+                </p>
+                <div class="heading-wrap mt-50">
+                    <h2 class="h2-heading">
+                        ARTAS Robotic Hair Transplant Results
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    The ARTAS hair transplant grants patients natural-looking results with no linear scarring from sutures or stitches. Some weeks following your procedure, you may experience “<a href="https://care4hairmiami.com/blog/shock-hair-loss">shock loss</a>,” which is a shedding of the hair that occurs on most patients due to the surgery. During this phase, the area will shed, but the grafts will remain healthy and intact; new hair will begin to grow in the recipient areas, and changes will be noticeable within 3 to 4 months. Hair will continue to grow steadily thereafter, until 12 to 18 months when it reaches its complete stage.
+                </p>
+            </div>
+            
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        ARTAS Hair Transplant Procedure Recovery
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>The recovery time from an ARTAS robotic hair transplant procedure is reasonably short, seeing as this technique does not require surgical incisions or stitching. Patients can return to their regular activities within a day or two, while others feel more comfortable taking a week off to focus on aftercare.
+                    <br><br>
+                    The first week after surgery, you may experience:
+                </p>
+                <ul>
+                    <li>Moderate redness and soreness</li>
+                    <li>Crusting that should be gently washed off</li>
+                    <li>Numbness in the donor area</li>
+                    <li>Minor swelling on the transplanted area and surrounding sections</li>
+                </ul>
+                <p>Rest assured, these symptoms are temporary and should stabilize within 7 to 10 days after the grafts are permanently in place.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-sec">
+        <div class="before-after-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Hair Transplant Before And After
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="before-after">
+                <div class="ba-wrap">
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-1.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-1.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-2.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-2.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+            <div class="button">view more results</div>
+
+        </div> 
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">ARTAS® Hair Transplant Cost
+            </div>
+            <p>The cost of an ARTAS Robotic Hair Transplant procedure ranges widely and can be anywhere from $7,000 to $18,000USD. The surgeon must first evaluate your condition during a free, private consultation to provide you with a quote.
+                <br><br>
+                Care4Hair also provides financing options. Our hair specialists will help coordinate your financial arrangements so you can focus on achieving lasting results. Schedule with Care4Hair now to get started!
+            </p>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <section class="solo-text-sec">
+        <img src="../../../media/services-pages/artas-hair-restoration-miami.png" alt="background image" class="solo-text-img">          
+        <div class="solo-text-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    ARTAS Vs. Neograft Hair Transplant
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                The ARTAS and NeoGraft systems are popular and effective FUE technologies with pros and cons depending on your hair type and aesthetic desires. The ARTAS system boasts higher-quality grafts and a quicker procedure time in contrast to <a href="https://care4hairmiami.com/neograft-hair-transplant-in-miami">NeoGraft</a>. Its 3-D stereoscopic vision system gauges your hair density and growth angles to calculate which follicles are best for grafting. ARTAS often provides a more calculated spacing between grafts and makes follicles less vulnerable to the drying effects of suction.
+                <br><br>
+                However, ARTAS is not ideal for patients of all hair types. Since the harvesting process is fully automatic compared to the semi-automatic NeoGraft technique, the machine may not perform appropriately on patients with light-colored or very curly hair. Our doctor may recommend light-haired patients dye their hair a darker shade before undergoing an ARTAS hair transplant. While many patients oblige, others opt for the NeoGraft method instead.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq-sec">
+        <div class="faq-wrap">
+            <div class="faq-header-wrap">
+                <h1>FAQS</h1>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="accordion">What is the ARTAS HAIR STUDIO®?</button>
+                    <div class="panel">
+                        <p>The ARTAS HAIR STUDIO® is a 3-D interactive consulting tool that uses the photographs a patient provides to create a simulation of what their hair will look like after their procedure.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Who should not consider an ARTAS robotic hair transplant?
+                    </button>
+                    <div class="panel">
+                        <p>While most patients will qualify for an ARTAS robotic hair transplant, this procedure is not for everyone. Patients who should not consider an ARTAS hair transplant include:
+                        </p>
+                        <ul class="panel-ul">
+                            <li>Those with extensive scalp scarring</li>
+                            <li>Patients who take certain medications that cause hair loss</li>
+                            <li>Those without a healthy donor site from which hair can be harvested for transplant</li>
+                            <li>Curly-haired patients</li>
+                            <li>Patients with light-colored hair who are opposed to dyeing it a darker shade prior to the procedure</li>
+                        </ul>
+                    </div>
+                
+                    <button class="accordion">How painful is the ARTAS hair transplant procedure?</button>
+                    <div class="panel last">
+                        <p>The most discomfort patients feel throughout the procedure is when our hair specialist injects the local anesthetic. Following the procedure, there may be some discomfort and swelling, but typically, regular pain medication is all patients need when returning home.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="faq">
+                    <button class="accordion">How long does the ARTAS hair transplant procedure take?
+                    </button>
+                    <div class="panel">
+                        <p>Depending on the size of the surgical area and the amount of grafted follicles, the hair transplant procedure will last anywhere from 4 to 8 hours. Care4Hair’s team of specialists will be there to maximize your comfort during this time.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">How long until I see the final results?
+                    </button>
+                    <div class="panel">
+                        <p>Following the initial “<a href="https://care4hairmiami.com/blog/shock-hair-loss">shedding phase”</a> that takes place a few weeks after the transplant, your hair will continue to grow for another year to 18 months until final results are evident.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Are there any side effects after an ARTAS robotic hair transplant procedure?
+                    </button>
+                    <div class="panel">
+                        <p>As with any medical procedure, you can experience side effects including:
+                        </p>
+                        <ul class="panel-ul">
+                            <li>Mild swelling</li>
+                            <li>Redness</li>
+                            <li>Numbness</li>
+                            <li>Scabs on the scalp</li>
+                            <li>Scalp pain</li>
+                            <li>Nerve injury at the donation site</li>
+                        </ul>
+                        <p>However, most patients find that these are much less severe than would be encountered with other hair loss interventions.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Are the ARTAS robotic hair transplant results permanent?</button>
+                    <div class="panel last">
+                        <p>Yes. The ARTAS robotic system ensures that only the most viable follicles are harvested for maximally effective results. If you follow Care4Hair’s post-procedure care instructions, you can expect your new look to last a lifetime.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/hair-loss-causes-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Hair Loss Causes</h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                hair loss causes
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                
+                <p class="text-p mt-0 mb-0-small-screen">
+                    Hair loss can happen to almost everyone throughout their life. But it can be alarming seeing the brush hold more hair than it should. The good news is that hair loss is to be expected, and it can be treated. But what causes hair loss? This article will cover the most common hair loss causes and treatment options available.
+                </p>
+                <div class="heading-wrap">
+                    <h2 class="h2-heading mt-50">
+                        Signs and Symptoms
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+
+                <p class="text-p mb-30-small-screen">
+                    Hair loss can manifest in many different ways on a temporary or permanent basis, based on the hair loss causes. It happens suddenly or gradually affecting some specific areas on the scalp and whole body. The signs and symptoms of hair loss include:
+                </p>
+            </div>
+            
+            <div class="text-wrap">
+                <ul>
+                    <li class="mt-0">Gradual thinning – This is something that affects both men and women with age. For men, it will occur mostly in the forehead with the hair receding in an “M” shape. For women, it will appear gradually mainly on the top of the scalp.
+                    </li>
+                    <li>Patchy bald spots – This category of hair loss occurs mostly on the scalp, but it can also happen in the beard or eyebrows. It’s possible for your skin to become itchy or sore before hair shedding.
+                    </li>
+                    <li>Hair loosening – Physical or emotional distress can cause hair to loosen. This is the hair you see on the bathtub after washing your hair. This kind of hair loss will not create bald patches but a general thinning of the hair.
+                    </li>
+                    <li>Loss of body hair – There are some treatments such as chemotherapy, which may result in the loss of body hair on a temporary basis. The hair will eventually grow back in most cases.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-loss-bg">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/hair-loss-causes-bg-img.jpeg" alt="background image" class="bg-img">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Causes Of Hair Loss In Women
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    Most men start realizing that they are losing hair a bit too late. It should not be that way. Firstable, losing hair is not the same as going bald. Hair loss can be caused by many factors while male pattern baldness is a genetic condition. Men losing hair in patches may have alopecia. That is a condition that causes hair loss throughout the body. Male pattern baldness, on the other hand, happens on a receding pattern typically from the temples and top of the scalp.
+                    <br><br>
+                    While hair loss can be hereditary, there are other causes to follicle fallout. Health and dietary factors, for example, can contribute to the balding rate. There are ways to prevent it or slow it down with a few lifestyle changes. Some common causes of hair loss in men include:
+                </p>
+                <ul>
+                    <li>Tight hairstyles – We have all seen it. Some men still adore the ponytail, popularly known as the “man bun.” While this is a unique hairstyle, it puts too much stress on your hair when pulled back and it may cause hair loss.
+                    </li>
+                    <li>Thyroid problems – The thyroid is a significant contributor to your body’s metabolism. When the thyroid is underactive, a range of health problems can occur, including cancer and hair loss.
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="text-wrap">
+                <ul>
+                    <li class="mt-0">Stress – Stress can cause balding but generally on a temporary basis. The hair follicles can go into a resting phase, which can lead to hair loss when combing your hair. Hair loss can also occur as an autoimmune response from extreme stress, and when someone pulls hair from his head and face due to too much stress or frustration.
+                    </li>
+                    <li>Infections – Some infections are linked to hair loss. For example, the ringworm can grow anywhere throughout the body pushing the hair into the shedding phase. Other infections such as dermatitis can also affect your hair.
+                    </li>
+                    <li>Poor nutrition – A poor diet can also lead to poor hair quality. If there is no protein in your diet or you have iron and vitamin deficiency, your hair will suffer the consequences. However, a high-protein diet is not always beneficial to your scalp because it might limit carbohydrate consumption and create other nutritional deficiencies.
+                    </li>
+                    <li>Smoking – Smoking is also linked to hair loss. It simply poisons the hair.
+                    </li>
+                    <li>Meds and drug use – Some medications and prescription drugs such as blood thinners, and antidepressants, have side effects that include hair loss.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Treatment Options And Solutions
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p">
+                Thanks to breakthroughs in hair loss treatments and a deeper understanding of hair loss, we can now enjoy a variety of hair loss restoration options. Some surgical and non-surgical hair treatment options include:
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-3 active" onclick="activateSelector3()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/surgical-hair-restoration-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Surgical Hair Restoration
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-4" onclick="activateSelector4()">
+                    <span class="number">
+                        02
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/medications-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Medications
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-5" onclick="activateSelector5()">
+                    <span class="number">
+                        03
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/scalp-micro-pigmentation-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Scalp Micro Pigmentation
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-6" onclick="activateSelector6()">
+                    <span class="number">
+                        04
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/laser-therapy-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Laser Therapy
+                    </div>
+                </div>
+            </div>
+            <div class="selector-sec-text">
+                <div class="selector-sec-text-3 active">Surgical hair restoration with either a FUT or FUE hair transplantation where hair is transplanted from the donor area to the recipient area. FUE is a minimally invasive procedure with no stitches required and no linear scars. It allows the removal of individual hair from the donor area so it can be transplanted to the thinning areas. FUT is a more aggressive surgical treatment approach. The hair grafts are removed as a group. Then the follicles are individually transplanted to the recipient area. This procedure will leave a visible linear scar.
+                </div>
+                <div class="selector-sec-text-4">There are two non-surgical treatments approved by the FDA: minoxidil and finasteride. Minoxidil is available with a prescription and is topically applied while finasteride is taken orally in pill form. These treatments can be combined or used independently. They can help delay hair loss also preserving a good appearance until hair transplantation is carried out.
+                </div>
+                <div class="selector-sec-text-5">Scalp micro pigmentation, which replicates the appearance of thicker and fuller hair as a formula of ink is applied to the scalp to create minuscule impressions, giving the illusion of hair.
+                </div>
+                <div class="selector-sec-text-6">Capillus laser caps is an FDA-cleared and battery operated laser therapy device highly recommended by doctors to restore thinning hair caused by genetics and prevent further hair loss.
+                </div>
+            </div>
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Hair Loss Causes In Women
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    Losing hair can be a traumatic experience for any woman. It can mostly affect a woman’s emotions and well-being. Unfortunately, female hair loss is hardly discussed in the popular media so many women are not sure what can be causing their hair loss. Among the most common hair loss causes in women we have:
+                </p>
+                <ul>
+                    <li>Female pattern hair loss (FPHL) – This is the most common type of hair loss in women. It’s a hereditary condition that can be passed down from any side of the family. The hair loss will generally start on the top of the head and spread across the scalp.
+                    </li>
+                    <li>Traction hair loss (traction alopecia) – It can cause stress to the scalp and hair loss will occur slowly over time. Some causes of alopecia in females include hairbands, braids, wigs, or very tight headgear.
+                    </li>
+                    <li>Scaring from surgery – After the skin heals from a cut or damage, or from a surgical procedure, a scar is formed where hair may not grow back.
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="text-wrap">
+                <ul>
+                    <li>Crash dieting or nutritional deficiency – Poor nutrition can impact hair structure and hair growth. Iron and zinc deficiency, lack of protein, for example, are some of the most common dietary risk factors to consider.
+                    </li>
+                    <li>Birth control pills – Women who are particularly sensitive to hormones, may suffer hair loss from birth pills.
+                    </li>
+                    <li>Hormonal imbalances – This generally happens during pregnancy and menopause.
+                    </li>
+                    <li>Lupus – This condition can cause the immune system to become overactive and produce antibodies that attack hair follicles and healthy tissues.
+                    </li>
+                    <li>Medications – Any drugs can affect hair loss because they are toxic to hair follicles.
+                    </li>
+                    <li>Extreme stress – Stress can cause hair shedding by kicking hairs out of the growth period.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">Hair Transplant Cost
+            </div>
+            <p>The average cost of a procedure ranges between $3,000 and $14,000USD. Pricing varies depending on the quantity of grafted hair and the patient’s aesthetic goals. Our specialists would be delighted to sit down with you to discuss your unique situation. Together we will determine if this procedure is right for you and craft a look, an action plan, and budget in preparation for achieving it.
+            </p>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>

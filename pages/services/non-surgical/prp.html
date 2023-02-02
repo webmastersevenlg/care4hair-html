@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/prp-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>Platelet Rich Plasma Injection
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                Platelet Rich Plasma Injection
+            </span>
+        </div>
+    </section>
+
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap full-width">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        PRP Injection For Hair Loss
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p style="margin-top: 55px;">
+                    Losing your hair can be emotionally and psychologically impacting. Men and women tend to associate full heads of hair with beauty, youth, and vigor. Losing your hair prematurely or as a result of aging can thus lead you to look older than you feel.
+                    <br><br>
+                    Luckily there are now various hair loss treatments and surgeries available. One of them is Platelet Rich Plasma (PRP) therapy. PRP therapy is an effective and lauded technique that stimulates hair growth, particularly after hair transplants. Empirical research has shown its efficacy in enhancing hair thickness and stimulating hair health and growth.
+                    <br><br>
+                    At Care4Hair, we specialize in various hair loss treatments, therapies, and surgeries, including PRP injections. Typically, we recommend and integrate PRP injections 3 months after a hair transplant procedure like FUE. PRP therapy doesn’t take more than 20 or 30 minutes per session. If you were looking to stimulate hair growth and stem hair loss, PRP therapy might be right for you.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-loss-bg-2">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/male-hair-transplant-img-1.png" alt="background image" class="bg-img">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        What Is PRP?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    Platelet Rich Plasma therapy is a hair loss treatment that utilizes the patient’s own blood plasma to stimulate hair growth in already existing follicles. The process has three steps: the drawing of blood, the centrifuging of blood, and the injection of the plasma into the scalp. 
+                </p>
+            </div>
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Benefits Of PRP Therapy
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <ul class="mt-20">
+                    <li>Growth factors in the plasma nourish hair follicles and stimulate hair growth</li>
+                    <li>The procedure has a short duration of 20 to 30 minutes.
+                    </li>
+                    <li>Your recovery will not take long nor be extensive.
+                    </li>
+                    <li>Small chance of allergic reaction since PRP solution uses your body’s plasma. </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Is PRP Really Effective?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p">
+                Scientific studies seem to produce generally positive results. On the whole, PRP therapy has been generally successful in mitigating hair loss while increasing hair diameter and growth. Though most clinics may differ in the way they apply the injections, patients studied in scientific reviews have shown better rates of hair growth and health than those who have not. PRP has been found to:
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-7 active" onclick="activateSelector7()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/arrow-down-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Reduce The Rate Of Hair Loss
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-8" onclick="activateSelector8()">
+                    <span class="number">
+                        02
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/checkmark-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Increase Hair Thickness
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-9" onclick="activateSelector9()">
+                    <span class="number">
+                        03
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/arrow-up-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Increase Hair Density
+                    </div>
+                </div>
+            </div>
+            <div class="selector-sec-text">
+                <div class="selector-sec-text-7 active">PRP treatment nourishes the hair follicles in the scalp with platelets and other blood components that contribute to follicle health. In a meta-analysis published in Aesthetic Plastic Surgery in 2019, scientists found more hairs per centimeter squared in patients injected with PRP than those not treated with PRP.
+                </div>
+                <div class="selector-sec-text-8">PRP treatment can not only decrease the incidence of hair loss but also stimulate healthier, thicker hair growth. In a pilot study performed in 2014 by Schiavone et al., PRP treatment was linked with thicker, more abundant hair to treat male pattern baldness and was even recommended for further study.
+                </div>
+                <div class="selector-sec-text-9">The researchers in the 2019 study mentioned above saw that PRP treatment led to more terminal hair density—or the density of visible, thick pigmented hair—in patients treated with PRP than those not treated. Overall, when combined with hair transplantation surgeries like follicular unit extraction (FUE), PRP treatment has produced better and more aesthetically pleasing results.
+                </div>
+            </div>
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        How Does It Work?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    Blood plasma is a substance rich in blood components called platelets. These components react to bleeding by clumping together and forming clots. They contain growth factors that stimulate cell reproduction and tissue regeneration and are thus indispensably linked with healing. Because of this, platelet-rich plasma has been used in injections in the scalp to stimulate hair growth.
+                    <br><br>
+                    PRP treatment begins with the surgeon extracting a blood sample. The sample is then centrifuged to separate the plasma from the other components in the blood. The solution is then injected into the scalp.
+                </p>
+            </div>
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Side Effects Of PRP
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    PRP injections are minor procedures that are not likely to have significant complications or side effects. The procedures involve drawing blood, so you might experience lightheadedness as you might from regular blood examinations. You can, of course, control for this by hydrating and eating well before the procedure.
+                    <br><br>
+                    Following the procedure, you might feel soreness or see bruising at the injection sites. As we mentioned above, the solution used in the injections comes from your blood, so you are not likely to suffer from allergic reactions. You should expect the best and safest treatment at Care4Hair.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">Contact Us Today
+            </div>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <section class="solo-text-sec">
+        <img src="../../../media/services-pages/prp-img-1.jpeg" alt="background image" class="solo-text-img">          
+        <div class="solo-text-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    How Can Hair Transplant Surgery Be Combined With PRP Injections?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                The most popular hair transplant procedures are Follicular Unit Extraction (FUE). FUE involves the extraction of hair follicles from donor regions of the scalp and their transplantation to recipient regions. Many expert surgeons are implementing PRP therapy into the FUE procedure to promote healthy healing in the affected treatment areas. Patients who have had FUE coupled with PRP therapies have experienced better healing and healthier, thicker hair growth in the affected areas.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq-sec">
+        <div class="faq-wrap">
+            <div class="faq-header-wrap">
+                <h1>FAQS</h1>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="accordion">How much scalp does one PRP injection cover?</button>
+                    <div class="panel">
+                        <p>A "single injection" is not a very precise measure of the quantity of the solution that is to be injected into the scalp. The injection will likely go wherever needed and in particular areas where small hairs do not have the cellular capacity to grow vigorously and thickly. Your surgeon will develop a personalized injection regimen that will maximize the effect of the solution on your scalp.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">What are the differences between PRP microneedling and PRP injections?
+                    </button>
+                    <div class="panel">
+                        <p>The main difference between PRP microneedling and PRP injections is the depth of the injections. In PRP microneedling, small punctures are made in the epidermis that do not exceed a length of 2mm. These are usually done to promote scar healing and remove signs of aging. On the other hand, PRP injections, which aid hair transplant recovery, are deeper within the skin.
+                        </p>
+                    </div>
+
+                    <button class="accordion">Is it possible to damage transplanted follicles with PRP injections?
+                    </button>
+                    <div class="panel last">
+                        <p>No. The PRP solution contains high concentrations of growth factors that promote cell division, tissue regeneration, and hair growth. Your surgeons are also expert professionals and will know where to inject the PRP solution without disturbing the progress of your hair transplant.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="faq">
+                    <button class="accordion">Will PRP injections speed up the results of a hair transplant?
+                    </button>
+                    <div class="panel">
+                        <p>Most patients differ in the speed of hair growth and the onset of typical shedding after a hair transplant. However, the end goal of PRP treatment is not to speed up hair growth but to enhance the thickness of hair that is already there and stimulate healing and regeneration following a transplant. Your surgeon "bathes" the newly implanted follicles with the plasma solution, which is rich in growth factors that nourish the cells in the follicle and stimulate hair growth.
+                        </p>
+                    </div>
+            
+                    <button class="accordion">What does the PRP injection cost?
+                    </button>
+                    <div class="panel last">
+                        <p>PRP injection costs vary across the country, but many practices and facilities can charge upwards of $700 for one injection or session. At Care4Hair, we offer reasonable prices that start at $500 per session. Don’t hesitate to consult our surgeons to find out about promotions or ask any questions you may have.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>

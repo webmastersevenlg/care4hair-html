@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../../style.css">
+    <link rel="stylesheet" href="../../../header.css">
+    <link rel="stylesheet" href="../../../footer.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="call">
+                <img src="../../../media/phone.svg" alt="phone icon">
+                <a href="tel:3052626070">(305) 262-6070</a>
+            </div>
+            <a href="../../../index.html" class="logo">
+                <img src="../../../media/logo.png" alt="image of logo">
+            </a>
+            <div class="nav-item">
+                <a href="#" class="patient-portal">PATIENT PORTAL</a>
+                <div class="nav-menu" onclick="toggleMenu()">
+                    <img src="../../../media/menu-icon.svg" alt="menu icon" class="menu-icon">
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <div class="menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="menu-logo" src="../../../media/logo.png" alt="">
+            <h2 class="menu-heading">
+                Menu
+            </h2>
+            <ul>
+                <li>
+                    <div class="menu-doctor">
+                        Doctors
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairloss">
+                        Hair loss
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-hairtransplant">
+                        Hair transplant
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-nonsurgical">
+                        Non surgical
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="menu-resources">
+                        Resources
+                        <img class="menu-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="doctors-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Lorayne Enriquez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Marianela Lopez, APRN
+                </a>
+                <a href="#" class="submenu-item">
+                    Dr. Manuel Mendizabal
+                </a>
+            </div>
+            <div class="hairloss-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Hair Loss Overview
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair Loss Causes
+                </a>
+                <a href="#" class="submenu-item">
+                    Treatment options
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant benefits
+                </a>
+                <a href="#" class="submenu-item">
+                    Hair transplant cost
+                </a>
+            </div>
+            <div class="hairtransplant-submenu submenu">
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair transplant technology</div>
+                    <div class="submenu-subheader">FUE</div>
+                    <a href="#" class="submenu-item">
+                        Neograft Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Robotic Hair Transplant
+                    </a>
+                </div>
+                <div class="submenu-list">
+                    <div class="submenu-header">Hair procedure</div>
+                    <a href="#" class="submenu-item">
+                        Female Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Male Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Beard Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Ethnic Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Eyebrow Hair Transplant
+                    </a>
+                    <a href="#" class="submenu-item">
+                        Hairline Restoration
+                    </a>
+                </div>
+            </div>
+            <div class="nonsurgical-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Platelet Rich Plasma Injection (PRP)
+                </a>
+                <a href="#" class="submenu-item">
+                    Capillus laser therapy
+                </a>
+                <a href="#" class="submenu-item">
+                    Scalp Micropigmentation
+                </a>
+            </div>
+            <div class="resources-submenu submenu">
+                <a href="#" class="submenu-item">
+                    Financing
+                </a>
+                <a href="#" class="submenu-item">
+                    Traveling Patients
+                </a>
+                <a href="#" class="submenu-item">
+                    Blog
+                </a>
+            </div>
+            <h2 class="menu-heading">
+                Contact Info
+            </h2>
+            <ul class="contact-info">
+                <li>
+                    <a class="contact-info-item" href="mailto:info@care4miami.com">
+                        <img src="../../../media/menu-mail.svg" alt="mail icon">
+                        info@care4miami.com
+                    </a>
+                </li>
+                <li>
+                    <a class="contact-info-item" href="tel:3052626070">
+                        <img src="../../../media/menu-phone.svg" alt="phone icon">
+                        (305) 262 6070
+                    </a>
+                </li>
+            </ul>
+            <div class="menu-social-media">
+                <a href="#"><img src="../../../media/menu-facebook.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-youtube.svg" alt="social media icon"></a>
+                <a href="#"><img src="../../../media/menu-instagram.svg" alt="social media icon"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="overlay" onclick="toggleMenu()"></div>
+        <div class="mobile-menu-wrap">
+            <div class="close" onclick="toggleMenu()">
+                <img src="../../../media/close-icon.svg" alt="close menu icon">
+            </div>
+
+            <img class="mobile-menu-logo" src="../../../media/logo.png" alt="mobile logo">
+            <h2 class="mobile-menu-heading">
+                Menu
+            </h2>
+
+            <ul>
+                <li>
+                    <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
+                        Doctors
+                        <img class="mobile-menu-arrow mobile-doctor-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-doctor">
+                        <a href="#">Lorayne Enriquez, APRN</a>
+                        <a href="#">Marianela Lopez, APRN</a>
+                        <a href="#">Dr. Manuel Mendizabal</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairloss mobile-menu-header" onclick="openMobileHairloss()">
+                        Hair loss
+                        <img class="mobile-menu-arrow mobile-hairloss-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairloss">
+                        <a href="#">Hair Loss Overview</a>
+                        <a href="#">Hair Loss Causes</a>
+                        <a href="#">Treatment options</a>
+                        <a href="#">Hair transplant benefits</a>
+                        <a href="#">Hair transplant cost</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-hairtransplant mobile-menu-header" onclick="openMobileHairtransplant()">
+                        Hair transplant
+                        <img class="mobile-menu-arrow mobile-hairtransplant-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-hairtransplant">
+                        <a href="#">Neograft Hair Transplant</a>
+                        <a href="#">Robotic Hair Transplant</a>
+                        <a href="#">Female Hair Transplant</a>
+                        <a href="#">Male Hair Transplant</a>
+                        <a href="#">Beard Hair Transplant</a>
+                        <a href="#">Ethnic Hair Transplant</a>
+                        <a href="#">Eyebrow Hair Transplant</a>
+                        <a href="#">Hairline Restoration</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="mobile-menu-nonsurgical mobile-menu-header" onclick="openMobileNonsurgical()">
+                        Non surgical
+                        <img class="mobile-menu-arrow mobile-nonsurgical-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-nonsurgical">
+                        <a href="#">Platelet Rich Plasma Injection (PRP)</a>
+                        <a href="#">Capillus laser therapy</a>
+                        <a href="#">Scalp Micropigmentation</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Before & after
+                    </a>
+                </li>
+                <li>
+                    <div class="mobile-menu-resources mobile-menu-header" onclick="openMobileResources()">
+                        Resources
+                        <img class="mobile-menu-arrow mobile-resources-arrow" src="../../../media/menu-arrow.svg" alt="arrow icon">
+                    </div>
+                    <div class="mobile-menu-items mobile-resources">
+                        <a href="#">Financing</a>
+                        <a href="#">Traveling Patients</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="mobile-menu-header">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="language">
+                            <img class="language-flag" src="../../../media/spanish.svg" alt="spanish flag">
+                            Español
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    
+    <section class="hair-loss-main-sec">
+        <img class="bg-img" src="../../../media/services-pages/neograft-hair-transplant-bg-img.jpeg" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>FUE Hair Transplant in Miami
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                FUE Hair Transplant in Miami
+            </span>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-image-sec">
+        <div class="hair-loss-text-image-sec-wrap">
+            <div class="img-wrap h-100">
+                <img src="../../../media/services-pages/neograft-img-1.png" alt="">
+            </div>
+            <div class="text-wrap flex-col">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Neograft Automated FUE Hair Transplant
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>NeoGraft is one of the leading <a href="https://care4hairmiami.com/fue-hair-transplant-in-miami">Follicular Unit Extraction (FUE)</a> hair transplant technologies. The semi-automatic NeoGraft technology comfortably extracts your healthy hair follicles from the donor area to be reimplanted in the areas of hair loss. The hair specialists at Care4Hair in Miami aim to guide patients through their hair restoration journeys and revive their confidence once more! In the months following the procedure, permanent hairs will begin to grow for a complete and natural-looking hairline.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="hair-loss-bg">
+            <div class="overlay"></div>
+            <img src="../../../media/services-pages/fue-text-sec-bg.jpeg" alt="background image" class="bg-img">
+        </div>
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        What Will Happen In My Initial Consultation With The Care4Hair Specialists?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>
+                    During your initial consultation with Care4Hair, you will be encouraged to share your grievances and medical history. Our doctor will then classify your hair loss and present you with the most effective procedures for your condition. If a NeoGraft hair transplant is the best option, the doctor will move on to the design phase and construct a visual strategy to suit your desired look.
+                </p>
+            </div>
+            
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        Benefits Of A NeoGraft Hair Transplant
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>Unlike other hair transplant techniques and technologies, the NeoGraft system grafts follicles of any hair type for optimal results. Whether your hair is dark, light, curly, or straight, a NeoGraft FUE can be performed comfortably to generate positive results. Not only can the doctor customize punch sizes according to the quality of your hair, but the NeoGraft technology yields lower transaction (or damage) rates when performed by a qualified surgeon.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="selector-sec">
+        <div class="selector-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    How Does The NeoGraft Hair Transplant Work?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p class="selector-sec-p">
+                The NeoGraft hair transplant is a quick and effective procedure that yields natural-looking results by combining advanced technology with the guided precision of a qualified surgeon. The process consists of the following steps:
+            </p>
+            <div class="selector-sec-item-wrap">
+                <div class="selector-sec-item selector-sec-item-10 active" onclick="activateSelector10()">
+                    <span class="number">
+                        01
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/follicle-extraction-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Extraction
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-11" onclick="activateSelector11()">
+                    <span class="number">
+                        02
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/follicle-selection-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Follicle Selection
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-12" onclick="activateSelector12()">
+                    <span class="number">
+                        03
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/graft-implantation-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Graft Implantation
+                    </div>
+                </div>
+                <div class="selector-sec-item selector-sec-item-13" onclick="activateSelector13()">
+                    <span class="number">
+                        04
+                    </span>
+                    <div class="icon-wrap">
+                        <img src="../../../media/services-pages/clean-and-bandage-icon.svg" alt="icon for procedure">
+                    </div>
+                    <div class="selector-sec-item-name">
+                        Clean & Bandage
+                    </div>
+                </div>
+            </div>
+            <div class="selector-sec-text">
+                <div class="selector-sec-text-10 active">After a local anesthetic is applied, the doctor carefully extracts follicular grafts from the donor area using the NeoGraft hair transplant device. (There will not be visible signs of prior extraction after the area has healed completely.)
+                </div>
+                <div class="selector-sec-text-11">After the hair follicles are removed, they are arranged according to size.
+                </div>
+                <div class="selector-sec-text-12">The surgeon then places the hair follicles in a natural-looking pattern according to the shape you decided upon in the design phase of your consultation.
+                </div>
+                <div class="selector-sec-text-13">Lastly, the area is cleaned and bandaged. Patients can resume all normal activities in just a few days after the NeoGraft hair transplant procedure.
+                </div>
+            </div>
+            <a href="#" class="button light">Contact us today</a>
+        </div>
+    </section>
+
+    <section class="hair-loss-text-sec">
+        <div class="text-columns">
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        How Many FUE Grafts Will I Need?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p class="mb-30-small-screen">
+                    Our hair specialists will determine the number of hair grafts you need after your initial evaluation. While it depends on the area size, the average NeoGraft hair transplant procedure will require approximately 1400 to 1600 grafts. Each graft has 1 to 4 hair follicles with an average of 2 follicles per graft. The average patient has approximately 6000 grafts available in their donor area to create the appearance of fullness.
+                </p>
+            </div>
+            
+            <div class="text-wrap">
+                <div class="heading-wrap">
+                    <h2 class="h2-heading">
+                        How To Prepare For A NeoGraft Procedure?
+                    </h2>
+                    <img class="separator" src="../../../media/separator.svg" alt="separator">
+                </div>
+                <p>In general, a NeoGraft hair transplant surgery takes 3-8 hours. Since you will remain stationary throughout the procedure, Care4Hair recommends you wear loose clothing to avoid discomfort at this time. Also, you should arrange for a ride to and from the Care4Hair clinic. It is natural for some patients to feel a slight discomfort after the NeoGraft hair transplant surgery and having a designated driver is both safer and more convenient.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="before-after-sec">
+        <div class="before-after-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    Hair Transplant Before And After
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="before-after">
+                <div class="ba-wrap">
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-1.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-1.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/before-2.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                Before
+                            </div>
+                        </div>
+
+                    </a>
+                    <a href="#" class="ba-item">
+                        <div class="overlay"></div>
+                        <img src="../../../media/before-after/after-2.jpeg" alt="image of doctor">
+                        <div class="text">
+                            <div class="ba">
+                                after
+                            </div>
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+            <div class="button">view more results</div>
+
+        </div> 
+    </section>
+
+    <section class="sec-6">
+        <div class="sec-6-bg-img"></div>
+        <div class="sec-6-wrap">
+            <div class="sec-6-header">The Day Of Your NeoGraft Hair Transplant In Miami
+            </div>
+            <p>The hair specialists at Care4Hair do everything possible to make you feel comfortable on the day of your NeoGraft hair transplant surgery. Our team will first check your vital signs to confirm your preparation for the procedure.
+                <br><br>
+                The Care4Hair specialists will shave and disinfect the area before local anaesthetic is applied. Once the skin feels numb, the patient will lay face down while the doctor extracts the healthiest hair follicles in groups of 1 to 4. The NeoGraft machine extracts the hair gently, removing 600 units per hour. After the extraction, you may use the restroom, stretch your legs, and relax. After your break, the doctor carefully transplants the harvested follicles, and the Care4Hair specialists clean and bandage the scalp to conclude.
+            </p>
+            <a href="tel:3052626070" class="button light">(305) 262-6070</a>
+        </div>
+    </section>
+
+    <section class="solo-text-sec">
+        <img src="../../../media/services-pages/neograft-img-2.png" alt="background image" class="solo-text-img">          
+        <div class="solo-text-sec-wrap">
+            <div class="heading-wrap">
+                <h2 class="h2-heading">
+                    What Happens After The NeoGraft Procedure Is Performed?
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                The follicles need to rest after a NeoGraft hair transplant. The hair in the donor area should grow back 7-10 days after the surgery while the transplanted hair follicles remain rooted in the scalp. In the case that you experience minor swelling or discomfort, the doctor will prescribe an appropriate medication.
+            </p>
+            <div class="heading-wrap mt-50">
+                <h2 class="h2-heading">
+                    NeoGraft Results
+                </h2>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <p>
+                A NeoGraft FUE hair transplant can take from 12-18 months to reflect full, permanent results. It is important to note that transplanted hair is likely to go through a “<a href="https://care4hairmiami.com/blog/shock-hair-loss">shedding phase</a>” and be released after some weeks following the procedure. While some patients do not experience this, most patients’ bodies will enter a resting phase as a natural response to the surgery. The grafts remain healthy and will grow back in the months to follow (considering the patient observes all aftercare instructions).
+            </p>
+        </div>
+    </section>
+
+
+    <section class="accent-contact-sec">
+        <div class="accent-contact-sec-wrap">
+            <h2 class="h2-heading">
+                Receive Personalized Quotes And Answers To Your Questions.
+            </h2>
+            <p class="accent-contact-sec-p">
+                Schedule a private consultation with our doctor at Care4Hair clinic in Miami.
+            </p>
+
+            <form class="accent-sec-form" action="">
+                <input type="text" id="name" placeholder="YOUR NAME *" required>
+                <input type="tel" id="phone" placeholder="PHONE *" required>
+                <input type="email" id="email" placeholder="YOUR EMAIL *" required>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="MESSAGE..."></textarea>
+                <button type="submit">
+                    send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="faq-sec">
+        <div class="faq-wrap">
+            <div class="faq-header-wrap">
+                <h1>FAQS</h1>
+                <img class="separator" src="../../../media/separator.svg" alt="separator">
+            </div>
+            <div class="faqs">
+                <div class="faq">
+                    <button class="accordion">What are some benefits of a NeoGraft hair transplant over other manual techniques?</button>
+                    <div class="panel">
+                        <p>Patients with hair loss caused by stress, trauma, and genetic history are typically fine candidates for a Neograft hair transplant. To undergo this procedure, a patient must also have sufficient donor follicles. Therefore, patients with Diffuse Unpatterned Alopecia are not great candidates for a NeoGraft FUE since they usually do not have enough donor follicles to harvest.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">What is the appropriate age to consider a NeoGraft hair transplant surgery?
+                    </button>
+                    <div class="panel">
+                        <p>While a NeoGraft FUE can theoretically be performed on patients of any age, we ask that patients be over 30 before considering this procedure. The clinical onset of baldness in both men and women is generally around 30 to 40 years of age. Around this age is when hair loss also begins to stabilize. Since hair loss in patients under 30 fluctuates, it may be difficult to determine how it will stabilize. If a patient undergoes a NeoGraft FUE at an early age, they may need to undergo additional sessions in the future depending on how the hair loss progresses.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Are there any possible complications of this procedure??</button>
+                    <div class="panel">
+                        <p>The NeoGraft procedure is low risk but since it is a surgery, there is always the possibility of complications. Patients run the risk of bleeding, numbness, discomfort, infection, or allergic reactions to the anesthesia. The Care4Hair clinic will always encourage patients to fully disclose medical histories, current medications, and known allergies to minimize risk. Designated hair specialists will also provide full aftercare instructions to ensure a satisfactory outcome.
+                        </p>
+                    </div>
+                    
+                    <button class="accordion">Are the results of a Neograft hair transplant permanent?</button>
+                    <div class="panel last">
+                        <p>The results of the NeoGraft FUE hair transplant procedure are considered permanent. The healthy follicles will grow and yield long-lasting results as long as patients follow our doctor's post-procedure care instructions. Rest assured, the Care4Hair specialists will ensure you have all the necessary information before your surgery and departure. We strongly recommend careful adherence to these instructions for optimal results and overall satisfaction.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq">
+                    <button class="accordion">Is the NeoGraft hair transplant procedure suitable for both men and women?</button>
+                    <div class="panel">
+                        <p>Yes. The NeoGraft hair restoration procedure is a suitable technique to treat hair loss in both men and women. In fact, women’s hair loss tends to be more diffuse in comparison to their male counterparts. Therefore, our doctor often recommends the NeoGraft FUE to his female clients, as it allows for a more targeted placement of follicles compared to more traditional methods.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">How long will it take to heal from a NeoGraft FUE hair transplant?</button>
+                    <div class="panel">
+                        <p>While recovery from a NeoGraft FUE hair transplant is fast, every patient is different. Some patients resume their regular activities almost immediately, while others may take off anywhere from a few days to a week to recover from swelling or discomfort. Most patients only require medication 2-3 days after surgery. The overall healing process does not take longer than 7 days. The donor zone will appear fully healed in about 10 days as hair begins to grow again.
+                        </p>
+                    </div>
+                
+                    <button class="accordion">Will I see results right away?</button>
+                    <div class="panel last">
+                        <p>Following the shedding phase that takes place 1-5 weeks following the transplant procedure, healthy hairs will begin to form. Within 3-4 months, hair should begin to grow steadily and final results will appear 12-18 months post-procedure.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="miami-bg">
+        <img src="../../../media/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
+
+    <footer>
+        <div class="top-line footer-line"></div>
+        <div class="bottom-line footer-line"></div>
+        <div class="left-line footer-line"></div>
+        <div class="right-line footer-line"></div>
+        <div class="footer-wrap">
+            <div class="cols-wrap">
+                <div class="col contact-col">
+                    <div class="col-header">contacts</div>
+                    <p>Talk with a hair restoration expert.</p>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/location-icon.svg" alt="location icon">
+                                1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-mail.svg" alt="mail icon">
+                                info@care4hairmiami.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/menu-phone.svg" alt="phone icon">
+                                (305) 262-6070
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="../../../media/map-icon.svg" alt="map icon">
+                                GET DIRECTION
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col message-col">
+                    <img class="footer-logo" src="../../../media/logo.png" alt="logo">
+                    <p>The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                    </p>
+                    <div class="menu-social-media">
+                        <a href="#"><img src="../../../media/menu-facebook.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-youtube.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-instagram.svg" alt="social ../../../media icon"></a>
+                        <a href="#"><img src="../../../media/menu-tiktok.svg" alt="social ../../../media icon"></a>
+                    </div>
+                </div>
+                <div class="col links-col">
+                    <div class="col-header">useful links</div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Financing Options
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Contact us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Before & After Photos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">Copyright &copy; 2021 Care4Hair. All Rights Reserved.&nbsp; <a href="#">Privacy Policy</a></div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+    <script src="../../../scripts.js"></script>
+    <script src="../../../hairLoss.js"></script>
+    <script>
+        gsap.to("header", {
+            scrollTrigger: {
+                trigger: "body",
+                start: "150 top",
+                toggleClass: {targets: "header", className: "header-bg"}
+            },
+        });
+    </script>
+
+</body>
+</html>
