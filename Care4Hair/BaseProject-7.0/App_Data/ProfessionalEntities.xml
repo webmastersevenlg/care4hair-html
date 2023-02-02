@@ -1,28 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <!--DR. MORADIAN-->
+  <!--Lorayne Enriquez-->
   <ProfessionalEntity
     worklocation=""
     keywords=""
-    url="dr-scott-moradian"
-    urlspanish="dr-scott-moradian"
-    dburl="dr-scott-moradian"
-    dburlspanish="scott-moradian"
-    id="scott-moradian"
+    url="lorayne-enriquez"
+    urlspanish="aprn-lorayne-enriquez"
+    dburl="lorayne-enriquez"
+    dburlspanish="aprn-lorayne-enriquez"
+    id="lorayne-enriquez"
     imagename=""
-    lastname="Moradian"
-    name="Scott Moradian"
-    namespanish="Scott Moradian"
+    lastname="Enriquez"
+    name="Lorayne Enriquez"
+    namespanish="Lorayne Enriquez"
     active="true"
-    jobtitle="Cosmetic Surgeon"
-    jobtitlespanish="Cirujano Cosmético"
+    jobtitle="Advanced Nurse Practical"
+    jobtitlespanish="Enfermera de Practica Avanzada"
     description=""
-    descriptionspanish="Cirujano Cosmético"
+    descriptionspanish="Enfermera de Practica Avanzada"
     featured="true"
-    honorificprefix="Dr"
+    honorificprefix="APRN"
     honorificsuffix=""
     briefintroforaboutpage=""
     briefintroforaboutpagespanish="">
   </ProfessionalEntity>
+
+	<!-- Marianela Lopez-->
+	<ProfessionalEntity
+	  worklocation=""
+	  keywords=""
+	  url="marianela-lopez"
+	  urlspanish="marianela-lopez-aprn"
+	  dburl="marianela-lopez"
+	  dburlspanish="marianela-lopez-aprn"
+	  id="marianela-lopez-aprn"
+	  imagename=""
+	  lastname="Lopez"
+	  name="Marianela Lopez"
+	  namespanish="Lorayne Enriquez"
+	  active="true"
+	  jobtitle="Advanced Nurse Practical"
+	  jobtitlespanish="Enfermera de Practica Avanzada"
+	  description=""
+	  descriptionspanish="Enfermera de Practica Avanzada"
+	  featured="true"
+	  honorificprefix="APRN"
+	  honorificsuffix=""
+	  briefintroforaboutpage=""
+	  briefintroforaboutpagespanish="">
+	</ProfessionalEntity>
+
+	<!-- Disney Lima-->
+	<ProfessionalEntity
+	  worklocation=""
+	  keywords=""
+	  url="disney-lima"
+	  urlspanish="aprn-disney-lima"
+	  dburl="disney-lima"
+	  dburlspanish="aprn-disney-lima"
+	  id="disney-lima"
+	  imagename=""
+	  lastname="Lima"
+	  name="Disney Lima"
+	  namespanish="Disney Lima"
+	  active="true"
+	  jobtitle="Advanced Nurse Practical"
+	  jobtitlespanish="Enfermera de Practica Avanzada"
+	  description=""
+	  descriptionspanish="Enfermera de Practica Avanzada"
+	  featured="true"
+	  honorificprefix="APRN"
+	  honorificsuffix=""
+	  briefintroforaboutpage=""
+	  briefintroforaboutpagespanish="">
+	</ProfessionalEntity>
+
+	<!-- Dr. Manuel Mendizabal-->
+	<ProfessionalEntity
+	  worklocation=""
+	  keywords=""
+	  url="dr-manuel-mendizabal"
+	  urlspanish="manuel-mendizabal"
+	  dburl="dr-manuel-mendizabal"
+	  dburlspanish="manuel-mendizabal"
+	  id="dr-manuel-mendizabal"
+	  imagename=""
+	  lastname="Mendizabal"
+	  name="Manuel Mendizabal"
+	  namespanish="Manuel Mendizabal"
+	  active="true"
+	  jobtitle="HAIR TRANSPLANT SURGEON"
+	  jobtitlespanish="CIRUJANO Y ESPECIALISTA EN TRASPLANTE DE CABELLO"
+	  description=""
+	  descriptionspanish="CIRUJANO Y ESPECIALISTA EN TRASPLANTE DE CABELLO"
+	  featured="true"
+	  honorificprefix="Dr"
+	  honorificsuffix=""
+	  briefintroforaboutpage=""
+	  briefintroforaboutpagespanish="">
+	</ProfessionalEntity>
 
 </Data>
