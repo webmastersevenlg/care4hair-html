@@ -3,21 +3,21 @@
 
   <BlogPostEntity
      active="true"
-     imagename="10-tips-for-your-mommy-makeover-recovery"
+     imagename="prevent-and-slow-down-progressive-pattern-hair-loss"
      language="En"
-     intro="A Mommy Makeover is a plastic surgery procedure that restores a woman's figure after having children. It combines several surgical procedures intended to achieve your goals..."
+     intro="The hair follicles go through cycles shedding hair and regrowing it anew. Nevertheless, hair does begin to fall at faster rates as we age, especially when we’ve developed certain life habits that speed up hair loss, as we’ll explain below. This process of losing hair is called telogen effluvium, and the causes are many. Stress..."
       description=""
       targeredkeyword=""
-      title="10 Tips for your Mommy makeover Recovery "
-      url="10-tips-for-your-mommy-makeover-recovery"
+      title="Prevent and Slow Down Progressive Pattern Hair Loss"
+      url="prevent-and-slow-down-progressive-pattern-hair-loss"
       genre=""
       about=""
-      datecreated="2022-06-07T12:59:13+00:00"
-      datepublished="2022-06-07T12:59:13+00:00"
-      datemodificate="2022-06-07T12:59:13+00:00"
+      datecreated="2022-03-010T12:59:13+00:00"
+      datepublished="2022-03-010T12:59:13+00:00"
+      datemodificate="2022-03-010T12:59:13+00:00"
       featured="true">
     <Author  id="1"/>
-    <Category id=""/>
+    <Category id="hairtransplant"/>
     <Tags>
       <Tag id=""/>
       <Tag id=""/>
@@ -25,6 +25,297 @@
   </BlogPostEntity>
 
 
-  
-  
+	<BlogPostEntity
+		 active="true"
+		 imagename="do-hair-transplants-leave-scars"
+		 language="En"
+		 intro="The technology around hair transplants has come a very long way since hair plugs. Today, new techniques and technologies have made hair transplant surgery more painless and comfortable than it’s ever been. They have also produced stunning and increasingly more natural-looking results. Nevertheless, like any surgery, hair transplants involve skin incisions, and these tend to..."
+		  description=""
+		  targeredkeyword=""
+		  title="Do Hair Transplants Leave Scars?"
+		  url="do-hair-transplants-leave-scars"
+		  genre=""
+		  about=""
+		  datecreated="2022-03-03T12:59:13+00:00"
+		  datepublished="2022-03-03T12:59:13+00:00"
+		  datemodificate="2022-03-03T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="is-creatine-responsible-for-causing-hair-loss"
+		 language="En"
+		 intro="Hair loss can be caused by a multiplicity of factors. We lose hair as we age; we could suffer from immune disorders like alopecia, in which our own immune system attacks our own hair follicles, causing the follicles to shed their hair; or we may simply not have been born with the right genetic make-up..."
+		  description=""
+		  targeredkeyword=""
+		  title="Is Creatine Responsible for Causing Hair Loss?"
+		  url="is-creatine-responsible-for-causing-hair-loss"
+		  genre=""
+		  about=""
+		  datecreated="2022-02-07T12:59:13+00:00"
+		  datepublished="2022-02-07T12:59:13+00:00"
+		  datemodificate="2022-02-07T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="does-hair-transplant-hurt"
+		 language="En"
+		 intro="A very paradoxical phenomenon that many patients go through after getting hair transplants is “shock hair loss.” This is a sudden loss of hair following a surgical procedure. The causes are not well-understood, but many factors have been pointed out, such as scalp tissue inflammation and blood supply disruptions during surgery. Shock hair loss can..."
+		  description=""
+		  targeredkeyword=""
+		  title="Does hair transplant hurt?"
+		  url="does-hair-transplant-hurt"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-011T12:59:13+00:00"
+		  datepublished="2022-01-011T12:59:13+00:00"
+		  datemodificate="2022-01-011T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="how-to-know-if-your-hair-loss-is-something-to-get-checked-out"
+		 language="En"
+		 intro="To know whether you should go to the doctor to have them check out your hair, you need to have noticed one thing before anything else: hair loss. Losing hair, in general, is normal. Hair follicles go through shedding cycles during which they lose and regrow hair. According to the American Academy of Dermatology Association, ..."
+		  description=""
+		  targeredkeyword=""
+		  title="How To Know If Your Hair Loss Is Something To Get Checked Out"
+		  url="how-to-know-if-your-hair-loss-is-something-to-get-checked-out"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-20T12:59:13+00:00"
+		  datepublished="2022-01-20T12:59:13+00:00"
+		  datemodificate="2022-01-20T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="eyebrow-restoration"
+		 language="En"
+		 intro="Many people might think that the best or even only way to restore your eyebrows is with make-up or permanent tattoos. While both of these options can help you define your eyebrows and provide you with eyebrows that look somewhat real, many men and women still say that the effect is not very convincing. Luckily,..."
+		  description=""
+		  targeredkeyword=""
+		  title="Eyebrow Restoration"
+		  url="eyebrow-restoration"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-26T12:59:13+00:00"
+		  datepublished="2022-01-26T12:59:13+00:00"
+		  datemodificate="2022-01-26T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="shock-hair-loss"
+		 language="En"
+		 intro="A very paradoxical phenomenon that many patients go through after getting hair transplants is “shock hair loss.” This is a sudden loss of hair following a surgical procedure. The causes are not well-understood, but many factors have been pointed out, such as scalp tissue inflammation and blood supply disruptions during surgery. Shock hair loss can ..."
+		  description=""
+		  targeredkeyword=""
+		  title="Shock Hair Loss"
+		  url="shock-hair-loss"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-04T12:59:13+00:00"
+		  datepublished="2022-01-04T12:59:13+00:00"
+		  datemodificate="2022-01-04T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="shock-hair-loss"
+		 language="En"
+		 intro="Many people choose to get hair transplants because they want to restore the youthful look of their younger years. Indeed, hair loss can be a very disheartening experience because it can happen quite randomly for reasons beyond our control, such as genetics or, as in the case of women, the hormonal imbalances after pregnancy. A..."
+		  description=""
+		  targeredkeyword=""
+		  title="Recovering from a Hair Transplant"
+		  url="recovering-from-a-hair-transplant"
+		  genre=""
+		  about=""
+		  datecreated="2022-12-29T12:59:13+00:00"
+		  datepublished="2022-12-29T12:59:13+00:00"
+		  datemodificate="2022-12-29T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="top-5-tips-for-a-successful-hair-transplant"
+		 language="En"
+		 intro="Data suggests that hair transplantation procedures are highly successful. With advanced techniques such as Follicular Unit Extraction (FUE), a patient can expect 95–100% of transplanted hair to remain on the scalp, with up to 80% visible in the first three to four months. So, you can have confidence in your procedure. But there are a ..."
+		  description=""
+		  targeredkeyword=""
+		  title="Top 5 Tips for a Successful Hair Transplant"
+		  url="top-5-tips-for-a-successful-hair-transplant"
+		  genre=""
+		  about=""
+		  datecreated="2021-12-17T12:59:13+00:00"
+		  datepublished="2021-12-17T12:59:13+00:00"
+		  datemodificate="2021-12-17T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="are-you-ready-for-your-hair-transplant"
+		 language="En"
+		 intro="Hair is one of the most important features of your face. It adds a touch of dimension and a touch of style. Sometimes, it communicates to others the type of person we are, the kinds of tastes we have, and it can even indicate how you want people to relate to you. As a result,..."
+		  description=""
+		  targeredkeyword=""
+		  title="Are You Ready for Your Hair Transplant?"
+		  url="are-you-ready-for-your-hair-transplant"
+		  genre=""
+		  about=""
+		  datecreated="2021-12-14T12:59:13+00:00"
+		  datepublished="2021-12-14T12:59:13+00:00"
+		  datemodificate="2021-12-14T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename=""
+		 language="En"
+		 intro="What is it? Robotic Hair Restoration is when hair restoration/ hair transplant procedures are either partially or majorly assisted by robotic technology, software, and tools. Robotic hair restoration methods have become the most common method during procedures because of their efficiency and ability to detect the best hair follicle candidates a patient has in their..."
+		  description=""
+		  targeredkeyword=""
+		  title="What is Robotic Hair Restoration?"
+		  url="what-is-robotic-hair-restoration"
+		  genre=""
+		  about=""
+		  datecreated="2021-08-03T12:59:13+00:00"
+		  datepublished="2021-08-03T12:59:13+00:00"
+		  datemodificate="2021-08-03T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="top-4-cities-for-hair-transplants-in-the-united-states"
+		 language="En"
+		 intro="Body maintenance or body modifications are becoming increasingly popular. One of the most popular maintenance procedures being done these days is hair transplants. People spend hours researching “what”, “where”, “when” and, “how” when it comes to hair transplants. If you’re reading this, that means you’ve already got the “when” and “what” down, so now “where?”...."
+		  description=""
+		  targeredkeyword=""
+		  title="Top 4 Cities for Hair Transplants in the United States"
+		  url="top-4-cities-for-hair-transplants-in-the-united-states"
+		  genre=""
+		  about=""
+		  datecreated="2021-08-03T12:59:13+00:00"
+		  datepublished="2021-08-03T12:59:13+00:00"
+		  datemodificate="2021-08-03T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename=""
+		 language="En"
+		 intro="If you can avoid surgery, you would, wouldn’t you? Most people would. Laser/Light therapy is a non-surgical treatment with proven results that most hair transplant candidates op for before getting a full procedure done. There are a couple of different types of light treatment therapy but, essentially what light therapy does..."
+		  description=""
+		  targeredkeyword=""
+		  title="Latest hair transplant tools and techniques in 2021"
+		  url="latest-hair-transplant-tools-and-techniques-in-2021"
+		  genre=""
+		  about=""
+		  datecreated="2021-08-02T12:59:13+00:00"
+		  datepublished="2021-08-02T12:59:13+00:00"
+		  datemodificate="2021-08-02T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 </BlogPostEntities>
