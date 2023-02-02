@@ -1654,6 +1654,15 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Patient Portal.
+        /// </summary>
+        public static string PatientPortal {
+            get {
+                return ResourceManager.GetString("PatientPortal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Patient Resources.
         /// </summary>
         public static string PatientResources {

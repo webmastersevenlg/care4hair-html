@@ -14,12 +14,24 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Views\Shared\Header\Mobile\Header_Top.cshtml" />
+    <Content Remove="Views\Shared\Header\Mobile\Menu.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Include="Tools\GetReferrerUrl.cs" />
     <Compile Include="Tools\GetVisitSource.cs" />
     <Compile Include="Tools\Minifier.cs" />
     <Compile Include="Tools\RecaptchaValidator.cs" />
     <Compile Include="Tools\StringProcessing.cs" />
     <Compile Include="Tools\Twilio.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Header\Mobile\Header_Top.cshtml" />
+    <None Include="Views\Shared\Header\Mobile\Menu.cshtml" />
+    <None Include="Views\Shared\Header\Pc\Header_Top.cshtml" />
+    <None Include="Views\Shared\Header\Pc\Menu.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
