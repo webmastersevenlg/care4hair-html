@@ -21,13 +21,14 @@
         <ul>
             <li>
                 <div class="mobile-menu-doctor mobile-menu-header" onclick="openMobileDoctor()">
-                    Doctors
-                    <img class="mobile-menu-arrow mobile-doctor-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                    @Vocabulary.Doctors
+                    <img class="mobile-menu-arrow mobile-doctor-arrow" src="/themes/care4hair/images/menu-arrow.svg" alt="arrow icon">
                 </div>
                 <div class="mobile-menu-items mobile-doctor">
-                    <a href="#">Lorayne Enriquez, APRN</a>
-                    <a href="#">Marianela Lopez, APRN</a>
-                    <a href="#">Dr. Manuel Mendizabal</a>
+                    @foreach(var professional in Model.Professionals)
+                    {
+                        <a href="@professional.GetPageUrl()">@professional.GetHonorificPrefix @professional.GetName, @professional.GetHonorificSuffix</a>
+                    } 
                 </div>
             </li>
             <li>

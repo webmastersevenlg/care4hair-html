@@ -5,263 +5,177 @@
 @{
     var homeActive = TempData["ActiveMenuElement"]?.ToString() == "home" ? "active" : "";
 }
-<div class="header-column flex-grow-0 home-@homeActive">
-    <div class="header-row">
-        <div class="header-logo">
-            <a href="@Site.Instance.HomePage.GetPageUrl()" class="lazy">
-                @ViewHelpers.Picture("/content/themes/avana/img/avana-black-logo.png", Settings.GetCenterName + "Logo", "https://via.placeholder.com/202x48", "img-fluid border-radius-0", "width='202' height='48' data-sticky-width='198' data-sticky-height='40'")
+<div class="menu">
+    <div class="overlay" onclick="toggleMenu()"></div>
+    <div class="menu-wrap">
+        <div class="close" onclick="toggleMenu()">
+            <img src="media/close-icon.svg" alt="close menu icon">
+        </div>
+
+        <img class="menu-logo" src="media/logo.png" alt="">
+        <h2 class="menu-heading">
+            Menu
+        </h2>
+        <ul>
+            <li>
+                @{
+                    var professionalsActive = TempData["ActiveMenuElement"]?.ToString() == "professionals" ? "active" : "";
+                }
+                <div class="menu-doctor @professionalsActive">
+                    @Vocabulary.Doctors
+                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                </div>
+            </li>
+            <li>
+                <div class="menu-hairloss">
+                    Hair loss
+                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                </div>
+            </li>
+            <li>
+                <div class="menu-hairtransplant">
+                    Hair transplant
+                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                </div>
+            </li>
+            <li>
+                <div class="menu-nonsurgical">
+                    Non surgical
+                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    Before & after
+                </a>
+            </li>
+            <li>
+                <div class="menu-resources">
+                    Resources
+                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                </div>
+            </li>
+            <li>
+                <a href="#">
+                    About us
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Contact
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="language">
+                        <img class="language-flag" src="media/spanish.svg" alt="spanish flag">
+                        Español
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <div class="doctors-submenu submenu">
+            @{
+                var professionalsItemActive = TempData["ActiveMenuElement"]?.ToString() == "professionals" ? "active" : "";
+            }
+            @foreach(var professional in Model.Professionals)
+            {
+                <a class="submenu-item @professionalsItemActive" href="@professional.GetPageUrl()">@professional.GetHonorificPrefix @professional.GetName, @professional.GetHonorificSuffix</a>
+            }           
+        </div>
+        <div class="hairloss-submenu submenu">
+            <a href="#" class="submenu-item">
+                Hair Loss Overview
+            </a>
+            <a href="#" class="submenu-item">
+                Hair Loss Causes
+            </a>
+            <a href="#" class="submenu-item">
+                Treatment options
+            </a>
+            <a href="#" class="submenu-item">
+                Hair transplant benefits
+            </a>
+            <a href="#" class="submenu-item">
+                Hair transplant cost
             </a>
         </div>
-        <div class="header-phone">
-            <a href="tel:@Settings.GetPhone"><i class="fa fa-phone" style="top: 0;"></i> @Settings.GetPhoneFormated</a>
-        </div>
-    </div>
-</div>
-<div class="header-column">
-    <div class="header-row">
-        <div class="header-nav header-nav-links justify-content-right pr-4">
-            <div class="header-nav-main header-nav-main-square header-nav-main-font-lg-upper header-nav-main-effect-2 header-nav-main-sub-effect-1">
-                <nav class="collapse header-mobile-border-top">
-                    <ul class="nav nav-pills" id="mainNav">
-                        <li>
-                            <a class="@homeActive" href="@Site.Instance.HomePage.GetPageUrl()">
-                                &nbsp; @Vocabulary.Home
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </li>
-                        <li class="dropdown dropdown-mega">
-                            @{
-                                var servicesActive = TempData["ActiveMenuElement"]?.ToString() == "services" ? "active" : "";
-                            }
-                            <a class="dropdown-item dropdown-toggle @servicesActive" href="#" rel="nofollow">
-                                &nbsp; @Vocabulary.Services
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="dropdown-mega-content">
-                                        <div class="row">
-                                            @{var categories = Model.Categories.ToArray();}
-                                            @foreach (var category in categories)
-                                            {
-                                                <div class="col-lg-2">
-                                                    <span class="dropdown-mega-sub-title">@category.GetName</span>
-                                                    <ul class="dropdown-mega-sub-nav">
-                                                        @foreach (var service in category.Services.Where(s => s.ShowInMenu == "true"))
-                                                        {
-                                                            <li>
-                                                                <a class="dropdown-item" href="@service.GetPageUrl()">@service.GetShortName</a>
-                                                            </li>
-                                                        }
-                                                    </ul>
-                                                </div>
-                                            }
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        @{
-                            var professionalsActive = TempData["ActiveMenuElement"]?.ToString() == "professionals" ? "active" : "";
-                        }
-                        <li class="dropdown dropdown-mega">
-                            <a class="dropdown-item dropdown-toggle @professionalsActive" href="#" rel="nofollow">
-                                @Settings.GetProfessionalsProfessionPlural
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="dropdown-mega-content" id="surgeons">
-                                        <div class="row">
-                                            @foreach (var professional in Model.Professionals.Where(p => p.JobTitle.ToLower().Contains("surgeon")))
-                                            {
-                                                <div class="col-lg-2 lazy">
-                                                    <a href="@professional.GetPageUrl()"> @ViewHelpers.Picture(professional.GetImage("100x128"), professional.GetName, "https://via.placeholder.com/100x128", "dropdown-mega-sub-img")</a>
-                                                    <a class="dropdown-mega-sub-title link" href="@professional.GetPageUrl()">@professional.Name</a>
-                                                </div>
-                                            }
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                        @{
-                            var picturesActive = TempData["ActiveMenuElement"]?.ToString() == "pictures" ? "active" : "";
-                        }
-
-                        @if (Site.Instance.GalleryServices.Count() != 0)
-                        {
-                            <li class="dropdown">
-                                <a class="dropdown-item dropdown-toggle @picturesActive" href="#" rel="nofollow">
-                                    <i class="fa fa-camera" aria-hidden="true"></i>&nbsp;@Vocabulary.Gallery
-                                </a>
-                                <ul class="dropdown-menu">
-                                    @foreach (var service in Site.Instance.GalleryServices)
-                                    {
-                                        <li>
-                                            <a class="dropdown-item" href="@Url.Action("Index", "PictureIndexPage", new { dbServiceUrl = service.GetDbUrl, dbProfessionalUrl = "", abbreviatedLanguage = Model.CurrentLanguage.AbbreviatedName })">
-                                                @service.GetShortName <i class="fas fa-chevron-right"></i>
-                                            </a>
-                                        </li>
-                                    }
-                                </ul>
-                            </li>
-                        }
-                        @{
-                            var specialsActive = TempData["ActiveMenuElement"]?.ToString() == "specials" ? "active" : "";
-                        }
-                        <li>
-                            <a class="@specialsActive" href="@Site.Instance.Specials.GetIndexPageUrl()">
-                                <i class="fa fa-gift" aria-hidden="true"></i>&nbsp;@Site.Instance.Specials.GetIndexPageName()
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </li>
-                        @{
-                            var financingActive = TempData["ActiveMenuElement"]?.ToString() == "financing" ? "active" : "";
-                        }
-                        <li>
-                            <a class="@financingActive" href="@Site.Instance.FinancingOptions.GetIndexPageUrl()">                               
-                                &nbsp;@Site.Instance.FinancingOptions.GetIndexPageName()
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </li>
-
-                        @{
-                            var resourcesActive = TempData["ActiveMenuElement"]?.ToString() == "resources"
-                                               || TempData["ActiveMenuElement"]?.ToString() == "reschedule-and-cancellation-policy"
-                                               || TempData["ActiveMenuElement"]?.ToString() == "out-of-town-patients" ? "active" : "";
-                        }
-                        <li class="dropdown">
-                            <a class="dropdown-item dropdown-toggle @resourcesActive" href="#" rel="nofollow">
-                               @Vocabulary.Resources
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a class="dropdown-item" href="@Site.Instance.Videos.GetIndexPageUrl()">
-                                        @Site.Instance.Videos.GetIndexPageName()
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="@Site.Instance.Blog.GetIndexPageUrl()">
-                                        @Site.Instance.Blog.GetIndexPageName()
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="@Site.Instance.CancellationPolicy.GetPageUrl()">
-                                        @Site.Instance.CancellationPolicy.GetName
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="@Site.Instance.OutOfTownPatients.GetPageUrl()">
-                                        @Site.Instance.OutOfTownPatients.GetName
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="@Site.Instance.Calculateyourbmi.GetPageUrl()">
-                                        @Site.Instance.Calculateyourbmi.GetName
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a class="dropdown-item" href="@Site.Instance.PostOpMassage.GetPageUrl()">
-                                        @Site.Instance.PostOpMassage.GetName
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-
-                                @{
-                                    var reviewsActive = TempData["ActiveMenuElement"]?.ToString() == "reviews" ? "active" : "";
-                                }
-                                <li>
-                                    <a class="@reviewsActive" href="@Site.Instance.WebReviews.GetIndexPageUrl()">
-                                        @Site.Instance.WebReviews.GetIndexPageName()
-                                        <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </li>
-
-                                @*<li>
-                    <a class="dropdown-item" href="@Site.Instance.WebReviews.GetIndexPageUrl()">
-                        @Site.Instance.WebReviews.GetIndexPageName()
-                        <i class="fas fa-chevron-right"></i>
-                    </a>
-                </li>*@
-                            </ul>
-                        </li>
-
-                        @{
-                            var aboutActive = TempData["ActiveMenuElement"]?.ToString() == "about" ? "active" : "";
-                        }
-                        <li>
-                            <a class="@aboutActive" href="@Site.Instance.About.GetPageUrl()">
-                                 @Site.Instance.About.GetName
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </li>
-                        @{
-                            var contactActive = TempData["ActiveMenuElement"]?.ToString() == "contact" ? "active" : "";
-                        }
-                        <li>
-                            <a class="@contactActive" href="@Site.Instance.Contact.GetPageUrl()">
-                                 @Site.Instance.Contact.GetName
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </li>
-                        <li>
-
-                            @*
-        <li><a href="@Model.GetUrl">@Language.English.Name</a></li>
-        <li><a href="@Model.GetPageUrl(Language.Spanish.AbbreviatedName, Model.IsLandingPage)">@Language.Spanish.Name</a></li>
-                            *@
-
-                            @if (@Vocabulary.ChangeLang.Equals("English"))
-                            {
-
-                                <a rel="nofollow noopener" href="@Model.Url">
-                                    <span id="portal-link">@Vocabulary.ChangeLang</span>
-                                    <i class="fas fa-chevron-right"></i>
-                                </a>
-                            }
-                            else
-                            {
-                                <a rel="nofollow noopener" href="@Model.UrlSpanish">
-                                    <span id="portal-link">@Vocabulary.ChangeLang</span>
-                                    <i class="fas fa-chevron-right"></i>
-                                </a>
-                            }
-
-
-                        </li>
-
-                        <li>
-                            <a rel="nofollow noopener" target="_blank" href="@Settings.GetPortalLink">
-                                <span id="portal-link">Portal</span>
-                                <i class="fas fa-chevron-right"></i>
-                            </a>
-                        </li>
-
-
-
-
-
-
-                    </ul>
-                </nav>
+        <div class="hairtransplant-submenu submenu">
+            <div class="submenu-list">
+                <div class="submenu-header">Hair transplant technology</div>
+                <div class="submenu-subheader">FUE</div>
+                <a href="#" class="submenu-item">
+                    Neograft Hair Transplant
+                </a>
+                <a href="#" class="submenu-item">
+                    Robotic Hair Transplant
+                </a>
+            </div>
+            <div class="submenu-list">
+                <div class="submenu-header">Hair procedure</div>
+                <a href="#" class="submenu-item">
+                    Female Hair Transplant
+                </a>
+                <a href="#" class="submenu-item">
+                    Male Hair Transplant
+                </a>
+                <a href="#" class="submenu-item">
+                    Beard Hair Transplant
+                </a>
+                <a href="#" class="submenu-item">
+                    Ethnic Hair Transplant
+                </a>
+                <a href="#" class="submenu-item">
+                    Eyebrow Hair Transplant
+                </a>
+                <a href="#" class="submenu-item">
+                    Hairline Restoration
+                </a>
             </div>
         </div>
+        <div class="nonsurgical-submenu submenu">
+            <a href="#" class="submenu-item">
+                Platelet Rich Plasma Injection (PRP)
+            </a>
+            <a href="#" class="submenu-item">
+                Capillus laser therapy
+            </a>
+            <a href="#" class="submenu-item">
+                Scalp Micropigmentation
+            </a>
+        </div>
+        <div class="resources-submenu submenu">
+            <a href="#" class="submenu-item">
+                Financing
+            </a>
+            <a href="#" class="submenu-item">
+                Traveling Patients
+            </a>
+            <a href="#" class="submenu-item">
+                Blog
+            </a>
+        </div>
+        <h2 class="menu-heading">
+            Contact Info
+        </h2>
+        <ul class="contact-info">
+            <li>
+                <a class="contact-info-item" href="mailto:info@care4miami.com">
+                    <img src="media/menu-mail.svg" alt="mail icon">
+                    info@care4miami.com
+                </a>
+            </li>
+            <li>
+                <a class="contact-info-item" href="tel:3052626070">
+                    <img src="media/menu-phone.svg" alt="phone icon">
+                    (305) 262 6070
+                </a>
+            </li>
+        </ul>
+        <div class="menu-social-media">
+            <a href="#"><img src="media/menu-facebook.svg" alt="social media icon"></a>
+            <a href="#"><img src="media/menu-youtube.svg" alt="social media icon"></a>
+            <a href="#"><img src="media/menu-instagram.svg" alt="social media icon"></a>
+        </div>
     </div>
-
-</div>
-<div class="header-column flex-grow-0 justify-content-center">
-    @*<div class="header-row pl-4 justify-content-end">
-            <ul class="header-social-icons social-icons d-none d-sm-block social-icons-clean m-0">
-                <li class="fa fa-phone text-color-primary"><a href="tel:@(Settings.GetPhone)" target="_blank" title="@Vocabulary.Phone">@(Settings.GetPhoneFormated)</a></li>
-                <li class="fa fa-envelope text-color-primary"><a href="mailto:@(Settings.GetEmail)" target="_blank" title="@Vocabulary.EmailAddress">@(Settings.GetEmail)</a></li>
-                <li class="fa far fa-dot-circle text-color-primary"><a href="https://goo.gl/maps/dBCa8deVm43uM9wW6" target="_blank" title="@Vocabulary.Address">@(Settings.GetFullAddress)</a></li>
-            </ul>
-        </div>*@
-    <button class="header-btn-collapse-nav ml-0 ml-sm-3 right-col" data-toggle="collapse" data-target=".header-nav-main nav">
-        <i class="fas fa-bars"></i>
-    </button>
 </div>

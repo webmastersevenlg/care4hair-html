@@ -19,8 +19,8 @@
     description=""
     descriptionspanish="Enfermera de Practica Avanzada"
     featured="true"
-    honorificprefix="APRN"
-    honorificsuffix=""
+    honorificprefix=""
+    honorificsuffix="APRN"
     briefintroforaboutpage=""
     briefintroforaboutpagespanish="">
   </ProfessionalEntity>
@@ -33,7 +33,7 @@
 	  urlspanish="marianela-lopez-aprn"
 	  dburl="marianela-lopez"
 	  dburlspanish="marianela-lopez-aprn"
-	  id="marianela-lopez-aprn"
+	  id="marianela-lopez"
 	  imagename=""
 	  lastname="Lopez"
 	  name="Marianela Lopez"
@@ -83,7 +83,7 @@
 	  urlspanish="manuel-mendizabal"
 	  dburl="dr-manuel-mendizabal"
 	  dburlspanish="manuel-mendizabal"
-	  id="dr-manuel-mendizabal"
+	  id="manuel-mendizabal"
 	  imagename=""
 	  lastname="Mendizabal"
 	  name="Manuel Mendizabal"
@@ -94,7 +94,7 @@
 	  description=""
 	  descriptionspanish="CIRUJANO Y ESPECIALISTA EN TRASPLANTE DE CABELLO"
 	  featured="true"
-	  honorificprefix="Dr"
+	  honorificprefix="Dr."
 	  honorificsuffix=""
 	  briefintroforaboutpage=""
 	  briefintroforaboutpagespanish="">
