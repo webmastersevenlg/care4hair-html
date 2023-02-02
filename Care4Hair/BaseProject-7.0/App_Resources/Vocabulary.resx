@@ -1044,4 +1044,7 @@
   <data name="ViewDirections" xml:space="preserve">
     <value>VIEW DIRECTIONS</value>
   </data>
+  <data name="PatientPortal" xml:space="preserve">
+    <value>Patient Portal</value>
+  </data>
 </root>

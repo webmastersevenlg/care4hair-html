@@ -912,4 +912,7 @@
   <data name="ViewDirections" xml:space="preserve">
     <value>VER DIRECCION</value>
   </data>
+  <data name="PatientPortal" xml:space="preserve">
+    <value>Portal de Pacientes</value>
+  </data>
 </root>
