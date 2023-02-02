@@ -3,21 +3,21 @@
 
   <BlogPostEntity
      active="true"
-     imagename="10-tips-for-your-mommy-makeover-recovery"
+     imagename="prevent-and-slow-down-progressive-pattern-hair-loss"
      language="En"
-     intro="A Mommy Makeover is a plastic surgery procedure that restores a woman's figure after having children. It combines several surgical procedures intended to achieve your goals..."
+     intro="The hair follicles go through cycles shedding hair and regrowing it anew. Nevertheless, hair does begin to fall at faster rates as we age, especially when we’ve developed certain life habits that speed up hair loss, as we’ll explain below. This process of losing hair is called telogen effluvium, and the causes are many. Stress..."
       description=""
       targeredkeyword=""
-      title="10 Tips for your Mommy makeover Recovery "
-      url="10-tips-for-your-mommy-makeover-recovery"
+      title="Prevent and Slow Down Progressive Pattern Hair Loss"
+      url="prevent-and-slow-down-progressive-pattern-hair-loss"
       genre=""
       about=""
-      datecreated="2022-06-07T12:59:13+00:00"
-      datepublished="2022-06-07T12:59:13+00:00"
-      datemodificate="2022-06-07T12:59:13+00:00"
+      datecreated="2022-03-010T12:59:13+00:00"
+      datepublished="2022-03-010T12:59:13+00:00"
+      datemodificate="2022-03-010T12:59:13+00:00"
       featured="true">
     <Author  id="1"/>
-    <Category id=""/>
+    <Category id="hairtransplant"/>
     <Tags>
       <Tag id=""/>
       <Tag id=""/>
@@ -25,6 +25,155 @@
   </BlogPostEntity>
 
 
-  
-  
+	<BlogPostEntity
+		 active="true"
+		 imagename="do-hair-transplants-leave-scars"
+		 language="En"
+		 intro="The technology around hair transplants has come a very long way since hair plugs. Today, new techniques and technologies have made hair transplant surgery more painless and comfortable than it’s ever been. They have also produced stunning and increasingly more natural-looking results. Nevertheless, like any surgery, hair transplants involve skin incisions, and these tend to..."
+		  description=""
+		  targeredkeyword=""
+		  title="Do Hair Transplants Leave Scars?"
+		  url="do-hair-transplants-leave-scars"
+		  genre=""
+		  about=""
+		  datecreated="2022-03-03T12:59:13+00:00"
+		  datepublished="2022-03-03T12:59:13+00:00"
+		  datemodificate="2022-03-03T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="is-creatine-responsible-for-causing-hair-loss"
+		 language="En"
+		 intro="Hair loss can be caused by a multiplicity of factors. We lose hair as we age; we could suffer from immune disorders like alopecia, in which our own immune system attacks our own hair follicles, causing the follicles to shed their hair; or we may simply not have been born with the right genetic make-up..."
+		  description=""
+		  targeredkeyword=""
+		  title="Is Creatine Responsible for Causing Hair Loss?"
+		  url="is-creatine-responsible-for-causing-hair-loss"
+		  genre=""
+		  about=""
+		  datecreated="2022-02-07T12:59:13+00:00"
+		  datepublished="2022-02-07T12:59:13+00:00"
+		  datemodificate="2022-02-07T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="does-hair-transplant-hurt"
+		 language="En"
+		 intro="A very paradoxical phenomenon that many patients go through after getting hair transplants is “shock hair loss.” This is a sudden loss of hair following a surgical procedure. The causes are not well-understood, but many factors have been pointed out, such as scalp tissue inflammation and blood supply disruptions during surgery. Shock hair loss can..."
+		  description=""
+		  targeredkeyword=""
+		  title="Does hair transplant hurt?"
+		  url="does-hair-transplant-hurt"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-011T12:59:13+00:00"
+		  datepublished="2022-01-011T12:59:13+00:00"
+		  datemodificate="2022-01-011T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="how-to-know-if-your-hair-loss-is-something-to-get-checked-out"
+		 language="En"
+		 intro="To know whether you should go to the doctor to have them check out your hair, you need to have noticed one thing before anything else: hair loss. Losing hair, in general, is normal. Hair follicles go through shedding cycles during which they lose and regrow hair. According to the American Academy of Dermatology Association, ..."
+		  description=""
+		  targeredkeyword=""
+		  title="How To Know If Your Hair Loss Is Something To Get Checked Out"
+		  url="how-to-know-if-your-hair-loss-is-something-to-get-checked-out"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-20T12:59:13+00:00"
+		  datepublished="2022-01-20T12:59:13+00:00"
+		  datemodificate="2022-01-20T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="eyebrow-restoration"
+		 language="En"
+		 intro="Many people might think that the best or even only way to restore your eyebrows is with make-up or permanent tattoos. While both of these options can help you define your eyebrows and provide you with eyebrows that look somewhat real, many men and women still say that the effect is not very convincing. Luckily,..."
+		  description=""
+		  targeredkeyword=""
+		  title="Eyebrow Restoration"
+		  url="eyebrow-restoration"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-26T12:59:13+00:00"
+		  datepublished="2022-01-26T12:59:13+00:00"
+		  datemodificate="2022-01-26T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+	<BlogPostEntity
+		 active="true"
+		 imagename="shock-hair-loss"
+		 language="En"
+		 intro="A very paradoxical phenomenon that many patients go through after getting hair transplants is “shock hair loss.” This is a sudden loss of hair following a surgical procedure. The causes are not well-understood, but many factors have been pointed out, such as scalp tissue inflammation and blood supply disruptions during surgery. Shock hair loss can ..."
+		  description=""
+		  targeredkeyword=""
+		  title="Shock Hair Loss"
+		  url="shock-hair-loss"
+		  genre=""
+		  about=""
+		  datecreated="2022-01-04T12:59:13+00:00"
+		  datepublished="2022-01-04T12:59:13+00:00"
+		  datemodificate="2022-01-04T12:59:13+00:00"
+		  featured="true">
+		<Author  id="1"/>
+		<Category id="hairtransplant"/>
+		<Tags>
+			<Tag id=""/>
+			<Tag id=""/>
+		</Tags>
+	</BlogPostEntity>
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+
 </BlogPostEntities>
