@@ -10,5 +10,16 @@
                          briefintro = " "
                          briefintrospanish = "">
   </CategoryEntity>
+
+  <CategoryEntity id="nonsurgical"
+                         featured="true"
+                         icon="no-surgical-icon.png"
+                         url="no-surgical"
+                         name="Non Surgical"
+                         urlspanish=""
+                         namespanish="No Quirúgicos"
+                         briefintro = " "
+                         briefintrospanish = "">
+   </CategoryEntity>
   
 </Data>
