@@ -1,0 +1,74 @@
+﻿@model ProfessionalIndexablePageViewModel
+@{ Layout = "~/Views/Shared/_Layout.cshtml";}
+
+<section class="page-header page-header-classic page-header-md">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 order-2 order-md-1 align-self-center p-static">
+               <h1 data-title-border><span class="custom-font-size-4">@Model.HonorificPrefix. @Model.Name</span><br /> <span id="job-title">@Model.GetJobTitle</span></h1>
+            </div>
+            <div class="col-md-5 order-1 order-md-2 align-self-center">
+                <ul class="breadcrumb d-block text-md-right">
+                    <li><a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a></li>
+                    <li><a href="@Site.Instance.Professionals.GetIndexPageUrl()">@Model.GetEntityName</a></li>
+                    <li class="active">@Model.Name</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container pt-5">
+    <div class="row py-4 mb-2">
+
+        <div class="col-md-7 order-2">
+            @*<div class="overflow-hidden">
+                    <h1 class="text-color-dark font-weight-bold text-8 mb-0 pt-0 mt-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">@Model.HonorificPrefix. @Model.GetName</h1>
+                </div>
+                <div class="overflow-hidden mb-3">
+                    <p class="font-weight-bold text-primary text-uppercase mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="500">@Model.JobTitle</p>
+                </div>*@
+            @Html.Partial(Model.GetArticleFilePath)
+        </div>
+
+       
+
+    </div>
+</div>
+
+
+    @*<div class="featured-boxes featured-boxes-modern-style-2 featured-boxes-modern-style-2-hover-only featured-boxes-modern-style-primary my-4 ml-lg-5">
+            <div class="featured-box" style="height: 324.188px;">
+                <div class="box-content px-lg-4 px-xl-5 py-lg-5">
+                    <i class="icon-featured fa fa-tag text-color-primary"></i>
+                    <h2 class="font-weight-normal text-5">Specials with <strong class="font-weight-extra-bold">@Model.HonorificPrefix. @Model.GetName</strong></h2>
+                    <p class="mb-0">Find the best prices for your procedure. </p>
+                    <a href="/specials/@Model.Url" class="btn btn-light btn-outline font-weight-semibold text-color-dark btn-px-5 btn-py-2 border-width-1 text-1 mt-3">VIEW SPECIALS</a>
+                </div>
+            </div>
+        </div>*@
+
+
+
+    @*<div class="col-sm-6 text-lg-right my-4 my-lg-0">
+                                <strong class="text-uppercase text-1 mr-3 text-dark">follow me</strong>
+            <ul class="social-icons float-lg-right">
+                 <li class="social-icons-facebook"><a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                 <li class="social-icons-instagram"><a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                 <li class="social-icons-linkedin"><a href="#" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+             </ul>
+        </div>*@
+
+
+    @section pageMetas{
+        @Html.Partial(Model.GetMetasFilePath)
+    }
+
+
+    @section pageStyles{
+        @BundleHelpers.StyleBundle("globalbundle")
+    }
+
+    @section pageScripts{
+        @BundleHelpers.ScriptBundle("globalbundle")
+    }
