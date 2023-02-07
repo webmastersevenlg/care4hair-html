@@ -23,16 +23,16 @@
   <UncategorizedPageEntity id="hairtransplantcost" url="hair-transplant-cost" urlspanish="costo-del-trasplante-de-cabello-en-miami" name="Hair Transplant Cost" namespanish="Costo del Trasplante de Cabello">
   </UncategorizedPageEntity>  
 
-  <UncategorizedPageEntity id="neografthairtransplant" url="neograft-hair-transplant-in-miami" urlspanish="trasplante-de-cabello-con-neograft-en-miami" name="NeoGraft Hair Transplant in Miami" namespanish="Trasplante de Cabello NeoGraft en Miami">
+  <UncategorizedPageEntity id="neografthairtransplant" url="neograft-hair-transplant" urlspanish="trasplante-de-cabello-con-neograft" name="NeoGraft Hair Transplant in Miami" namespanish="Trasplante de Cabello NeoGraft en Miami">
   </UncategorizedPageEntity>
   
-  <UncategorizedPageEntity id="robotichairtransplant" url="robotic-hair-transplant-miami" urlspanish="artas-trasplante-de-cabello-robotizado-en-miami" name="Robotic Hair Transplant Miami" namespanish="ARTAS Trasplante de Cabello Robotizado en Miami">
+  <UncategorizedPageEntity id="robotichairtransplant" url="robotic-hair-transplant" urlspanish="artas-trasplante-de-cabello-robotizado" name="Robotic Hair Transplant Miami" namespanish="ARTAS Trasplante de Cabello Robotizado en Miami">
   </UncategorizedPageEntity>
 
-	<UncategorizedPageEntity id="fuehairtransplant" url="fue-hair-transplant-in-miami" urlspanish="trasplante-de-cabello-fue-en-miami" name="FUE Hair Transplant in Miami" namespanish="Trasplante de Cabello FUE en Miami">
+	<UncategorizedPageEntity id="fuehairtransplant" url="fue-hair-transplant" urlspanish="trasplante-de-cabello-fue" name="FUE Hair Transplant in Miami" namespanish="Trasplante de Cabello FUE en Miami">
 	</UncategorizedPageEntity>
 
-	<UncategorizedPageEntity id="outoftownpatients" url="out-of-town-hair-transplant-patients" urlspanish="pacientes-fuera-de-la-ciudad" name="Out-of-Town Hair Transplant Patients" namespanish="Pacientes fuera de la ciudad">
+	<UncategorizedPageEntity id="outoftownpatients" url="out-of-town-patients" urlspanish="pacientes-fuera-de-la-ciudad" name="Out-of-Town Hair Transplant Patients" namespanish="Pacientes fuera de la ciudad">
 	</UncategorizedPageEntity>
 
 	<UncategorizedPageEntity id="privacy-policy" url="privacy-policy" urlspanish="politica-de-privacidad" name="Privacy Policy" namespanish="Política de Privacidad">

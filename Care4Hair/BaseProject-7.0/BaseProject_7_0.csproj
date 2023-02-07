@@ -130,4 +130,20 @@
     <PackageReference Include="Twilio" Version="6.2.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\ServicePage\Content\" />
+    <Folder Include="Views\UncategorizedPage\content\about\" />
+    <Folder Include="Views\UncategorizedPage\content\contact\" />
+    <Folder Include="Views\UncategorizedPage\content\hair-loss\" />
+    <Folder Include="Views\UncategorizedPage\content\hair-loss-causes\" />
+    <Folder Include="Views\UncategorizedPage\content\hair-loss-treatment-options\" />
+    <Folder Include="Views\UncategorizedPage\content\hair-transplant-benefits\" />
+    <Folder Include="Views\UncategorizedPage\content\hair-transplant-cost\" />
+    <Folder Include="Views\UncategorizedPage\content\neograft-hair-transplant\" />
+    <Folder Include="Views\UncategorizedPage\content\fue-hair-transplant\" />
+    <Folder Include="Views\UncategorizedPage\content\privacy-policy\" />
+    <Folder Include="Views\UncategorizedPage\content\robotic-hair-transplant\" />
+    <Folder Include="Views\UncategorizedPage\content\out-of-town-patients\" />
+  </ItemGroup>
+
 </Project>

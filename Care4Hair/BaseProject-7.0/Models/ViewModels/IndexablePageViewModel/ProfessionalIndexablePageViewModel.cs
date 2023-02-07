@@ -69,10 +69,14 @@ namespace BaseProject_7_0.Models.ViewModels
             }
         }
 
+        public HttpRequest Request { get; }
+
         public ProfessionalIndexablePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {            
             SkinName = "ProfessionalPageSkin";
             ImagesFolderPath = "/content/images/professionals";
         }
+
+        
     }
 }

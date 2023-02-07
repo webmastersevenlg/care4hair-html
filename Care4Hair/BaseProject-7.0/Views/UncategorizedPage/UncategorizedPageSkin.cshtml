@@ -1,0 +1,69 @@
+﻿@model UncategorizedPageViewModel
+@{ Layout = "~/Views/Shared/_Layout.cshtml";}
+<style>
+    html .bg-color-light, html .bg-light {
+        background-color: #FFF !important;
+    }
+
+    .custom-thumb-carousel {
+        padding: 8px;
+    }
+
+    .custom-box-shadow {
+        -webkit-box-shadow: 0px 0px 60px -10px rgb(139 139 139 / 50%);
+        box-shadow: 0px 0px 60px -10px rgb(139 139 139 / 50%);
+    }
+
+    .custom-location {
+        padding-left: 60px;
+    }
+
+        .custom-location > img {
+            position: absolute;
+            left: 30px;
+            top: 7px;
+        }
+
+    .list li {
+        margin-bottom: 3px;
+    }
+
+    .g-recaptcha {
+        transform: scale(0.77);
+        transform-origin: 0 0;
+    }
+</style>
+<section class="page-header page-header-classic page-header-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+                <h1 data-title-border>@Model.GetName</h1>
+            </div>
+            <div class="col-md-4 order-1 order-md-2 align-self-center">
+                <ul class="breadcrumb d-block text-md-right">
+                    <li><a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a></li>
+                    <li class="active">@Model.GetName</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+@Html.Partial(Model.GetArticleFilePath)
+
+
+@section pageMetas{
+    @Html.Partial(Model.GetMetasFilePath)
+    <link rel="alternate" hreflang="@Language.English.Code" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
+    <link rel="alternate" hreflang="@Language.Spanish.Code" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
+}
+
+@section pageStyles{
+    @BundleHelpers.StyleBundle("globalbundle")
+
+}
+
+@section pageScripts{
+    @BundleHelpers.ScriptBundle("globalbundle")
+    @{Html.RenderPartial(Model.GetPageArticleFolderPath + "/articleCustomScripts");}
+}
