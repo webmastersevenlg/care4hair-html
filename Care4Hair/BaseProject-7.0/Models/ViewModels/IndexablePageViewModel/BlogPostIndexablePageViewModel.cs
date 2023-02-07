@@ -53,7 +53,7 @@ namespace BaseProject_7_0.Models.ViewModels
             }
         }
 
-        public BlogPostIndexablePageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base (_httpContextAccessor, _browserDetector)
+        public BlogPostIndexablePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base (_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexablePageDetail = new BlogPostIndexablePageDetailViewModel();
             SkinName = "BlogPostPageSkin";

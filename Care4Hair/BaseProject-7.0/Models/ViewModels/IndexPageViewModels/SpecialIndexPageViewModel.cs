@@ -12,7 +12,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class SpecialIndexPageViewModel : IndexPageViewModel 
     {
-        public SpecialIndexPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public SpecialIndexPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexDetail = new SpecialIndexPageDetailViewModel();
         }

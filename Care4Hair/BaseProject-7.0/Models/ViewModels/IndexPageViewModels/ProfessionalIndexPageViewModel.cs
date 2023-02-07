@@ -6,7 +6,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class ProfessionalIndexPageViewModel : IndexPageViewModel
     {
-        public ProfessionalIndexPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public ProfessionalIndexPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexDetail = new ProfessionalIndexPageDetailViewModel();
         }

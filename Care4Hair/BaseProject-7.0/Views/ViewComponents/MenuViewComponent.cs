@@ -10,12 +10,12 @@ namespace BaseProject_7_0.Views.ViewComponents
 
         }
 
-        public IViewComponentResult InvokeAsync(string pageUrl, string spanishPageUrl)
+        public async Task<IViewComponentResult> InvokeAsync(string pageUrl, string spanishPageUrl)
         {
             MenuPartialViewModel menuPVM = new MenuPartialViewModel();
             menuPVM.Url = pageUrl;
             menuPVM.UrlSpanish = spanishPageUrl;
-            return View(menuPVM);
+            return  View(menuPVM);
         }
     }
 }

@@ -106,7 +106,7 @@ header.header-bg {
     height: 100%;
     width: 100%;
     background-color: #000000ab;
-    cursor: url(media/close-pointer.svg), pointer;
+    cursor: url(/themes/care4hair/images/close-pointer.svg), pointer;
     transition: .3s ease-out;
 }
 
@@ -399,7 +399,7 @@ header.header-bg {
         height: 100%;
         width: 100%;
         background-color: #000000ab;
-        cursor: url(media/close-pointer.svg), pointer;
+        cursor: url(/themes/care4hair/images/close-pointer.svg), pointer;
         transition: .3s ease-out;
     }
     

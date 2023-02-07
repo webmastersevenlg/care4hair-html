@@ -60,7 +60,7 @@ namespace BaseProject_7_0.Models.ViewModels
             }
         }
 
-        public HomePageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public HomePageViewModel(IWebHostEnvironment _webHostEnvironment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostEnvironment, _httpContextAccessor, _browserDetector)
         {
             SkinName = "HomePageSkin";
             Categories = new List<CategoryPartialViewModel>();

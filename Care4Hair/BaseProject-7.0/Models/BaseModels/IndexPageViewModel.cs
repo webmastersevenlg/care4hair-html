@@ -190,7 +190,7 @@ namespace BaseProject_7_0.Models.BaseModels
             }
         }
 
-        public IndexPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base (_httpContextAccessor, _browserDetector)
+        public IndexPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base (_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
 
         }

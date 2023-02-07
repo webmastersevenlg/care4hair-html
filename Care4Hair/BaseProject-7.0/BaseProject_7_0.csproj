@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Footer\Pc.cshtml" />
+    <None Include="Views\Shared\Footer\Pc.cshtml" />
+    <None Include="Views\Shared\HeadContent\_GlobalLinks.cshtml" />
+    <None Include="Views\Shared\HeadContent\_GlobalMetas.cshtml" />
     <None Include="Views\HomePage\content\En\article.cshtml" />
     <None Include="Views\HomePage\content\En\articlemetas.cshtml" />
     <None Include="Views\HomePage\content\Es\article.cshtml" />
@@ -33,9 +35,7 @@
     <None Include="Views\Shared\Components\Menu\Default.cshtml" />
     <None Include="Views\Shared\Error.cshtml" />
     <None Include="Views\Shared\Header\Mobile\Header_Top.cshtml" />
-    <None Include="Views\Shared\Header\Mobile\Menu.cshtml" />
     <None Include="Views\Shared\Header\Pc\Header_Top.cshtml" />
-    <None Include="Views\Shared\Header\Pc\Menu.cshtml" />
     <None Include="Views\Shared\_Layout.cshtml" />
     <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
     <None Include="Views\_ViewImports.cshtml" />

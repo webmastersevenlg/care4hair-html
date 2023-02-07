@@ -55,7 +55,7 @@ namespace BaseProject_7_0.Models.ViewModels
             }
         }
 
-        public ServicePageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public ServicePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             SkinName = "ServicePageSkin";
             ImagesFolderPath = "/content/images/services";

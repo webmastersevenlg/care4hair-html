@@ -11,7 +11,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class FinancingOptionIndexPageViewModel : IndexPageViewModel
     {
-        public FinancingOptionIndexPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public FinancingOptionIndexPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexDetail = new FinancingOptionIndexPageDetailViewModel();
         }

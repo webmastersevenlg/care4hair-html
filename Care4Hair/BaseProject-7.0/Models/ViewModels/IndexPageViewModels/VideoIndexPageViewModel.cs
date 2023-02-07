@@ -11,7 +11,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class VideoIndexPageViewModel : IndexPageViewModel
     {
-        public VideoIndexPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public VideoIndexPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexDetail = new VideoIndexPageDetailViewModel();
         }

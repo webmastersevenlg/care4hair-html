@@ -13,7 +13,7 @@ namespace BaseProject_7_0.Models.ViewModels
     {
         public PreopFormDataTransferViewModel FormData;
 
-        public PreopFormPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public PreopFormPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         { 
         }
     }    

@@ -18,7 +18,7 @@ namespace BaseProject_7_0.Models.BaseModels
                 return IndexPageDetail.GetIndexPageUrl(abbreviatedLanguage);            
         }
 
-        public IndexablePageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public IndexablePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             
         }       

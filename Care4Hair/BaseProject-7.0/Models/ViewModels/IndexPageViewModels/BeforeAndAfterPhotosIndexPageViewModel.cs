@@ -10,7 +10,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class BeforeAndAfterPhotosIndexPageViewModel : IndexPageViewModel
     {
-        public BeforeAndAfterPhotosIndexPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public BeforeAndAfterPhotosIndexPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexDetail = new BeforeAndAfterPhotosIndexPageDetailViewModel();
         }

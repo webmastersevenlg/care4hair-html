@@ -113,7 +113,7 @@ namespace BaseProject_7_0.Models.ViewModels
             return "https://" + Settings.GetSpecialsCdnDomain + "/CDN/specials/" + name;
         }
 
-        public SpecialIndexablePageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public SpecialIndexablePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             IndexablePageDetail = new SpecialIndexablePageDetailViewModel();
             SkinName = "SpecialPageSkin";

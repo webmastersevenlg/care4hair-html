@@ -11,11 +11,11 @@
         gtag('js', new Date());
         gtag('config', '@(Settings.GetAnalyticsId)');
     </script>
-    @Html.PartialAsync("HeadContent/Pc/_GlobalMetas")
-    @Html.PartialAsync("HeadContent/Pc/_GlobalLinks")
-    @RenderSection("pageMetas", false)
+    @await Html.PartialAsync("headcontent/_globalmetas")
+    @await Html.PartialAsync("headcontent/_globallinks")
+    @await RenderSectionAsync("pageMetas", false)
     <meta name="priority" content="@Model.XmlPriority" />
-    @RenderSection("pageStyles", false)
+    @await RenderSectionAsync("pageStyles", false)
     <meta name="visit_source" content="visit_source_value">
     <meta name="referrer_url" content="referrer_url_value">
     <meta name="user_host_address" content="user_host_address_value">
@@ -35,14 +35,14 @@
 </head>
 <body class="@Model.CurrentLanguage.AbbreviatedName.ToLower() @(bool.Parse(Settings.UseCdn) ? "cdn" : "")">
 
-        @Html.PartialAsync("~/views/shared/header/desktop/Header_Top.cshtml")
+        @await Html.PartialAsync("header/pc/header_top.cshtml")
                 
         @await Component.InvokeAsync("Menu", new { pageUrl = Model.GetPageUrl(Language.English.AbbreviatedName), spanishPageUrl = Model.GetPageUrl(Language.Spanish.AbbreviatedName)})
 
         @RenderBody()
 
-        @Html.PartialAsync("footer/Pc")
+        @await Html.PartialAsync("footer/Pc")
 
-        @RenderSection("pageScripts", false)    
+        @await RenderSectionAsync("pageScripts", false)
 </body>
 </html>

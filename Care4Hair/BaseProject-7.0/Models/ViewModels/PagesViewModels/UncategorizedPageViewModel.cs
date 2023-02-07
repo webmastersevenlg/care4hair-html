@@ -17,8 +17,9 @@ namespace BaseProject_7_0.Models.ViewModels
 
         public ICollection<ProfessionalPartialViewModel> Professionals { get; set; }
 
-        public UncategorizedPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
-        {
+        public UncategorizedPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
+        {           
+
             SkinName = "UncategorizedPageSkin";
             Professionals = new List<ProfessionalPartialViewModel>();
 

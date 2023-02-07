@@ -44,7 +44,7 @@ namespace BaseProject_7_0.Models.ViewModels
 
         public override string GetH1 { get { return IsEnglish ? GetName + " Procedures" : GetName; } }
 
-        public CategoryPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public CategoryPageViewModel(IWebHostEnvironment _webHostingEnviroment,IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             SkinName = "CategoryPageSkin";
             ImagesFolderPath = "/content/images/categories";

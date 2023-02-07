@@ -750,7 +750,7 @@ section {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(media/sec-6-bg-img.jpeg);
+    background-image: url(/themes/care4hair/images/sec-6-bg-img.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1528,7 +1528,7 @@ section {
     top: 0;
     height: 100%;
     width: 100%;
-    background-image: url(media/team/bg-img.jpeg);
+    background-image: url(/themes/care4hair/images/team/bg-img.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

@@ -6,7 +6,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class ErrorPageViewModel : BasePageWithStaticHtmlFilesViewModel
     {
-        public ErrorPageViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_httpContextAccessor, _browserDetector)
+        public ErrorPageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             SkinName = "ErrorPageSkinPage";       
         }   

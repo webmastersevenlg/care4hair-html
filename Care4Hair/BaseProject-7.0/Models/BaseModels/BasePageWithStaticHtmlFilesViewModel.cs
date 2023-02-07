@@ -6,7 +6,7 @@ namespace BaseProject_7_0.Models.ViewModels
 {
     public class BasePageWithStaticHtmlFilesViewModel : BasePageViewModel
     {
-        public static IWebHostEnvironment WebHostEnvironment;
+        public static IWebHostEnvironment _webHostEnvironment;
 
         public virtual string GetPageArticleFolderPath
         {
@@ -54,8 +54,8 @@ namespace BaseProject_7_0.Models.ViewModels
         get
             {
                 return DateTime.SpecifyKind(new DateTime(Math.Max(                    
-                    File.GetLastWriteTime(Path.Combine(WebHostEnvironment.WebRootPath, GetViewFolderPath + "/" + GetArticleFilePath + ".cshtml")).Ticks,
-                    File.GetLastWriteTime(Path.Combine(WebHostEnvironment.WebRootPath, GetViewFolderPath + "/" + GetMetasFilePath + ".cshtml")).Ticks)), DateTimeKind.Local).ToString("yyyy-MM-ddThh:mm:sszzz");
+                    File.GetLastWriteTime(Path.Combine(_webHostEnvironment.WebRootPath, GetViewFolderPath + "/" + GetArticleFilePath + ".cshtml")).Ticks,
+                    File.GetLastWriteTime(Path.Combine(_webHostEnvironment.WebRootPath, GetViewFolderPath + "/" + GetMetasFilePath + ".cshtml")).Ticks)), DateTimeKind.Local).ToString("yyyy-MM-ddThh:mm:sszzz");
             }
         }
 
@@ -63,12 +63,13 @@ namespace BaseProject_7_0.Models.ViewModels
         {
             get
             {
-                return DateTime.SpecifyKind(File.GetLastWriteTime(Path.Combine(WebHostEnvironment.WebRootPath, GetViewFolderPath + "/" + GetMetasFilePath + ".cshtml")), DateTimeKind.Local).ToString("zzz");
+                return DateTime.SpecifyKind(File.GetLastWriteTime(Path.Combine(_webHostEnvironment.WebRootPath, GetViewFolderPath + "/" + GetMetasFilePath + ".cshtml")), DateTimeKind.Local).ToString("zzz");
             }
         }
 
-        public BasePageWithStaticHtmlFilesViewModel(IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base (_httpContextAccessor, _browserDetector)
+        public BasePageWithStaticHtmlFilesViewModel(IWebHostEnvironment webHostEnvironment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base (_httpContextAccessor, _browserDetector)
         {
+            _webHostEnvironment = webHostEnvironment;
         }
     }
 }

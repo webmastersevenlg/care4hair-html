@@ -70,6 +70,8 @@ else
             var exceptionHandlerPathFeature =
                 context.Features.Get<IExceptionHandlerPathFeature>();
 
+            Console.WriteLine(exceptionHandlerPathFeature.Error.Message);
+
             if (exceptionHandlerPathFeature?.Error is FileNotFoundException)
             {
                 await context.Response.WriteAsync(" The file was not found.");

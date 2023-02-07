@@ -1,0 +1,27 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0">
+@*crawlers access*@
+@if (ViewBag.IsLandingPage != null && ViewBag.IsLandingPage)
+{
+    <meta name="Robots" content="noindex, nofollow" />
+    <meta name="YahooSeeker" content="NOINDEX, NOFOLLOW" />
+    <meta name="msnbot" content="NOINDEX, NOFOLLOW" />
+    <meta name="googlebot" content="NOINDEX, NOFOLLOW" />
+    <meta name="allow-search" content="no" />
+}
+else
+{
+    <meta name="Robots" content="index, follow" />
+    <meta name="YahooSeeker" content="INDEX, FOLLOW" />
+    <meta name="msnbot" content="INDEX, FOLLOW" />
+    <meta name="googlebot" content="INDEX, FOLLOW" />
+    <meta name="allow-search" content="yes" />
+}
+@*geolocation*@
+<meta name="geo.region" content="@Settings.GetRegion" />
+<meta name="geo.placename" content="@Settings.GetCity" />
+<meta name="geo.position" content="@Settings.GetGeoPosition" />
+<meta name="ICBM" content="@Settings.GetGeoPosition" />
+@*social media*@
+<meta property="article:publisher" content="@Settings.GetFacebook" />
+<meta property="article:author" content="@Settings.GetFacebook" />
