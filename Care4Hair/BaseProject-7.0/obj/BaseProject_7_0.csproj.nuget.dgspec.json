@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User228\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj": {}
+    "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User228\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj": {
+    "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User228\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj",
+        "projectUniqueName": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj",
         "projectName": "BaseProject_7_0",
-        "projectPath": "C:\\Users\\User228\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj",
-        "packagesPath": "C:\\Users\\User228\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User228\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\obj\\",
+        "projectPath": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\BaseProject_7_0.csproj",
+        "packagesPath": "C:\\Users\\jecab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\User228\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\jecab\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/dpuig/_packaging/lpmfeed/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -87,7 +81,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -99,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
