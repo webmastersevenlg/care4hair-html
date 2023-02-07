@@ -1047,4 +1047,19 @@
   <data name="PatientPortal" xml:space="preserve">
     <value>Patient Portal</value>
   </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="BeforeAndAfter" xml:space="preserve">
+    <value>Before And After</value>
+  </data>
+  <data name="HairLoss" xml:space="preserve">
+    <value>Hair Loss</value>
+  </data>
+  <data name="HairTransplant" xml:space="preserve">
+    <value>Hair Transplant</value>
+  </data>
+  <data name="Procedures" xml:space="preserve">
+    <value>Procedures</value>
+  </data>
 </root>

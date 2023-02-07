@@ -6,6 +6,7 @@ using BaseProject_7_0.XmlTools;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.AspNetCore.Localization;
+using Shyjus.BrowserDetection;
 using System.Globalization;
 using static System.Net.Mime.MediaTypeNames;
 
@@ -13,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddSingleton< IBrowserDetector, BrowserDetector>();
 
 
 builder.Services.AddLocalization(o => o.ResourcesPath = "Resources");

@@ -8,6 +8,7 @@ using BaseProject_7_0.Models.EntityModels.XmlEntities;
 using BaseProject_7_0.Models.EntityModels.DbEntities;
 using System.Collections;
 using BaseProject_7_0.Models.BaseModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace BaseProject_7_0.Models.BaseModels
 {
@@ -206,9 +207,9 @@ namespace BaseProject_7_0.Models.BaseModels
 
 
                 var today = DateTime.Now.Date;
-                SpecialsServicesProfessionals = db.WebSpecials
+                SpecialsServicesProfessionals = db.WebSpecials.Include(s=>s.WebRelatedProcedures)
                                                   .Where(s => s.RunFrom <= today && today < s.RunUntil)
-                                                  .Where(s=>s.WebRelatedProcedures.Count == 1)
+                                                  .Where(s => s.WebRelatedProcedures.Count == 1)
                                                   .GroupBy(s => new { ServiceUrl = s.WebRelatedProcedures.FirstOrDefault().UrlSection, ProfessionalUrl = s.WebRelatedDoctors.FirstOrDefault().UrlSection })
                                                   .Select(e => new SpecialsServicesProfessionals()
                                                   {

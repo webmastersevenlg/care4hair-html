@@ -5,6 +5,7 @@ namespace BaseProject_7_0.Models.BaseModels
 
     public class BaseModel
     {
+        public virtual string XmlPriority { get; set; }
 
         public bool IsEnglish
         {
@@ -27,13 +28,8 @@ namespace BaseProject_7_0.Models.BaseModels
                 return !string.IsNullOrEmpty(GetabbreviatedLanguage) && GetabbreviatedLanguage == "en";
             }
         }
-        
-        public static string GetabbreviatedLanguage 
-        { 
-            get 
-            { 
-                return Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.ToString(); 
-            } 
-        }
+
+        public static string GetabbreviatedLanguage { get { return Thread.CurrentThread.CurrentCulture.TwoLetterISOLanguageName.ToString(); } }
+
     }
 }

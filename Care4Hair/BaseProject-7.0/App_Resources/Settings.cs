@@ -242,12 +242,26 @@ namespace BaseProject_7_0.App_Resources
                 return Configuration["center_email"];
             }
         }
-      
+        public static string GetEmailLink
+        {
+            get
+            {
+                return "mailto:"+Configuration["center_email"];
+            }
+        }
+
         public static string GetPhone
         {
             get
             {
                 return Configuration["center_phone"];
+            }
+        }
+        public static string GetPhoneLink
+        {
+            get
+            {
+                return "tel:" + Configuration["center_phone"];
             }
         }
         public static string GetPhoneFormated

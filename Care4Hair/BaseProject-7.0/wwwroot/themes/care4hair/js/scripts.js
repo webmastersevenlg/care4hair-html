@@ -3,26 +3,40 @@ if (window.innerWidth < 1000) {
 }
 
 
-menuDoctor = document.querySelector('.menu-doctor');
-submenuDoctor = document.querySelector('.doctors-submenu');
+const menuDoctor = document.querySelector('.menu-doctor');
+const submenuDoctor = document.querySelector('.doctors-submenu');
 
-menuHairloss = document.querySelector('.menu-hairloss');
-submenuHairloss = document.querySelector('.hairloss-submenu');
+const menuHairloss = document.querySelector('.menu-hairloss');
+const submenuHairloss = document.querySelector('.hairloss-submenu');
 
-menuHairtransplant = document.querySelector('.menu-hairtransplant');
-submenuHairtransplant = document.querySelector('.hairtransplant-submenu');
+const menuHairtransplant = document.querySelector('.menu-hairtransplant');
+const submenuHairtransplant = document.querySelector('.hairtransplant-submenu');
 
-menuNonsurgical = document.querySelector('.menu-nonsurgical');
-submenuNonsurgical = document.querySelector('.nonsurgical-submenu');
+const menuNonsurgical = document.querySelector('.menu-nonsurgical');
+const submenuNonsurgical = document.querySelector('.nonsurgical-submenu');
 
-menuResources = document.querySelector('.menu-resources');
-submenuResources = document.querySelector('.resources-submenu');
+const menuResources = document.querySelector('.menu-resources');
+const submenuResources = document.querySelector('.resources-submenu');
 
-menuDoctor.addEventListener('mouseover', activateMenuDoctor);
-menuHairloss.addEventListener('mouseover', activateMenuHairloss);
-menuHairtransplant.addEventListener('mouseover', activateMenuHairtransplant);
-menuNonsurgical.addEventListener('mouseover', activateMenuNonsurgical);
-menuResources.addEventListener('mouseover', activateMenuResources);
+if (menuDoctor) {
+    menuDoctor.addEventListener('mouseover', activateMenuDoctor);
+}
+
+if (menuHairloss) {
+    menuHairloss.addEventListener('mouseover', activateMenuHairloss);
+}
+
+if (menuHairtransplant) {
+    menuHairtransplant.addEventListener('mouseover', activateMenuHairtransplant);
+}
+
+if (menuNonsurgical) {
+    menuNonsurgical.addEventListener('mouseover', activateMenuNonsurgical); 
+}
+
+if (menuResources) {
+    menuResources.addEventListener('mouseover', activateMenuResources);
+}
 
 function activateMenuDoctor() {
     submenuDoctor.classList.add('active');
@@ -256,121 +270,139 @@ function activateDot6() {
     dot1.classList.remove('active');
 }
 
-dot1.addEventListener('click', () => {
-    
-    activateDot1();
+if (dot1) {
+    dot1.addEventListener('click', () => {
 
-    imageCarousel.classList.add('group-1');
+        activateDot1();
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot2.addEventListener('click', () => {
-        
-    activateDot2();
+        imageCarousel.classList.add('group-1');
 
-    imageCarousel.classList.add('group-2');
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot3.addEventListener('click', () => {
-        
-    activateDot3();
+if (dot2) {
+    dot2.addEventListener('click', () => {
+            
+        activateDot2();
 
-    imageCarousel.classList.add('group-3');
+        imageCarousel.classList.add('group-2');
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot4.addEventListener('click', () => {
-        
-    activateDot4();
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
-    imageCarousel.classList.add('group-4');
+if (dot3) {
+    dot3.addEventListener('click', () => {
+            
+        activateDot3();
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-6');
-});
-dot5.addEventListener('click', () => {
-        
-    activateDot5();
+        imageCarousel.classList.add('group-3');
 
-    imageCarousel.classList.add('group-5');
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.remove('group-6');
-});
-dot6.addEventListener('click', () => {
-        
-    activateDot6();
+if (dot4) {
+    dot4.addEventListener('click', () => {
+            
+        activateDot4();
 
-    imageCarousel.classList.add('group-6');
+        imageCarousel.classList.add('group-4');
 
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.remove('group-1');
-});
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-6');
+    });
+}
 
+if (dot5) {
+    dot5.addEventListener('click', () => {
+            
+        activateDot5();
+
+        imageCarousel.classList.add('group-5');
+
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.remove('group-6');
+    });
+}
+
+if (dot6) {
+    dot6.addEventListener('click', () => {
+            
+        activateDot6();
+
+        imageCarousel.classList.add('group-6');
+
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.remove('group-1');
+    });
+}
 
 // setInterval(function(){
 
-if (imageCarousel.classList.contains('group-1')) {
-        
-    activateDot1();
-    imageCarousel.classList.remove('group-1');
-    imageCarousel.classList.add('group-2');
-}
-else if (imageCarousel.classList.contains('group-2')) {
-        
-    activateDot2();
-    imageCarousel.classList.remove('group-2');
-    imageCarousel.classList.add('group-3');
-}
-else if (imageCarousel.classList.contains('group-3')) {
-        
-    activateDot3();
-    imageCarousel.classList.remove('group-3');
-    imageCarousel.classList.add('group-4');
-}
-else if (imageCarousel.classList.contains('group-4')) {
-        
-    activateDot4();
-    imageCarousel.classList.remove('group-4');
-    imageCarousel.classList.add('group-5');
-}
-else if (imageCarousel.classList.contains('group-5')) {
-        
-    activateDot5();
-    imageCarousel.classList.remove('group-5');
-    imageCarousel.classList.add('group-6');
-}
-else if (imageCarousel.classList.contains('group-6')) {
-        
-    activateDot6();
-    imageCarousel.classList.remove('group-6');
-    imageCarousel.classList.add('group-1');
-}
-else {
-    activateDot1();
-    imageCarousel.classList.add('group-1')
+if (imageCarousel) {
+    if (imageCarousel.classList.contains('group-1')) {
+            
+        activateDot1();
+        imageCarousel.classList.remove('group-1');
+        imageCarousel.classList.add('group-2');
+    }
+    else if (imageCarousel.classList.contains('group-2')) {
+            
+        activateDot2();
+        imageCarousel.classList.remove('group-2');
+        imageCarousel.classList.add('group-3');
+    }
+    else if (imageCarousel.classList.contains('group-3')) {
+            
+        activateDot3();
+        imageCarousel.classList.remove('group-3');
+        imageCarousel.classList.add('group-4');
+    }
+    else if (imageCarousel.classList.contains('group-4')) {
+            
+        activateDot4();
+        imageCarousel.classList.remove('group-4');
+        imageCarousel.classList.add('group-5');
+    }
+    else if (imageCarousel.classList.contains('group-5')) {
+            
+        activateDot5();
+        imageCarousel.classList.remove('group-5');
+        imageCarousel.classList.add('group-6');
+    }
+    else if (imageCarousel.classList.contains('group-6')) {
+            
+        activateDot6();
+        imageCarousel.classList.remove('group-6');
+        imageCarousel.classList.add('group-1');
+    }
+    else {
+        activateDot1();
+        imageCarousel.classList.add('group-1')
+    }
 }
 
 
@@ -432,7 +464,6 @@ function activateProcedure4() {
 }
 
 
-
 // FAQ Accordion
 
 var accordion = document.getElementsByClassName("accordion");
@@ -449,4 +480,369 @@ for (i = 0; i < accordion.length; i++) {
     } 
   });
 }
+
+
+// Gallery on about us page
+
+let aboutUsGallery = document.querySelector('.about-us-gallery');
+let galleryDots = document.querySelectorAll('.about-us-gallery-dots div');
+
+let galleryDot1 = document.querySelector('.gallery-dot-1');
+let galleryDot2 = document.querySelector('.gallery-dot-2');
+let galleryDot3 = document.querySelector('.gallery-dot-3');
+let galleryDot4 = document.querySelector('.gallery-dot-4');
+let galleryDot5 = document.querySelector('.gallery-dot-5');
+let galleryDot6 = document.querySelector('.gallery-dot-6');
+let galleryDot7 = document.querySelector('.gallery-dot-7');
+let galleryDot8 = document.querySelector('.gallery-dot-8');
+let galleryDot9 = document.querySelector('.gallery-dot-9');
+let galleryDot10 = document.querySelector('.gallery-dot-10');
+let galleryDot11 = document.querySelector('.gallery-dot-11');
+let galleryDot12 = document.querySelector('.gallery-dot-12');
+let galleryDot13 = document.querySelector('.gallery-dot-13');
+
+function activateGalleryDot1() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-1');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot1.classList.add('active');
+}
+function activateGalleryDot2() {
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-2');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot2.classList.add('active');
+}
+function activateGalleryDot3() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-3');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot3.classList.add('active');
+}
+function activateGalleryDot4() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-4');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot4.classList.add('active');
+}
+function activateGalleryDot5() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-5');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot5.classList.add('active');
+}
+function activateGalleryDot6() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-6');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot6.classList.add('active');
+}
+function activateGalleryDot7() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-7');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot7.classList.add('active');
+}
+function activateGalleryDot8() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-8');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot8.classList.add('active');
+}
+function activateGalleryDot9() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-9');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot9.classList.add('active');
+}
+function activateGalleryDot10() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-10');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot10.classList.add('active');
+}
+function activateGalleryDot11() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-11');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot11.classList.add('active');
+}
+function activateGalleryDot12() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.remove('gallery-img-13');
+    aboutUsGallery.classList.add('gallery-img-12');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot12.classList.add('active');
+}
+function activateGalleryDot13() {
+    aboutUsGallery.classList.remove('gallery-img-2');
+    aboutUsGallery.classList.remove('gallery-img-3');
+    aboutUsGallery.classList.remove('gallery-img-4');
+    aboutUsGallery.classList.remove('gallery-img-5');
+    aboutUsGallery.classList.remove('gallery-img-6');
+    aboutUsGallery.classList.remove('gallery-img-7');
+    aboutUsGallery.classList.remove('gallery-img-8');
+    aboutUsGallery.classList.remove('gallery-img-9');
+    aboutUsGallery.classList.remove('gallery-img-10');
+    aboutUsGallery.classList.remove('gallery-img-11');
+    aboutUsGallery.classList.remove('gallery-img-12');
+    aboutUsGallery.classList.remove('gallery-img-1');
+    aboutUsGallery.classList.add('gallery-img-13');
+
+    galleryDots.forEach(element => {
+        element.classList.remove('active');
+    });
+
+    galleryDot13.classList.add('active');
+}
+
+setInterval(function(){
+
+if (aboutUsGallery) {
+    if (aboutUsGallery.classList.contains('gallery-img-1')) {
+            
+        activateGalleryDot2();
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-2')) {
+            
+        activateGalleryDot3();
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-3')) {
+            
+        activateGalleryDot4();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-4')) {
+            
+        activateGalleryDot5();
+       
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-5')) {
+            
+        activateGalleryDot6();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-6')) {
+            
+        activateGalleryDot7();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-7')) {
+            
+        activateGalleryDot8();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-8')) {
+            
+        activateGalleryDot9();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-9')) {
+            
+        activateGalleryDot10();
+       
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-10')) {
+            
+        activateGalleryDot11();
+      
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-11')) {
+            
+        activateGalleryDot12();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-12')) {
+            
+        activateGalleryDot13();
+        
+    }
+    else if (aboutUsGallery.classList.contains('gallery-img-13')) {
+            
+        activateGalleryDot1();
+
+    }
+}
+
+}, 6000);
+
 

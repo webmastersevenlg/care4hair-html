@@ -30,5 +30,10 @@ namespace BaseProject_7_0.Models.BaseModels
         {
             return GetIndexablePageUrl(CurrentLanguage.AbbreviatedName, isLandingPage);
         }
+
+        public string GetUrlSection(string abbreviatedLanguage)
+        {
+            return IsEnglishAbbreviation(abbreviatedLanguage) ? UrlSection : UrlSectionSpanish;
+        }
     }
 }

@@ -7,8 +7,6 @@ C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Deb
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.AssemblyInfo.cs
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.csproj.CoreCompileInputs.cache
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.RazorAssemblyInfo.cache
-C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.RazorAssemblyInfo.cs
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\bin\Debug\net7.0\appsettings.json
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\bin\Debug\net7.0\BaseProject_7_0.staticwebassets.runtime.json
@@ -77,12 +75,14 @@ C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Deb
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\staticwebassets.pack.json
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\scopedcss\bundle\BaseProject_7_0.styles.css
-C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\scopedcss\projectbundle\BaseProject_7_0.bundle.scp.css
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.csproj.CopyComplete
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.dll
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\refint\BaseProject_7_0.dll
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.pdb
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.genruntimeconfig.cache
 C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\ref\BaseProject_7_0.dll
+C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.RazorAssemblyInfo.cache
+C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\BaseProject_7_0.RazorAssemblyInfo.cs
+C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0\obj\Debug\net7.0\scopedcss\projectbundle\BaseProject_7_0.bundle.scp.css

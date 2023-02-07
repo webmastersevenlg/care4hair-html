@@ -12,9 +12,8 @@ namespace BaseProject_7_0.Models.BaseModels
     public class BaseViewModel : BaseModel
     {
 
-        public IHttpContextAccessor httpContextAccessor;
-
         public IBrowserDetector browserDetector;
+        public IHttpContextAccessor httpContextAccessor;
 
         public string ImagesFolderPath;
 

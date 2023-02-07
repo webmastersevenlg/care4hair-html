@@ -1,4 +1,10 @@
-﻿namespace BaseProject_7_0.App_start
+﻿using BaseProject_7_0.App_Resources;
+using BaseProject_7_0.Models.BaseModels;
+using BaseProject_7_0.Models.EntityModels.DbEntities;
+using BaseProject_7_0.Models.EntityModels.XmlEntities;
+using BaseProject_7_0.XmlTools;
+
+namespace BaseProject_7_0.App_start
 {
     public class SpanishRouteConfig
     {
@@ -9,8 +15,6 @@
         private static string ServiceUrlContraints { get; set; }
         private static string dbProfessionalUrlContraints { get; set; }
         private static string dbServiceUrlContraints { get; set; }
-
-        private static IWebHostEnvironment _webHostEnvironment;
 
         public static void GetConstraints()
         {
@@ -24,6 +28,12 @@
                 XmlReader.GetEachAttributeValueByFileNameAndAttributeName(CategoryEntity.XmlFilePath, "urlspanish")));
             ServiceUrlContraints = string.Format("({0})", string.Join(")|(",
                 XmlReader.GetEachAttributeValueByFileNameAndAttributeName(ServiceEntity.XmlFilePath, "urlspanish")));
+
+            using (BscrmCare4hairContext db = new BscrmCare4hairContext())
+            {
+                dbProfessionalUrlContraints = string.Format("()|({0})", string.Join(")|(", db.WebRelatedDoctors.Select(e => e.UrlSection).ToArray()));
+                dbServiceUrlContraints = string.Format("()|({0})", string.Join(")|(", db.WebRelatedProcedures.Select(e => e.UrlSectionSpanish).ToArray()));
+            }
         }
 
 
@@ -94,7 +104,7 @@
             //FinancingOptionPageEs
             app.MapControllerRoute(
                  name: "FinancingOptionPageEs",
-                 pattern: Settings.GetSpanishUrl + Site.Instance.FinancingOptionPage.GetUrlSection(SpanishAbbreviation) + "/{financingOptionUrl}",
+                 pattern: Site.Instance.FinancingOptionPage.GetIndexablePageUrl(SpanishAbbreviation) + "{financingOptionUrl}",
                  defaults: new RouteValueDictionary { { "controller", "FinancingOptionPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
                  constraints: new RouteValueDictionary { { "professionalUrl", ProfessionalUrlContraints } },
                  dataTokens: new RouteValueDictionary { { "__RouteName", "FinancingOptionPageEs" } }
@@ -111,7 +121,7 @@
             //BlogPostPageEs
             app.MapControllerRoute(
                 name: "BlogPostPageEs",
-                pattern: Settings.GetSpanishUrl + Site.Instance.BlogPostPage.GetUrlSection(SpanishAbbreviation) + "/{blogUrl}",
+                pattern: Site.Instance.BlogPostPage.GetIndexablePageUrl(SpanishAbbreviation) + "{blogUrl}",
                 defaults: new RouteValueDictionary { { "controller", "BlogPostPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "BlogPostPageEs" } }
                 );
@@ -119,7 +129,7 @@
             //PictureIndexByServiceEs
             app.MapControllerRoute(
                 name: "PictureIndexByServiceEs",
-                pattern: Settings.GetSpanishUrl + "{dbServiceUrl}/" + Site.Instance.Pictures.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
+                pattern: Settings.GetSpanishUrl + "/{dbServiceUrl}/" + Site.Instance.Pictures.GetUrlSection(SpanishAbbreviation) + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
                 defaults: new RouteValueDictionary { { "controller", "PictureIndexPage" }, { "action", "Index" }, { "abbreviatedLanguage", SpanishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "PictureIndexByService" } }
@@ -206,7 +216,13 @@
                 dataTokens: new RouteValueDictionary { { "__RouteName", "SpecialPageEs" } }
                 );
 
-
+            //DefaultEs
+            app.MapControllerRoute(
+                name: "DefaultEs",
+                pattern: Settings.GetSpanishUrl + "{controller=HomePage}/{action=index}/{id?}",
+                defaults: new RouteValueDictionary { { "abbreviatedLanguage", SpanishAbbreviation } },
+                dataTokens: new RouteValueDictionary { { "__RouteName", "DefaultEs" } }
+                );
 
 
         }

@@ -295,6 +295,15 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Before And After.
+        /// </summary>
+        public static string BeforeAndAfter {
+            get {
+                return ResourceManager.GetString("BeforeAndAfter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Before And After By.
         /// </summary>
         public static string BeforeAndAfterBy {
@@ -1069,6 +1078,24 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hair Loss.
+        /// </summary>
+        public static string HairLoss {
+            get {
+                return ResourceManager.GetString("HairLoss", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hair Transplant.
+        /// </summary>
+        public static string HairTransplant {
+            get {
+                return ResourceManager.GetString("HairTransplant", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Have A Look Around.
         /// </summary>
         public static string HaveALookAround {
@@ -1380,6 +1407,15 @@ namespace BaseProject_7_0.App_Resources {
         public static string MeetTheStaff {
             get {
                 return ResourceManager.GetString("MeetTheStaff", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Menu.
+        /// </summary>
+        public static string Menu {
+            get {
+                return ResourceManager.GetString("Menu", resourceCulture);
             }
         }
         
@@ -1857,6 +1893,15 @@ namespace BaseProject_7_0.App_Resources {
         public static string Procedure {
             get {
                 return ResourceManager.GetString("Procedure", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Procedures.
+        /// </summary>
+        public static string Procedures {
+            get {
+                return ResourceManager.GetString("Procedures", resourceCulture);
             }
         }
         

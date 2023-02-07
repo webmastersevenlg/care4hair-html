@@ -915,4 +915,19 @@
   <data name="PatientPortal" xml:space="preserve">
     <value>Portal de Pacientes</value>
   </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="BeforeAndAfter" xml:space="preserve">
+    <value>Antes y Después</value>
+  </data>
+  <data name="HairLoss" xml:space="preserve">
+    <value>Caída del Cabello</value>
+  </data>
+  <data name="HairTransplant" xml:space="preserve">
+    <value>Transplante de Cabello</value>
+  </data>
+  <data name="Procedures" xml:space="preserve">
+    <value>Procedimientos</value>
+  </data>
 </root>

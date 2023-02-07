@@ -1,72 +1,68 @@
-﻿
-@{Layout = null;}
+﻿@{Layout = null;}
 @model MenuPartialViewModel
 
-@{
-    var homeActive = TempData["ActiveMenuElement"]?.ToString() == "home" ? "active" : "";
-}
 <div class="menu">
     <div class="overlay" onclick="toggleMenu()"></div>
     <div class="menu-wrap">
         <div class="close" onclick="toggleMenu()">
-            <img src="media/close-icon.svg" alt="close menu icon">
+            <img src="/themes/care4hair/images/close-icon.svg" alt="close menu icon">
         </div>
 
-        <img class="menu-logo" src="media/logo.png" alt="">
+        <img class="menu-logo" src="/themes/care4hair/images/logo.png" alt="">
         <h2 class="menu-heading">
-            Menu
+            @Vocabulary.Menu
         </h2>
         <ul>
             <li>
                 <div class="menu-doctor">
                     @Vocabulary.Doctors
-                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                    <img class="menu-arrow" src="/themes/care4hair/images/menu-arrow.svg" alt="arrow icon">
                 </div>
             </li>
             <li>
                 <div class="menu-hairloss">
-                    Hair loss
-                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                    @Vocabulary.HairLoss
+                    <img class="menu-arrow" src="/themes/care4hair/images/menu-arrow.svg" alt="arrow icon">
                 </div>
             </li>
             <li>
                 <div class="menu-hairtransplant">
-                    Hair transplant
-                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                    @Vocabulary.HairTransplant
+                    <img class="menu-arrow" src="/themes/care4hair/images/menu-arrow.svg" alt="arrow icon">
                 </div>
             </li>
             <li>
                 <div class="menu-nonsurgical">
-                    Non surgical
-                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                    @Vocabulary.NonSurgical
+                    <img class="menu-arrow" src="/themes/care4hair/images/menu-arrow.svg" alt="arrow icon">
                 </div>
             </li>
             <li>
                 <a href="#">
-                    Before & after
+                    @Vocabulary.BeforeAndAfter
                 </a>
             </li>
             <li>
                 <div class="menu-resources">
-                    Resources
-                    <img class="menu-arrow" src="media/menu-arrow.svg" alt="arrow icon">
+                    @Vocabulary.Resources
+                    <img class="menu-arrow" src="/themes/care4hair/images/menu-arrow.svg" alt="arrow icon">
                 </div>
             </li>
             <li>
-                <a href="#">
-                    About us
+                <a href="@Site.Instance.About.GetPageUrl()">
+                    @Site.Instance.About.GetName
                 </a>
             </li>
             <li>
-                <a href="#">
-                    Contact
+                <a href="@Site.Instance.Contact.GetPageUrl()">
+                    @Site.Instance.Contact.GetName
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="@Model.GetPageUrl(Model.CurrentLanguage.Translation.AbbreviatedName)">
                     <span class="language">
-                        <img class="language-flag" src="media/spanish.svg" alt="spanish flag">
-                        Español
+                        <img class="language-flag" src="@Model.CurrentLanguage.Translation.FlagIconPath" alt="spanish flag">
+                        @Model.CurrentLanguage.Translation.Name
                     </span>
                 </a>
             </li>
@@ -106,25 +102,16 @@
                 </a>
             </div>
             <div class="submenu-list">
-                <div class="submenu-header">Hair procedure</div>
-                <a href="#" class="submenu-item">
-                    Female Hair Transplant
-                </a>
-                <a href="#" class="submenu-item">
-                    Male Hair Transplant
-                </a>
-                <a href="#" class="submenu-item">
-                    Beard Hair Transplant
-                </a>
-                <a href="#" class="submenu-item">
-                    Ethnic Hair Transplant
-                </a>
-                <a href="#" class="submenu-item">
-                    Eyebrow Hair Transplant
-                </a>
-                <a href="#" class="submenu-item">
-                    Hairline Restoration
-                </a>
+                <div class="submenu-header">@Vocabulary.Procedures</div>
+                @foreach (var category in Model.Categories)
+                {
+                    @foreach (var service in category.Services)
+                    {
+                        <a href="@service.GetPageUrl()" class="submenu-item">
+                            @service.GetShortName
+                        </a>
+                    }
+                }
             </div>
         </div>
         <div class="nonsurgical-submenu submenu">
@@ -139,37 +126,38 @@
             </a>
         </div>
         <div class="resources-submenu submenu">
-            <a href="#" class="submenu-item">
-                Financing
+            <a href="@Site.Instance.FinancingOptionPage.GetPageUrl()" class="submenu-item">
+                @Site.Instance.FinancingOptionPage.GetName
             </a>
-            <a href="#" class="submenu-item">
-                Traveling Patients
+            <a href="@Site.Instance.OutOfTownPatients.GetPageUrl()" class="submenu-item">
+                @Site.Instance.OutOfTownPatients.GetName
             </a>
-            <a href="#" class="submenu-item">
-                Blog
+            <a href="@Site.Instance.Blog.GetIndexPageUrl()" class="submenu-item">
+                @Site.Instance.Blog.GetIndexPageName()
             </a>
         </div>
         <h2 class="menu-heading">
-            Contact Info
+            @Vocabulary.ContactInfo
         </h2>
         <ul class="contact-info">
             <li>
-                <a class="contact-info-item" href="mailto:info@care4miami.com">
-                    <img src="media/menu-mail.svg" alt="mail icon">
-                    info@care4miami.com
+                <a class="contact-info-item" href="@Settings.GetEmailLink">
+                    <img src="/themes/care4hair/images/menu-mail.svg" alt="mail icon">
+                    @Settings.GetEmail
                 </a>
             </li>
             <li>
-                <a class="contact-info-item" href="tel:3052626070">
-                    <img src="media/menu-phone.svg" alt="phone icon">
-                    (305) 262 6070
+                <a class="contact-info-item" href="@Settings.GetPhoneLink">
+                    <img src="/themes/care4hair/images/menu-phone.svg" alt="phone icon">
+                    @Settings.GetPhoneFormated
                 </a>
             </li>
         </ul>
         <div class="menu-social-media">
-            <a href="#"><img src="media/menu-facebook.svg" alt="social media icon"></a>
-            <a href="#"><img src="media/menu-youtube.svg" alt="social media icon"></a>
-            <a href="#"><img src="media/menu-instagram.svg" alt="social media icon"></a>
+            <a href="@Settings.GetFacebook"><img src="/themes/care4hair/images/menu-facebook.svg" alt="social media icon"></a>
+            <a href="@Settings.GetYoutubeChannel"><img src="/themes/care4hair/images/menu-youtube.svg" alt="social media icon"></a>
+            <a href="@Settings.GetInstagram"><img src="/themes/care4hair/images/menu-instagram.svg" alt="social media icon"></a>
+            <a href="@Settings.GetTiktok"><img src="/themes/care4hair/images/menu-tiktok.svg" alt="social media icon"></a>
         </div>
     </div>
 </div>

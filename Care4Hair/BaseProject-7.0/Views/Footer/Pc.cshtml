@@ -1,0 +1,81 @@
+﻿@model BasePageViewModel
+@{
+    Layout = null;
+}
+
+<footer>
+    <div class="top-line footer-line"></div>
+    <div class="bottom-line footer-line"></div>
+    <div class="left-line footer-line"></div>
+    <div class="right-line footer-line"></div>
+    <div class="footer-wrap">
+        <div class="cols-wrap">
+            <div class="col contact-col">
+                <div class="col-header">contacts</div>
+                <p>Talk with a hair restoration expert.</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="media/location-icon.svg" alt="location icon">
+                            1645 SW 107th Ave, 2nd Floor, Miami, FL 33165
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="media/menu-mail.svg" alt="mail icon">
+                            info@care4hairmiami.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="media/menu-phone.svg" alt="phone icon">
+                            (305) 262-6070
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="media/map-icon.svg" alt="map icon">
+                            GET DIRECTION
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col message-col">
+                <img class="footer-logo" src="media/logo.png" alt="logo">
+                <p>
+                    The trusted hair loss specialists at Care4Hair are dedicated to helping patients reach their cosmetic goals. Our team has guided hundreds of patients on their hair restoration journeys and can’t wait to help restore your confidence once more!
+                </p>
+                <div class="menu-social-media">
+                    <a href="#"><img src="media/menu-facebook.svg" alt="social media icon"></a>
+                    <a href="#"><img src="media/menu-youtube.svg" alt="social media icon"></a>
+                    <a href="#"><img src="media/menu-instagram.svg" alt="social media icon"></a>
+                    <a href="#"><img src="media/menu-tiktok.svg" alt="social media icon"></a>
+                </div>
+            </div>
+            <div class="col links-col">
+                <div class="col-header">useful links</div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Financing Options
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Before & After Photos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            @Settings.GetCenterName @DateTime.Now.Year Care4Hair. @Vocabulary.AllRightsReserved.&nbsp; 
+            <a href="@Site.Instance.PrivacyPolicy.GetPageUrl()">@Site.Instance.PrivacyPolicy.GetName</a>
+        </div>
+    </div>
+</footer>

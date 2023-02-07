@@ -16,12 +16,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\jecab\Documents\GitHub\care4hair-html\Care4Hair\BaseProject-7.0
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Footer/Pc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vdGVyXFBjLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/HomePage/content/En/article.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcY29udGVudFxFblxhcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/HomePage/content/En/articlemetas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcY29udGVudFxFblxhcnRpY2xlbWV0YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/HomePage/content/Es/article.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcY29udGVudFxFc1xhcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/HomePage/content/Es/articlemetas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcY29udGVudFxFc1xhcnRpY2xlbWV0YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/HomePage/HomePageSkin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcSG9tZVBhZ2VTa2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/HomePage/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Shared/Components/Menu/Default.cshtml]
@@ -30,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Shared/Header/Mobile/Header_Top.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlclxNb2JpbGVcSGVhZGVyX1RvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Shared/Header/Mobile/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhlYWRlclxNb2JpbGVcTWVudS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jecab/Documents/GitHub/care4hair-html/Care4Hair/BaseProject-7.0/Views/Shared/Header/Pc/Header_Top.cshtml]

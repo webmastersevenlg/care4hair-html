@@ -588,7 +588,7 @@ public partial class BscrmCare4hairContext : DbContext
 
             entity.HasMany(d => d.WebRelatedDoctors).WithMany(p => p.WebSpecials)
                 .UsingEntity<Dictionary<string, object>>(
-                    "WebSpecialDoctor",
+                    "WebSpecialDoctors",
                     r => r.HasOne<WebRelatedDoctor>().WithMany()
                         .HasForeignKey("WebRelatedDoctorId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
@@ -604,15 +604,15 @@ public partial class BscrmCare4hairContext : DbContext
 
             entity.HasMany(d => d.WebRelatedProcedures).WithMany(p => p.WebSpecials)
                 .UsingEntity<Dictionary<string, object>>(
-                    "WebSpecialProcedure",
+                    "WebSpecialProcedures",
                     r => r.HasOne<WebRelatedProcedure>().WithMany()
                         .HasForeignKey("WebRelatedProcedureId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_WebEspecialProcedures_WebRelatedProcedures"),
+                        .HasConstraintName("FK_WebSpecialProcedures_WebRelatedProcedures"),
                     l => l.HasOne<WebSpecial>().WithMany()
                         .HasForeignKey("WebSpecialId")
                         .OnDelete(DeleteBehavior.ClientSetNull)
-                        .HasConstraintName("FK_WebSpecialProcedures_WebSpecials1"),
+                        .HasConstraintName("FK_WebSpecialProcedures_WebSpecials"),
                     j =>
                     {
                         j.HasKey("WebSpecialId", "WebRelatedProcedureId").HasName("PK_WebEspecialProcedures");

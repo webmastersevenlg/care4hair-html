@@ -6,6 +6,7 @@ using System;
 using System.Reflection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Data.SqlClient;
+using Microsoft.AspNetCore.Routing.Constraints;
 
 namespace BaseProject_7_0.App_start
 {
@@ -19,8 +20,6 @@ namespace BaseProject_7_0.App_start
         private static string dbProfessionalUrlContraints { get; set; }
         private static string dbServiceUrlContraints { get; set; }
 
-        private static IWebHostEnvironment _webHostEnvironment;
-
         public static void GetConstraints()        {
 
             //Getting Route Contraints From Html
@@ -32,6 +31,12 @@ namespace BaseProject_7_0.App_start
                 XmlReader.GetEachAttributeValueByFileNameAndAttributeName(CategoryEntity.XmlFilePath, "url")));
             ServiceUrlContraints = string.Format("({0})", string.Join(")|(",
                 XmlReader.GetEachAttributeValueByFileNameAndAttributeName(ServiceEntity.XmlFilePath, "url")));
+
+            using (BscrmCare4hairContext db = new BscrmCare4hairContext())
+            {
+                dbProfessionalUrlContraints = string.Format("()|({0})", string.Join(")|(", db.WebRelatedDoctors.Select(e => e.UrlSection).ToArray()));
+                dbServiceUrlContraints = string.Format("()|({0})", string.Join(")|(", db.WebRelatedProcedures.Select(e => e.UrlSection).ToArray()));
+            }
         }
 
         public static void RegisterRoutes(WebApplication app)
@@ -133,7 +138,7 @@ namespace BaseProject_7_0.App_start
 
             //PictureindexByService
             app.MapControllerRoute(
-                name: "BlogindexPage",
+                name: "PictureindexByService",
                 pattern: "{dbServiceUrl}/" + Site.Instance.Pictures.UrlSection + "/{dbProfessionalUrl?}",
                 constraints: new RouteValueDictionary { { "dbServiceUrl", dbServiceUrlContraints }, { "dbProfessionalUrl", dbProfessionalUrlContraints } },
                 defaults: new RouteValueDictionary { { "controller", "PictureindexPage" }, { "action", "index" }, { "abbreviatedLanguage", EnglishAbbreviation } },
@@ -288,7 +293,7 @@ namespace BaseProject_7_0.App_start
             //Default
             app.MapControllerRoute(
                 name: "Default",
-                pattern: "{controller=Home}/{action=index}/{id?}",
+                pattern: "{controller=HomePage}/{action=index}/{id?}",
                 defaults: new RouteValueDictionary { { "abbreviatedLanguage", EnglishAbbreviation } },
                 dataTokens: new RouteValueDictionary { { "__RouteName", "Default" } }
                 );

@@ -245,16 +245,48 @@
       "PackagePath": "staticwebassets\\themes\\care4hair\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\.DS_Store",
-      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\.DS_Store"
-    },
-    {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\artas-system-robotic-hair-transplant.png",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\artas-system-robotic-hair-transplant.png"
     },
     {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\assets\\english.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\assets\\english.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\assets\\spanish.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\assets\\spanish.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\bed-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\bed-icon.svg"
+    },
+    {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-1.jpeg",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-10.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-11.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-12.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-13.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-13.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-14.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-14.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-15.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-15.jpeg"
     },
     {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-2.jpeg",
@@ -285,8 +317,36 @@
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-8.jpeg"
     },
     {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\after-9.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\after-9.jpeg"
+    },
+    {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-1.jpeg",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-10.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-11.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-12.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-13.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-13.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-14.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-14.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-15.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-15.jpeg"
     },
     {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-2.jpeg",
@@ -317,8 +377,56 @@
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-8.jpeg"
     },
     {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\before-after\\before-9.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\before-after\\before-9.jpeg"
+    },
+    {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\bg-img.jpeg",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\baks-servicios-1black.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\baks-servicios-1black.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\do_hair_transplants_leave_any_scar.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\do_hair_transplants_leave_any_scar.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\dr-valladares.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\dr-valladares.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\facebook.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\facebook.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\instagram.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\instagram.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\linkedin.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\linkedin.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\pinterest.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\pinterest.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\prevent_pattern_hair_loss.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\prevent_pattern_hair_loss.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\reddit.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\reddit.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\twitter.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\twitter.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\blog\\youtube.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\blog\\youtube.svg"
     },
     {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\close-icon.svg",
@@ -329,8 +437,100 @@
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\close-pointer.svg"
     },
     {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\contact-email.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\contact-email.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\contact-location.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\contact-location.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\contact-phone.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\contact-phone.svg"
+    },
+    {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\doctor-img-1.png",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\doctor-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\doctors-pages\\Marianela-Lopez.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\doctors-pages\\Marianela-Lopez.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\doctors-pages\\Mendizabal.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\doctors-pages\\Mendizabal.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\doctors-pages\\baks-servicios-black.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\doctors-pages\\baks-servicios-black.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\doctors-pages\\lorayne-enriquez.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\doctors-pages\\lorayne-enriquez.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\doctors-pages\\plantilla-web-copy.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\doctors-pages\\plantilla-web-copy.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\fork-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\fork-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img10.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img10.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img11.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img11.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img12.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img12.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img13.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img13.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img2.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img3.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img4.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img5.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img6.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img7.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img7.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img8.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img8.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\gallery\\img9.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\gallery\\img9.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\hair-restoration-miami-men-women.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\hair-restoration-miami-men-women.jpeg"
     },
     {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\hair-restoration.png",
@@ -457,6 +657,402 @@
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\separator.svg"
     },
     {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\african-american-hair.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\african-american-hair.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\anesthesia-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\anesthesia-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\arrow-down-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\arrow-down-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\arrow-up-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\arrow-up-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\artas-hair-restoration-miami.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\artas-hair-restoration-miami.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\artas-system.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\artas-system.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\baks-separator.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\baks-separator.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-img-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-img-2.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-img-3.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\beard-hair-transplant-img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\cap-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\cap-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\capillus-img1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\capillus-img1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\capillus-laser-therapy-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\capillus-laser-therapy-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\capillus82-laser-cap.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\capillus82-laser-cap.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\caucasian-hair.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\caucasian-hair.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\causes-bg-img.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\causes-bg-img.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\checkmark-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\checkmark-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\clean-and-bandage-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\clean-and-bandage-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\combs-and-helmets-icon.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\combs-and-helmets-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\destination-1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\destination-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\destination-2.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\destination-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\destination-3.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\destination-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\destination-4.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\destination-4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\destination-5.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\destination-5.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-img-1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-img-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-img-2.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-img-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-img-3.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\ethnic-hair-transplant-img-3.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\evaluation-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\evaluation-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-img-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-img-2.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-miami.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\eyebrow-hair-transplant-miami.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\female-hair-transplant-2.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\female-hair-transplant-2.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\female-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\female-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\female-hair-transplant-img-1.webp",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\female-hair-transplant-img-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\female-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\female-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\financing-options-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\financing-options-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\follicle-extraction-2-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\follicle-extraction-2-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\follicle-extraction-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\follicle-extraction-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\follicle-selection-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\follicle-selection-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\fue-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\fue-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\fue-img-1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\fue-img-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\fue-img-2.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\fue-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\fue-selector-bg.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\fue-selector-bg.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\fue-text-sec-bg.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\fue-text-sec-bg.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\fut-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\fut-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\graft-implantation-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\graft-implantation-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-caliber-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-caliber-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-density-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-density-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-loss-causes-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-loss-causes-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-loss-overview-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-loss-overview-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-loss-treatment-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-loss-treatment-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-transplant-benefits-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-transplant-benefits-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hair-transplant-cost-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hair-transplant-cost-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hairline-positioning-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hairline-positioning-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hairline-restoration-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hairline-restoration-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hairline-restoration-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hairline-restoration-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\hairline-shape-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\hairline-shape-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\laser-therapy-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\laser-therapy-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\male-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\male-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\male-hair-transplant-img-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\male-hair-transplant-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\male-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\male-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\male-pattern-hair-loss.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\male-pattern-hair-loss.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\medications-icon.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\medications-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\medications-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\medications-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\men-hair-loss-1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\men-hair-loss-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\miami-skyline-bg-1-gray.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\miami-skyline-bg-1-gray.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\neograft-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\neograft-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\neograft-img-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\neograft-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\neograft-img-2.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\neograft-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\oil-and-extracts-icon.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\oil-and-extracts-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\pharmacy-img.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\pharmacy-img.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\prescription-propecia-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\prescription-propecia-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\products-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\products-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\proper-diet-icon.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\proper-diet-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\prp-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\prp-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\prp-img-1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\prp-img-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\robotic-hair-transplant-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\robotic-hair-transplant-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-icon-1.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-icon-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-icon-2.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-icon-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-icon-3.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-icon-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-icon-4.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-icon-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-img-2.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-img-2.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-micro-pigmentation-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-micro-pigmentation-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-micropigmentation-img-1.webp",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-micropigmentation-img-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\scalp-micropigmentation-miami-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\scalp-micropigmentation-miami-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\schedule-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\schedule-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\split-img-1.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\split-img-1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\split-img-2.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\split-img-2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\supermarket-img.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\supermarket-img.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\surgical-hair-restoration-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\surgical-hair-restoration-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\traveling-patients-bg-img.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\traveling-patients-bg-img.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\traveling-patients-img-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\traveling-patients-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\trim-icon.svg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\trim-icon.svg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\virtual-consultation.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\virtual-consultation.png"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services-pages\\woman-hair-restoration-1.png",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services-pages\\woman-hair-restoration-1.png"
+    },
+    {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\services\\ethnic-hair-transplant-icon.png",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\services\\ethnic-hair-transplant-icon.png"
     },
@@ -503,6 +1099,18 @@
     {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\team\\doctor-3.jpeg",
       "PackagePath": "staticwebassets\\themes\\care4hair\\images\\team\\doctor-3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\team\\professionals\\750x977\\lorayne-enriquez.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\team\\professionals\\750x977\\lorayne-enriquez.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\team\\professionals\\750x977\\manuel-mendizabal.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\team\\professionals\\750x977\\manuel-mendizabal.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\team\\professionals\\750x977\\marianela-lopez.jpeg",
+      "PackagePath": "staticwebassets\\themes\\care4hair\\images\\team\\professionals\\750x977\\marianela-lopez.jpeg"
     },
     {
       "Id": "C:\\Users\\jecab\\Documents\\GitHub\\care4hair-html\\Care4Hair\\BaseProject-7.0\\wwwroot\\themes\\care4hair\\images\\testimonial-arrow.svg",
