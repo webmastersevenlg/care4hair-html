@@ -33,6 +33,9 @@
 	</UncategorizedPageEntity>
 
 	<UncategorizedPageEntity id="outoftownpatients" url="out-of-town-hair-transplant-patients" urlspanish="pacientes-fuera-de-la-ciudad" name="Out-of-Town Hair Transplant Patients" namespanish="Pacientes fuera de la ciudad">
-	</UncategorizedPageEntity>	
+	</UncategorizedPageEntity>
+
+	<UncategorizedPageEntity id="privacy-policy" url="privacy-policy" urlspanish="politica-de-privacidad" name="Privacy Policy" namespanish="Política de Privacidad">
+	</UncategorizedPageEntity>
   
   </UncategorizedPagesEntities>
