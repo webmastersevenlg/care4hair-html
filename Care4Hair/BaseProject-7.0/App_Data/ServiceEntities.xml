@@ -220,7 +220,7 @@
 
 	<ServiceEntity active="true"
 				   showinmenu="true"
-				   id="platelet-rich-plasma-injection"
+				   id="platelet-rich-plasma-injection-in-miami"
 				   briefintro="Losing your hair can be emotionally and psychologically impacting. Men and women tend to associate full heads of hair with beauty, youth, and vigor. Losing your hair prematurely or as a result of aging can thus lead you to look older than you feel."
 				   briefintrospanish = "Perder el cabello puede tener un impacto emocional y psicológico. Los hombres y las mujeres tienden a asociar las cabezas llenas de cabello con la belleza, la juventud y el vigor. La pérdida prematura de cabello o como resultado del envejecimiento puede hacer que se vea menos joven de lo que se siente."
 				   targeredkeyword = "Platelet Rich Plasma Injection"
@@ -256,7 +256,7 @@
 
 	<ServiceEntity active="true"
 				   showinmenu="true"
-				   id="capillus-laser-therapy"
+				   id="capillus-laser-therapy-en-miami"
 				   briefintro="Losing hair, whether suddenly or gradually, can be devastating for both men and women. Surprisingly, men are not the only ones that suffer this fate. Women tend to experience a more profound emotional and psychological impact than men."
 				   briefintrospanish = "Perder el cabello, bien sea de forma repentina o gradual, es una verdadera tragedia tanto para hombres como para mujeres. Sorprendentemente los hombres no son los únicos que enfrentan este destino. Las mujeres tienden a experimentar un impacto emocional y psicológico mucho más profundo, al momento de perder su cabello."
 				   targeredkeyword = "Capillus Laser Therapy"
