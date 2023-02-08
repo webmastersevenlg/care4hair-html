@@ -11,6 +11,7 @@ using System.Linq;
 using BaseProject_7_0.Models.EntityModels.XmlEntities;
 using BaseProject_7_0.Models.BaseModels;
 using BaseProject_7_0.XmlTools;
+using BaseProject_7_0.Controllers;
 
 
 //using System.Web.Mvc;
@@ -20,10 +21,13 @@ namespace BaseProject.Controllers
 {
     public class ProfessionalIndexPageController : BaseController
     {
-       
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IBrowserDetector _browserDetector;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public ProfessionalIndexPageController(ILogger<HomePageController> logger, IWebHostEnvironment webHostEnvironment, IHttpContextAccessor httpContextAccessor, IBrowserDetector browserDetector) : base(logger, webHostEnvironment, httpContextAccessor, browserDetector)
+        {
+
+        }
+
+
 
         public ActionResult Index(string abbreviatedLanguage, string page=null, string cleanCache=null)
         {

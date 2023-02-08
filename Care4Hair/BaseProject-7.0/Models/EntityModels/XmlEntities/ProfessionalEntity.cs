@@ -8,6 +8,7 @@ namespace BaseProject_7_0.Models.EntityModels.XmlEntities
     {
         //this fields are for easy navidation to the entityModel that map from this class.
         public ProfessionalIndexablePageViewModel NeverUsedField;
+
         public ProfessionalPartialViewModel NeverUsedField1;
 
         public string Keywords { get; set; }
@@ -27,6 +28,8 @@ namespace BaseProject_7_0.Models.EntityModels.XmlEntities
         public string BriefIntroForAboutPage { get; set; }
         public string BriefIntroForAboutPageSpanish { get; set; }
         public string WorkLocation { get; set; }
+        public string YearsExperience { get; set; }
+
         public ICollection<CategoryEntity> Categories { get; set; }
         public ICollection<VideoEntity> Videos { get; set; }
 

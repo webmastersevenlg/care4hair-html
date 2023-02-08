@@ -25,6 +25,8 @@ namespace BaseProject_7_0.Models.ViewModels
         public string HonorificPrefixSpanish { get; set; }
         public string HonorificSuffixSpanish { get; set; }
         public string WorkLocation { get; set; }
+        public string YearsExperience { get; set; }
+
         public ICollection<CategoryPartialViewModel> Categories { get; set; }
         public ICollection<VideoPartialViewModel> Videos { get; set; }
 
@@ -35,6 +37,30 @@ namespace BaseProject_7_0.Models.ViewModels
             get
             {
                 return IsEnglish ? "Doctor" : "Doctores";
+            }
+        }
+
+        public string GetHonorificPrefix
+        {
+            get
+            {
+                return IsEnglish ? HonorificPrefix : HonorificPrefixSpanish;
+            }
+        }
+
+        public string GetHonorificSuffix
+        {
+            get
+            {
+                return IsEnglish ? HonorificSuffix : HonorificSuffixSpanish;
+            }
+        }
+
+        public string GetDescription
+        {
+            get
+            {
+                return IsEnglish ? Description : DescriptionSpanish;
             }
         }
 
@@ -61,6 +87,7 @@ namespace BaseProject_7_0.Models.ViewModels
             }
         }
 
+
         public override AltLangRef GetAltLangRef
         {
             get
@@ -74,7 +101,7 @@ namespace BaseProject_7_0.Models.ViewModels
         public ProfessionalIndexablePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {            
             SkinName = "ProfessionalPageSkin";
-            ImagesFolderPath = "/content/images/professionals";
+            ImagesFolderPath = "/themes/"+Settings.GetTheme+"/images/team/professionals";
         }
 
         

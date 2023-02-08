@@ -13,7 +13,9 @@
     </script>
     @await Html.PartialAsync("headcontent/_globalmetas")
     @await Html.PartialAsync("headcontent/_globallinks")
+
     @await RenderSectionAsync("pageMetas", false)
+
     <meta name="priority" content="@Model.XmlPriority" />
     @await RenderSectionAsync("pageStyles", false)
     <meta name="visit_source" content="visit_source_value">

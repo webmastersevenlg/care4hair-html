@@ -799,6 +799,15 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Experience.
+        /// </summary>
+        public static string Experience {
+            get {
+                return ResourceManager.GetString("Experience", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Explain.
         /// </summary>
         public static string Explain {

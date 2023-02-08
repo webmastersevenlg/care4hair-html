@@ -18,10 +18,10 @@ namespace BaseProject_7_0.Controllers
     public class ProfessionalPageController : BaseController
     {
         ///esto lo agregue revisar
+        public ProfessionalPageController(ILogger<HomePageController> logger, IWebHostEnvironment webHostEnvironment, IHttpContextAccessor httpContextAccessor, IBrowserDetector browserDetector) : base(logger, webHostEnvironment, httpContextAccessor, browserDetector)
+        {
 
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IBrowserDetector _browserDetector;
-        private readonly IWebHostEnvironment _webHostEnvironment;
+        }
 
         //[DonutOutputCache(Duration = 3600 * 24 * 7, Location = OutputCacheLocation.Server, NoStore = true, VaryByParam = "abbreviatedLanguage;professionalUrl", VaryByCustom = "IsMobile")]
         public ActionResult Index(string abbreviatedLanguage, string professionalUrl)

@@ -10,17 +10,10 @@ namespace BaseProject_7_0.Controllers
     public class HomePageController : BaseController
     {
 
-        private readonly ILogger<HomePageController> _logger;
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IBrowserDetector _browserDetector;
-        private readonly IWebHostEnvironment _webHostEnvironment;
 
-        public HomePageController(ILogger<HomePageController> logger, IWebHostEnvironment webHostEnvironment, IHttpContextAccessor httpContextAccessor, IBrowserDetector browserDetector)
+        public HomePageController(ILogger<HomePageController> logger, IWebHostEnvironment webHostEnvironment, IHttpContextAccessor httpContextAccessor, IBrowserDetector browserDetector) : base(logger, webHostEnvironment, httpContextAccessor, browserDetector)
         {
-            _logger = logger;
-            _httpContextAccessor = httpContextAccessor;
-            _browserDetector = browserDetector;
-            _webHostEnvironment = webHostEnvironment;
+          
         }
 
         public ActionResult Index(string abbreviatedLanguage)

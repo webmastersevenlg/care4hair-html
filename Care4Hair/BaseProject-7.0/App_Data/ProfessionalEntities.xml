@@ -1,29 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Data>
-  <!--Lorayne Enriquez-->
-  <ProfessionalEntity
-    worklocation=""
-    keywords=""
-    url="lorayne-enriquez"
-    urlspanish="lorayne-enriquez"
-    dburl="lorayne-enriquez"
-    dburlspanish="lorayne-enriquez"
-    id="lorayne-enriquez"
-    imagename=""
-    lastname="Enriquez"
-    name="Lorayne Enriquez"
-    namespanish="Lorayne Enriquez"
-    active="true"
-    jobtitle="Advanced Nurse Practical"
-    jobtitlespanish="Enfermera de Practica Avanzada"
-    description=""
-    descriptionspanish="Enfermera de Practica Avanzada"
-    featured="true"
-    honorificprefix=""
-    honorificsuffix="APRN"
-    briefintroforaboutpage=""
-    briefintroforaboutpagespanish="">
-  </ProfessionalEntity>
+	<!--Lorayne Enriquez-->
+	<ProfessionalEntity
+	  worklocation=""
+	  keywords=""
+	  url="lorayne-enriquez"
+	  urlspanish="lorayne-enriquez"
+	  dburl="lorayne-enriquez"
+	  dburlspanish="lorayne-enriquez"
+	  id="lorayne-enriquez"
+	  imagename=""
+	  lastname="Enriquez"
+	  name="Lorayne Enriquez"
+	  namespanish="Lorayne Enriquez"
+	  active="true"
+	  jobtitle="Advanced Nurse Practical"
+	  jobtitlespanish="Enfermera de Practica Avanzada"
+	  description=""
+	  descriptionspanish="Enfermera de Practica Avanzada"
+	  featured="true"
+	  honorificprefix=""
+	  honorificsuffix="APRN"
+	  briefintroforaboutpage=""
+	  briefintroforaboutpagespanish=""
+      yearsexperience="">
+	</ProfessionalEntity>
 
 	<!-- Marianela Lopez-->
 	<ProfessionalEntity
@@ -47,7 +48,8 @@
 	  honorificprefix="APRN"
 	  honorificsuffix=""
 	  briefintroforaboutpage=""
-	  briefintroforaboutpagespanish="">
+	  briefintroforaboutpagespanish=""
+	  yearsexperience="">
 	</ProfessionalEntity>
 
 	<!-- Disney Lima-->
@@ -72,7 +74,8 @@
 	  honorificprefix="APRN"
 	  honorificsuffix=""
 	  briefintroforaboutpage=""
-	  briefintroforaboutpagespanish="">
+	  briefintroforaboutpagespanish=""	  
+	  yearsexperience="">
 	</ProfessionalEntity>
 
 	<!-- Dr. Manuel Mendizabal-->
@@ -90,14 +93,15 @@
 	  namespanish="Manuel Mendizabal"
 	  active="true"
 	  jobtitle="HAIR TRANSPLANT SURGEON"
-	  jobtitlespanish="CIRUJANO Y ESPECIALISTA EN TRASPLANTE DE CABELLO"
-	  description=""
-	  descriptionspanish="CIRUJANO Y ESPECIALISTA EN TRASPLANTE DE CABELLO"
+	  jobtitlespanish="CIRUJANO TRASPLANTE DE CABELLO"
+	  description="Manuel S. Mendizabal, M.D. is recognized for the excellence of his work. Many patients come to his consultation and are satisfied with the result of Dr. Mendizabal."
+	  descriptionspanish="spanish description"
 	  featured="true"
 	  honorificprefix="Dr."
 	  honorificsuffix=""
 	  briefintroforaboutpage=""
-	  briefintroforaboutpagespanish="">
+	  briefintroforaboutpagespanish=""
+	  yearsexperience="47">
 	</ProfessionalEntity>
 
 </Data>
