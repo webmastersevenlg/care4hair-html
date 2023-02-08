@@ -132,15 +132,23 @@
 
   <ItemGroup>
     <Folder Include="Views\FinancingOptionPage\content\" />
+    <Folder Include="Views\ServicePage\Content\african-american-hair-transplant-in-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\african-american-hair-transplant-in-miami\Es\" />
+    <Folder Include="Views\ServicePage\Content\beard-hair-transplant-in-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\beard-hair-transplant-in-miami\Es\" />
+    <Folder Include="Views\ServicePage\Content\capillus-laser-therapy-in-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\capillus-laser-therapy-in-miami\Es\" />
+    <Folder Include="Views\ServicePage\Content\eyebrow-hair-transplant-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\eyebrow-hair-transplant-miami\Es\" />
     <Folder Include="Views\ServicePage\Content\female-hair-transplant-in-miami\" />
-    <Folder Include="Views\ServicePage\Content\male-hair-transplant-in-miami\" />
-    <Folder Include="Views\ServicePage\Content\beard-hair-transplant-in-miami\" />
-    <Folder Include="Views\ServicePage\Content\african-american-hair-transplant-in-miami\" />
-    <Folder Include="Views\ServicePage\Content\eyebrow-hair-transplant-miami\" />
-    <Folder Include="Views\ServicePage\Content\hairline-restoration-in-miami\" />
-    <Folder Include="Views\ServicePage\Content\capillus-laser-therapy-in-miami\" />
-    <Folder Include="Views\ServicePage\Content\micropigmentacion-de-cuero-cabelludo-en-miami\" />
-    <Folder Include="Views\ServicePage\Content\platelet-rich-plasma-injection-in-miami\" />
+    <Folder Include="Views\ServicePage\Content\hairline-restoration-in-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\hairline-restoration-in-miami\Es\" />
+    <Folder Include="Views\ServicePage\Content\male-hair-transplant-in-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\male-hair-transplant-in-miami\Es\" />
+    <Folder Include="Views\ServicePage\Content\micropigmentacion-de-cuero-cabelludo-en-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\micropigmentacion-de-cuero-cabelludo-en-miami\Es\" />
+    <Folder Include="Views\ServicePage\Content\platelet-rich-plasma-injection-in-miami\En\" />
+    <Folder Include="Views\ServicePage\Content\platelet-rich-plasma-injection-in-miami\Es\" />
     <Folder Include="Views\UncategorizedPage\content\about\" />
     <Folder Include="Views\UncategorizedPage\content\contact\" />
     <Folder Include="Views\UncategorizedPage\content\hair-loss\" />

@@ -6,7 +6,6 @@ using BaseProject_7_0.XmlTools;
 using Microsoft.AspNetCore.Mvc;
 //using System.Web.UI;
 //using DevTrends.MvcDonutCaching;
-using Shyjus.BrowserDetection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,12 +16,6 @@ namespace BaseProject_7_0.Controllers
 {
     public class ProfessionalPageController : BaseController
     {
-        ///esto lo agregue revisar
-
-        private readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IBrowserDetector _browserDetector;
-        private readonly IWebHostEnvironment _webHostEnvironment;
-
         //[DonutOutputCache(Duration = 3600 * 24 * 7, Location = OutputCacheLocation.Server, NoStore = true, VaryByParam = "abbreviatedLanguage;professionalUrl", VaryByCustom = "IsMobile")]
         public ActionResult Index(string abbreviatedLanguage, string professionalUrl)
         {
@@ -36,7 +29,7 @@ namespace BaseProject_7_0.Controllers
             //if (professionalEntity == null || professionalEntity.Categories == null || professionalEntity.Categories.Count == 0)
             //     throw new HttpException(404, "File Not Found");     
             //creo el vm vacio
-            ProfessionalIndexablePageViewModel vm = new ProfessionalIndexablePageViewModel(_webHostEnvironment, _httpContextAccessor, _browserDetector);
+            ProfessionalIndexablePageViewModel vm = new ProfessionalIndexablePageViewModel(Request);
             //mapeo el entitymodel a el viewmodel
             vm.MapFromXmlEntity<ProfessionalEntity>(professionalEntity);
 
