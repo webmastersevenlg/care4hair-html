@@ -1,0 +1,45 @@
+﻿@model FinancingOptionIndexablePageViewModel
+
+@{ Layout = "~/Views/Shared/_Layout.cshtml";}
+<section class="page-header page-header-classic page-header-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+                <h1 data-title-border>@Model.Name</h1>
+            </div>
+            <div class="col-md-4 order-1 order-md-2 align-self-center">
+                <ul class="breadcrumb d-block text-md-right">
+                    <li><a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a></li>
+                    <li class="active">@Model.Name</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container py-4">
+    <div class="row mb-5">
+        <div class="col">
+            <img src="@Model.GetImage("200x65", "png")" alt="@Model.Name Logo" />
+        </div>
+    </div>
+    <div class="row mb-5">
+        <div class="col">
+            @Html.Partial("contactforms/FinancingKuatroleapContactForm")
+        </div>
+    </div>
+</div>
+
+
+
+
+@section pageMetas{
+    @Html.Partial(Model.GetMetasFilePath)
+}
+
+@section pageStyles{
+    @BundleHelpers.StyleBundle("globalbundle")
+}
+
+@section pageScripts{
+    @BundleHelpers.ScriptBundle("globalbundle")
+}

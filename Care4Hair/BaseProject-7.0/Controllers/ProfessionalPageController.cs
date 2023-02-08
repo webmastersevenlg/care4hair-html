@@ -29,9 +29,7 @@ namespace BaseProject_7_0.Controllers
             //leo del Services.xml y obtengo el ServiceEntity 
 
             ProfessionalEntity professionalEntity = XmlReader.GetElementByFileNameAttributeNameAndAttributeValue<ProfessionalEntity>(ProfessionalEntity.XmlFilePath, "url", professionalUrl);
-
-
-                        
+                                    
 
             //if (professionalEntity == null || professionalEntity.Categories == null || professionalEntity.Categories.Count == 0)
             //     throw new HttpException(404, "File Not Found");     
