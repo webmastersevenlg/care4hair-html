@@ -1,6 +1,6 @@
 ﻿@model ServicePageViewModel
 @{ Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.ActiveMenuElement = "services";
+    //ViewBag.ActiveMenuElement = "services";
 }
 
 
@@ -73,7 +73,8 @@
             <div class="blog-posts single-post">
                 <article class="post post-large blog-single-post border-0 m-0 p-0">
                     <div class="post-content ml-0">
-                        @Html.Partial(Model.GetArticleFilePath)
+                       
+                        @await Html.PartialAsync(@Model.GetArticleFilePath)
                     </div>
                 </article>
             </div>
@@ -81,15 +82,49 @@
     </div>
 </div>
 
+
 @section pageMetas{
-    @Html.Partial(Model.GetMetasFilePath)
+    @await Html.PartialAsync(Model.GetArticleFilePath)
+    <link rel="alternate" hreflang="@Language.English.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
+    <link rel="alternate" hreflang="@Language.Spanish.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
 }
 
+@section pageStyles{ 
+        <link rel="stylesheet" href="/themes/care4hair/css/header.css">
+        <link rel="stylesheet" href="/themes/care4hair/css/style.css">
+        <link rel="stylesheet" href="/themes/care4hair/css/footer.css">
 
-@section pageStyles{
-    @BundleHelpers.StyleBundle("globalbundle")
+        @if (Model.IsMobile)
+        {
+        }
+        else
+        {
+        }
 }
 
 @section pageScripts{
-    @BundleHelpers.ScriptBundle("globalbundle")
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+        <script src="/themes/care4hair/js/scripts.js"></script>
+        <script>
+            gsap.to("header", {
+                scrollTrigger: {
+                    trigger: "body",
+                    start: "150 top",
+                    toggleClass: { targets: "header", className: "header-bg" }
+                },
+            });
+        </script>
+
+    @if (Model.IsMobile)
+    {
+
+    }
+    else
+    {
+
+    }
 }
+
+
