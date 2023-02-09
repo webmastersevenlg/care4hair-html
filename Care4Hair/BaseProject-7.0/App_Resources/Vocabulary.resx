@@ -172,7 +172,7 @@
     <value />
   </data>
   <data name="OurProfessionals" xml:space="preserve">
-    <value />
+    <value>Our Professionals</value>
   </data>
   <data name="PersonalInjury" xml:space="preserve">
     <value />
@@ -1064,5 +1064,8 @@
   </data>
   <data name="Experience" xml:space="preserve">
     <value>Experience</value>
+  </data>
+  <data name="MeetOurSkilledTeam" xml:space="preserve">
+    <value>Meet Our Skilled Team</value>
   </data>
 </root>

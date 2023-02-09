@@ -1411,6 +1411,15 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Meet Our Skilled Team.
+        /// </summary>
+        public static string MeetOurSkilledTeam {
+            get {
+                return ResourceManager.GetString("MeetOurSkilledTeam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Meet the Staff.
         /// </summary>
         public static string MeetTheStaff {
@@ -1654,7 +1663,7 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Our Professionals.
         /// </summary>
         public static string OurProfessionals {
             get {
