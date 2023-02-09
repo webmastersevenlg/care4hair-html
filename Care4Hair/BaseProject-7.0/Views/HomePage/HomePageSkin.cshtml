@@ -408,43 +408,43 @@
         <img class="separator" src="/themes/care4hair/images/separator.svg" alt="separator">
 
         <div class="team">
-            <a href="#" class="member">
-                <div class="overlay"></div>
-                <img src="/themes/care4hair/images/team/doctor-2.jpeg" alt="image of doctor">
-                <div class="text">
-                    <div class="doctor-name">
-                        lorayne enriquez
-                    </div>
-                </div>
-                <span>
-                    [ aprn ]
-                </span>
-            </a>
-            <a href="#" class="member">
-                <div class="overlay"></div>
-                <img src="/themes/care4hair/images/team/doctor-3.jpeg" alt="image of doctor">
-                <div class="text">
-                    <div class="doctor-name">
-                        marianela lopez
-                    </div>
-                </div>
-                <span>
-                    [ aprn ]
-                </span>
-            </a>
-            <a href="#" class="member">
-                <div class="overlay"></div>
-                <img src="/themes/care4hair/images/team/doctor-1.jpeg" alt="image of doctor">
-                <div class="text">
-                    <div class="doctor-name">
-                        manuel s. mendizabal
-                    </div>
-                </div>
-                <span>
-                    [ surgeon ]
-                </span>
-            </a>
+            @{
+                var featuredProfessionals = Model.Professionals.Where(p => p.Featured == "true").ToArray();           
 
+                @foreach (var featuredProfessional in featuredProfessionals)
+                {
+                    
+                
+                <a href="@featuredProfessional.GetPageUrl()" class="member lazy">
+                <div class="overlay"></div>
+                
+                 @ViewHelpers.Picture(featuredProfessional.GetImage("750x977"), @featuredProfessional.GetName, "https://via.placeholder.com/540x540", "img-fluid")
+              
+                <div class="text">
+                    <div class="doctor-name">
+                        @featuredProfessional.GetName
+                    </div>
+                </div>
+                <span>
+                            @{
+                                string honorific = "";
+
+                                if (featuredProfessional.GetHonorificPrefix != "")
+                                {
+                                    honorific = "[" + featuredProfessional.GetHonorificPrefix + "]";
+
+                                }
+                                else
+                                {
+                                     honorific = "[" + featuredProfessional.GetHonorificSuffix + "]";
+
+                                }
+                            }
+                          @honorific
+                </span>
+            </a>
+            }}
+           
         </div>
     </div>
 </section>

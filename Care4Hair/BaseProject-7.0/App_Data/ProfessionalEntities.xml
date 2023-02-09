@@ -16,14 +16,14 @@
 	  active="true"
 	  jobtitle="Advanced Nurse Practical"
 	  jobtitlespanish="Enfermera de Practica Avanzada"
-	  description=""
+	  description="Licensed Advanced Practice Registered Nurse. Attentive and highly trained professional with a strong sense of responsibility as well as vast medical experience."
 	  descriptionspanish="Enfermera de Practica Avanzada"
 	  featured="true"
 	  honorificprefix=""
 	  honorificsuffix="APRN"
 	  briefintroforaboutpage=""
 	  briefintroforaboutpagespanish=""
-      yearsexperience="">
+      yearsexperience="25">
 	</ProfessionalEntity>
 
 	<!-- Marianela Lopez-->
@@ -42,14 +42,14 @@
 	  active="true"
 	  jobtitle="Advanced Nurse Practical"
 	  jobtitlespanish="Enfermera de Practica Avanzada"
-	  description=""
+	  description="Licensed Advanced Practice Registered Nurse. Compassionate and comprehensive professional with experience providing care and wellness"
 	  descriptionspanish="Enfermera de Practica Avanzada"
 	  featured="true"
-	  honorificprefix="APRN"
-	  honorificsuffix=""
+	  honorificprefix=""
+	  honorificsuffix="APRN"
 	  briefintroforaboutpage=""
 	  briefintroforaboutpagespanish=""
-	  yearsexperience="">
+	  yearsexperience="8">
 	</ProfessionalEntity>
 
 	<!-- Disney Lima-->
@@ -68,14 +68,14 @@
 	  active="true"
 	  jobtitle="Advanced Nurse Practical"
 	  jobtitlespanish="Enfermera de Practica Avanzada"
-	  description=""
+	  description="Licensed Advanced Registered Nurse Practitioner. Patient-oriented professional with vast medical experience. Committed to top quality medical performance"
 	  descriptionspanish="Enfermera de Practica Avanzada"
 	  featured="true"
-	  honorificprefix="APRN"
-	  honorificsuffix=""
+	  honorificprefix=""
+	  honorificsuffix="APRN"
 	  briefintroforaboutpage=""
 	  briefintroforaboutpagespanish=""	  
-	  yearsexperience="">
+	  yearsexperience="11">
 	</ProfessionalEntity>
 
 	<!-- Dr. Manuel Mendizabal-->
@@ -92,7 +92,7 @@
 	  name="Manuel Mendizabal"
 	  namespanish="Manuel Mendizabal"
 	  active="true"
-	  jobtitle="HAIR TRANSPLANT SURGEON"
+	  jobtitle="Hair Transplant Surgeon"
 	  jobtitlespanish="CIRUJANO TRASPLANTE DE CABELLO"
 	  description="Manuel S. Mendizabal, M.D. is recognized for the excellence of his work. Many patients come to his consultation and are satisfied with the result of Dr. Mendizabal."
 	  descriptionspanish="spanish description"
