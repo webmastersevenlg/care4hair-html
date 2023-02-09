@@ -621,6 +621,9 @@
   <data name="Pictures" xml:space="preserve">
     <value>Fotos</value>
   </data>
+  <data name="PlanYourTrip" xml:space="preserve">
+    <value>plan your trip</value>
+  </data>
   <data name="PlasticSurgeon" xml:space="preserve">
     <value>Cirujano Plástico</value>
   </data>
@@ -707,6 +710,9 @@
   </data>
   <data name="RequestConsultation" xml:space="preserve">
     <value>Solicite una Consulta</value>
+  </data>
+  <data name="RequestInfoOrScheduleAHairTransplantConsultationToday" xml:space="preserve">
+    <value>Request Info Or Schedule A Hair Transplant Consultation Today.</value>
   </data>
   <data name="Required" xml:space="preserve">
     <value />
@@ -929,6 +935,9 @@
   </data>
   <data name="YourBMIis" xml:space="preserve">
     <value>Tu BMI es</value>
+  </data>
+  <data name="YourHairTransplantDestination" xml:space="preserve">
+    <value>Your Hair Transplant Destination</value>
   </data>
   <data name="YourMessageHasBeenSentToUs" xml:space="preserve">
     <value>YourMessageHasBeenSentToUs</value>

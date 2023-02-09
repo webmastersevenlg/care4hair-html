@@ -1690,7 +1690,7 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to OUT OF TOWN PATIENTS.
+        ///   Looks up a localized string similar to Out Of Town Patients.
         /// </summary>
         public static string OutOfTownPatients {
             get {
@@ -1758,6 +1758,15 @@ namespace BaseProject_7_0.App_Resources {
         public static string Pictures {
             get {
                 return ResourceManager.GetString("Pictures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to plan your trip.
+        /// </summary>
+        public static string PlanYourTrip {
+            get {
+                return ResourceManager.GetString("PlanYourTrip", resourceCulture);
             }
         }
         
@@ -2019,6 +2028,15 @@ namespace BaseProject_7_0.App_Resources {
         public static string RequestConsultation {
             get {
                 return ResourceManager.GetString("RequestConsultation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Request info or schedule a hair transplant consultation today..
+        /// </summary>
+        public static string RequestInfoOrScheduleAHairTransplantConsultationToday {
+            get {
+                return ResourceManager.GetString("RequestInfoOrScheduleAHairTransplantConsultationToday", resourceCulture);
             }
         }
         
@@ -2892,6 +2910,15 @@ namespace BaseProject_7_0.App_Resources {
         public static string YourBMIis {
             get {
                 return ResourceManager.GetString("YourBMIis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your Hair Transplant Destination.
+        /// </summary>
+        public static string YourHairTransplantDestination {
+            get {
+                return ResourceManager.GetString("YourHairTransplantDestination", resourceCulture);
             }
         }
         
