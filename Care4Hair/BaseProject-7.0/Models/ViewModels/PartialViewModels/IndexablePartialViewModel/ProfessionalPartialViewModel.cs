@@ -107,7 +107,7 @@ namespace BaseProject_7_0.Models.ViewModels
         public ProfessionalPartialViewModel()
         {
             IndexablePageDetail = new ProfessionalIndexablePageDetailViewModel();
-            ImagesFolderPath = "/content/images/professionals";
+            ImagesFolderPath = "/themes/" + Settings.GetTheme + "/images/team/professionals";
         }
     }
 }
