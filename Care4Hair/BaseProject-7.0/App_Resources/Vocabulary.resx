@@ -172,7 +172,7 @@
     <value />
   </data>
   <data name="OurProfessionals" xml:space="preserve">
-    <value />
+    <value>Our Professionals</value>
   </data>
   <data name="PersonalInjury" xml:space="preserve">
     <value />
@@ -379,7 +379,7 @@
     <value>Learn More About How You Can Stay With Us</value>
   </data>
   <data name="OutOfTownPatients" xml:space="preserve">
-    <value>OUT OF TOWN PATIENTS</value>
+    <value>Out Of Town Patients</value>
   </data>
   <data name="AboutUs" xml:space="preserve">
     <value>About us</value>
@@ -1064,5 +1064,17 @@
   </data>
   <data name="Experience" xml:space="preserve">
     <value>Experience</value>
+  </data>
+  <data name="MeetOurSkilledTeam" xml:space="preserve">
+    <value>Meet Our Skilled Team</value>
+  </data>
+  <data name="PlanYourTrip" xml:space="preserve">
+    <value>plan your trip</value>
+  </data>
+  <data name="RequestInfoOrScheduleAHairTransplantConsultationToday" xml:space="preserve">
+    <value>Request info or schedule a hair transplant consultation today.</value>
+  </data>
+  <data name="YourHairTransplantDestination" xml:space="preserve">
+    <value>Your Hair Transplant Destination</value>
   </data>
 </root>
