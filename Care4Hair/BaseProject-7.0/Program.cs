@@ -70,7 +70,7 @@ else
             var exceptionHandlerPathFeature =
                 context.Features.Get<IExceptionHandlerPathFeature>();
 
-            Console.WriteLine(exceptionHandlerPathFeature.Error.Message);
+            Console.WriteLine(exceptionHandlerPathFeature?.Error.Message);
 
             if (exceptionHandlerPathFeature?.Error is FileNotFoundException)
             {
@@ -97,5 +97,6 @@ app.UseAuthorization();
 RouteConfig.RegisterRoutes(app);
 SpanishRouteConfig.RegisterRoutes(app);
 
+app.UseMiddleware<SetCultureMiddleware>();
 
 app.Run();

@@ -88,10 +88,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="App_Resources\Vocabulary.Es.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-    </Compile>
     <Compile Update="App_Resources\Vocabulary.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -104,11 +100,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="App_Resources\Vocabulary.Es.resx">
-      <SubType>Designer</SubType>
-      <LastGenOutput>Vocabulary.Es1.Designer.cs</LastGenOutput>
-      <Generator>PublicResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="App_Resources\Vocabulary.resx">
       <SubType>Designer</SubType>
       <LastGenOutput>Vocabulary.Designer.cs</LastGenOutput>
@@ -131,6 +122,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="App_FIlters\" />
     <Folder Include="Views\FinancingOptionPage\content\" />
     <Folder Include="Views\ServicePage\Content\african-american-hair-transplant-in-miami\En\" />
     <Folder Include="Views\ServicePage\Content\african-american-hair-transplant-in-miami\Es\" />

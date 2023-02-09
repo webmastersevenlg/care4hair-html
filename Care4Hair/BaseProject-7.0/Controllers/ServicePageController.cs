@@ -1,20 +1,8 @@
 ﻿using BaseProject_7_0.Models.EntityModels.XmlEntities;
-using BaseProject_7_0.Models.EntityModels.DbEntities;
 using BaseProject_7_0.Models.ViewModels;
 using BaseProject_7_0.XmlTools;
-//using System.Web.Mvc;
 using Microsoft.AspNetCore.Mvc;
-//using System.Web.UI;
-//using DevTrends.MvcDonutCaching;
 using Shyjus.BrowserDetection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq;
-using System.Threading;
-using System.Web;
-
-
 
 namespace BaseProject_7_0.Controllers
 {
@@ -41,7 +29,7 @@ namespace BaseProject_7_0.Controllers
 
             if (serviceEntity == null)
             {
-                // throw new HttpRequestException(404, "File Not Found");
+                throw new HttpRequestException("File Not Found", null, System.Net.HttpStatusCode.NotFound);
             }
 
             serviceEntity.FAQs = XmlReader.GetElementsByFileNameAndSubElementAttributeValue<FAQEntity>(FAQEntity.XmlFilePath, "Service", "id", serviceEntity.Url);
