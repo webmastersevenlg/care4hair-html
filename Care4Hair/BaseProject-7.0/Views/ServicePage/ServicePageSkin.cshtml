@@ -4,18 +4,14 @@
 }
 
  <section class="hair-loss-main-sec">
-        <img class="bg-img" src="@Model.GetImage("banner", "jpeg")" alt="background image">
+        <img class="bg-img" src="@Model.GetImage("1920x950", "jpeg")" alt="background image">
         <div class="hair-loss-main-sec-text">
-            <h1>@Model.Name
+            <h1>@Model.GetH1
             </h1>
             <span>
-                <a href="../../../index.html">Home</a>
-                &nbsp;
-                &nbsp;
-                /
-                &nbsp;
-                &nbsp;
-                @Model.Name
+            <a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a>
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+                @Model.GetName
             </span>
         </div>
     </section>
@@ -23,8 +19,7 @@
   @await Html.PartialAsync(Model.GetArticleFilePath)  
 
 
-@section pageMetas{
-    
+@section pageMetas{    
     <link rel="alternate" hreflang="@Language.English.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
     <link rel="alternate" hreflang="@Language.Spanish.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
 }

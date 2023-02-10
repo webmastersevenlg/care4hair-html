@@ -56,6 +56,14 @@ namespace BaseProject_7_0.Models.ViewModels
             }
         }
 
+        public override string GetH1
+        {
+            get
+            {
+                return GetName;
+            }
+        }
+
         public ServicePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             SkinName = "ServicePageSkin";
