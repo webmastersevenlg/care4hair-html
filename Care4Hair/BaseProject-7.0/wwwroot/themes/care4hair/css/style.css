@@ -1142,7 +1142,7 @@ section {
     position: relative;
     margin-top: 90px;
     display: flex;
-    width: min(850px, 90vw);
+    width: 90vw;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -1205,7 +1205,7 @@ section {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #000;
+    background-color: rgba(26, 26, 26);
     opacity: 0;
     transition: .3s ease-out;
     z-index: 1;
@@ -1216,7 +1216,7 @@ section {
 }
 
 .member:hover .overlay {
-    opacity: .5;
+    opacity: .6;
 }
 
 .member:hover img {
