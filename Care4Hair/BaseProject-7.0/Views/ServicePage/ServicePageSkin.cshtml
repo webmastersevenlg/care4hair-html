@@ -3,88 +3,28 @@
     ViewBag.ActiveMenuElement = "services";
 }
 
-
-
-@section slider{
-    <section class="page-header page-header-modern bg-color-dark page-header-md mb-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 align-self-center p-static order-1 text-center">
-
-                    <h1 class="text-light font-weight-bold text-8">@Model.GetName</h1>
-
-                </div>
-                <div class="col-md-12 align-self-center order-2">
-                    <ul class="breadcrumb d-block text-center">
-                        <li><a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a></li>
-                        <li class="active">@Model.GetName</li>
-                    </ul>
-                </div>
-            </div>
+ <section class="hair-loss-main-sec">
+        <img class="bg-img" src="@Model.GetImage("banner", "jpeg")" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>@Model.Name
+            </h1>
+            <span>
+                <a href="../../../index.html">Home</a>
+                &nbsp;
+                &nbsp;
+                /
+                &nbsp;
+                &nbsp;
+                @Model.Name
+            </span>
         </div>
     </section>
-    <aside class="nav-secondary" id="navSecondary" data-plugin-sticky data-plugin-options="{'minWidth': 991, 'padding': {'top': 71}}">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <ul class="nav nav-pills justify-content-center">
-                        <li class="nav-item"><a class="nav-link" href="@Site.Instance.FinancingOptions.GetIndexPageUrl()" rel="nofollow"><i class="fa fa-credit-card"></i> @Vocabulary.Financing</a></li>
 
-                        @{
-                            var serviceWithPicture = Site.Instance.GalleryServices.FirstOrDefault(s => s.Id == Model.Id);
-                            if (serviceWithPicture != null)
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link" href="@Url.Action("Index", "PictureIndexPage",
-                                                                                new { dbServiceUrl = serviceWithPicture.GetDbUrl,
-                                                                                    abbreviatedLanguage = Model.CurrentLanguage.AbbreviatedName})" rel="nofollow">
-                                        <i class="fa fa-camera"></i> @Site.Instance.Pictures.GetElementTypeNamePlural
-                                    </a>
-                                </li>
-                            }
-                        }
-
-
-                        @{
-                            var serviceWithSpecials = Site.Instance.SpecialsServices.FirstOrDefault(s => s.Id == Model.Id);
-                            if (serviceWithSpecials != null)
-                            {
-                                <li class="nav-item">
-                                    <a class="nav-link" href="@Url.Action("Index", "SpecialIndexPage",
-                                                                                new { dbServiceUrl = serviceWithSpecials.GetDbUrl,
-                                                                                    abbreviatedLanguage = Model.CurrentLanguage.AbbreviatedName})" rel="nofollow">
-                                        <i class="fa fa-gift">
-                                        </i> @Site.Instance.Specials.GetElementTypeNamePlural
-                                    </a>
-                                </li>
-                            }
-                        }
-                        <li class="nav-item"><a class="nav-link" href="@Site.Instance.Calculateyourbmi.GetPageUrl()" rel="nofollow"><i class="fa fa-calculator"></i> BMI</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </aside>
-}
-
-<div class="container py-4">
-    <div class="row">
-        <div class="col">
-            <div class="blog-posts single-post">
-                <article class="post post-large blog-single-post border-0 m-0 p-0">
-                    <div class="post-content ml-0">
-                       
-                        @await Html.PartialAsync(@Model.GetArticleFilePath)
-                    </div>
-                </article>
-            </div>
-        </div>
-    </div>
-</div>
+  @await Html.PartialAsync(Model.GetArticleFilePath)  
 
 
 @section pageMetas{
-    @await Html.PartialAsync(Model.GetArticleFilePath)
+    
     <link rel="alternate" hreflang="@Language.English.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
     <link rel="alternate" hreflang="@Language.Spanish.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
 }
@@ -107,6 +47,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
         <script src="/themes/care4hair/js/scripts.js"></script>
+         <script src="themes/care4hair/js/hairLoss.js"></script>
         <script>
             gsap.to("header", {
                 scrollTrigger: {
@@ -126,5 +67,4 @@
 
     }
 }
-
 
