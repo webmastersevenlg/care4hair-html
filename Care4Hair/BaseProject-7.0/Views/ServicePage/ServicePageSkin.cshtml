@@ -17,7 +17,9 @@
     </section>
 
   @await Html.PartialAsync(Model.GetArticleFilePath)  
-
+  <section class="miami-bg">
+        <img src="~/themes/care4hair/images/services-pages/miami-skyline-bg-1-gray.jpeg" alt="">
+    </section>
 
 @section pageMetas{    
     <link rel="alternate" hreflang="@Language.English.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />

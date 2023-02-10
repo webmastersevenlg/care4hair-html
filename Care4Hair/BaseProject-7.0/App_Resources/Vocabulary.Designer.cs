@@ -826,7 +826,7 @@ namespace BaseProject_7_0.App_Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to FAQS.
         /// </summary>
         public static string FAQS {
             get {
