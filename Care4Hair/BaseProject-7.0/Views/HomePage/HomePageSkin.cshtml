@@ -412,34 +412,22 @@
                 var featuredProfessionals = Model.Professionals.Where(p => p.Featured == "true").ToArray();           
 
                 @foreach (var featuredProfessional in featuredProfessionals)
-                {
-                    
+                {                    
                 
-                <a href="@featuredProfessional.GetPageUrl()" class="member lazy">
+                <a href="@featuredProfessional.GetPageUrl()" class="member">
                 <div class="overlay"></div>
-                
-                 @ViewHelpers.Picture(featuredProfessional.GetImage("750x977", "jpeg"), @featuredProfessional.GetName, "https://via.placeholder.com/540x540", "img-fluid")
-              
-                <div class="text">
+               <img src="@featuredProfessional.GetImage("750x977", "jpeg")" alt="image of doctor" class="doctor-image">            
+               <div class="text">
                     <div class="doctor-name">
                         @featuredProfessional.GetName
                     </div>
                 </div>
-                <span>
+                <span>              
                             @{
-                                string honorific = "";
-
-                                if (featuredProfessional.GetHonorificPrefix != "")
-                                {
-                                    honorific = "[" + featuredProfessional.GetHonorificPrefix + "]";
-
-                                }
-                                else
-                                {
-                                     honorific = "[" + featuredProfessional.GetHonorificSuffix + "]";
-
-                                }
+                                string honorific = "";                                                                
+                                honorific = "[" + featuredProfessional.GetHonorificSuffix + "]";
                             }
+
                           @honorific
                 </span>
             </a>

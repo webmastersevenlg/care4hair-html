@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using BaseProject_7_0.Models.BaseModels;
+using BaseProject_7_0.App_Resources;
 using BaseProject_7_0.Models.EntityModels.XmlEntities;
 using Shyjus.BrowserDetection;
 
@@ -58,7 +59,7 @@ namespace BaseProject_7_0.Models.ViewModels
         public ServicePageViewModel(IWebHostEnvironment _webHostingEnviroment, IHttpContextAccessor _httpContextAccessor, IBrowserDetector _browserDetector) : base(_webHostingEnviroment, _httpContextAccessor, _browserDetector)
         {
             SkinName = "ServicePageSkin";
-            ImagesFolderPath = "/content/images/services";
+            ImagesFolderPath = "/themes/" + Settings.GetTheme + "/images/services";
         }
     }
 }

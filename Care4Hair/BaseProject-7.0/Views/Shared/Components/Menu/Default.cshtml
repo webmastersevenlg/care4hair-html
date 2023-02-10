@@ -75,18 +75,25 @@
         <div class="doctors-submenu submenu">
             @{
                 string variable = ",";
+                string honorifsuf = "";
             }
            
             @foreach (var professional in Model.Professionals)
             {
-                
-                if(professional.GetHonorificSuffix == "")
+
+                if (professional.GetHonorificSuffix == "APRN")
                 {
-                    variable = "";
+                    variable = ",";
+                    honorifsuf = professional.GetHonorificSuffix;
 
                 }
+                else
+                {
+                    honorifsuf = "";
+                    variable = "";
+                }
 
-                <a class="submenu-item" href="@professional.GetPageUrl()">@professional.GetHonorificPrefix @professional.GetName@variable @professional.GetHonorificSuffix</a>
+                <a class="submenu-item" href="@professional.GetPageUrl()">@professional.GetHonorificPrefix @professional.GetName@variable @honorifsuf</a>
             }
         </div>
         <div class="hairloss-submenu submenu">
