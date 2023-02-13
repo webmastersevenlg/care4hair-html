@@ -402,37 +402,38 @@
     </div>
     <div class="sec-9-wrap">
         <span class="subheader">
-         @Vocabulary.OurProfessionals
+            @Vocabulary.OurProfessionals
         </span>
         <h1>@Vocabulary.MeetOurSkilledTeam</h1>
         <img class="separator" src="/themes/care4hair/images/separator.svg" alt="separator">
 
         <div class="team">
             @{
-                var featuredProfessionals = Model.Professionals.Where(p => p.Featured == "true").ToArray();           
+                var featuredProfessionals = Model.Professionals.Where(p => p.Featured == "true").ToArray();
 
                 @foreach (var featuredProfessional in featuredProfessionals)
-                {                    
-                
-                <a href="@featuredProfessional.GetPageUrl()" class="member">
-                <div class="overlay"></div>
-               <img src="@featuredProfessional.GetImage("750x977", "jpeg")" alt="image of doctor" class="doctor-image">            
-               <div class="text">
-                    <div class="doctor-name">
-                        @featuredProfessional.GetName
-                    </div>
-                </div>
-                <span>              
+                {
+
+                    <a href="@featuredProfessional.GetPageUrl()" class="member">
+                        <div class="overlay"></div>
+                        <img src="@featuredProfessional.GetImage("750x977", "jpeg")" alt="image of doctor" class="doctor-image">
+                        <div class="text">
+                            <div class="doctor-name">
+                                @featuredProfessional.GetName
+                            </div>
+                        </div>
+                        <span>
                             @{
-                                string honorific = "";                                                                
+                                string honorific = "";
                                 honorific = "[" + featuredProfessional.GetHonorificSuffix + "]";
                             }
 
-                          @honorific
-                </span>
-            </a>
-            }}
-           
+                            @honorific
+                        </span>
+                    </a>
+                }
+            }
+
         </div>
     </div>
 </section>
@@ -631,7 +632,7 @@
         <div class="contact-form-wrap">
             <h2>@Vocabulary.ContactUs</h2>
             <p>
-              @Vocabulary.RequestInfoOrScheduleAHairTransplantConsultationToday
+                @Vocabulary.RequestInfoOrScheduleAHairTransplantConsultationToday
             </p>
             <form action="">
                 <input type="text" id="name" placeholder="YOUR NAME *" required>
@@ -647,45 +648,15 @@
 </section>
 
 @section pageMetas{
-    @Html.Partial(Model.GetMetasFilePath)
+    @await Html.PartialAsync(Model.GetMetasFilePath)
     <link rel="alternate" hreflang="@Language.English.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
     <link rel="alternate" hreflang="@Language.Spanish.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
 }
 
-@section pageStyles{ 
-    <link rel="stylesheet" href="/themes/care4hair/css/header.css">
-    <link rel="stylesheet" href="/themes/care4hair/css/style.css">
-    <link rel="stylesheet" href="/themes/care4hair/css/footer.css">
-
-    @if (Model.IsMobile) {
-      
-    }
-    else {
-
-    }
+@section pageStyles{
+    @await Html.PartialAsync("globalstyles");
 }
 
 @section pageScripts{
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
-    <script src="/themes/care4hair/js/scripts.js"></script>
-    <script>
-        gsap.to("header", {
-            scrollTrigger: {
-                trigger: "body",
-                start: "150 top",
-                toggleClass: { targets: "header", className: "header-bg" }
-            },
-        });
-    </script>
-
-    @if (Model.IsMobile)
-    {
-
-    }
-    else
-    {
-       
-    }
+    @await Html.PartialAsync("globalscripts");
 }
