@@ -846,3 +846,10 @@ if (aboutUsGallery) {
 }, 6000);
 
 
+gsap.to("header", {
+    scrollTrigger: {
+        trigger: "body",
+        start: "150 top",
+        toggleClass: { targets: "header", className: "header-bg" }
+    },
+});

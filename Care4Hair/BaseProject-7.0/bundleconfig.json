@@ -1,0 +1,33 @@
+﻿[
+  //style bundle
+  {
+    "outputFileName": "wwwroot/themes/care4hair/css/main.min.css",
+    "inputFiles": [
+      "wwwroot/themes/care4hair/css/header.css",
+      "wwwroot/themes/care4hair/css/style.css",
+      "wwwroot/themes/care4hair/css/footer.css",
+      "wwwroot/themes/care4hair/css/fonts/josefinsans.css"
+    ]
+  },
+
+  //script bundle
+  {
+    "outputFileName": "wwwroot/themes/care4hair/js/main.min.js",
+    "inputFiles": [
+      "wwwroot/themes/care4hair/js/jquery.min.js",
+      "wwwroot/themes/care4hair/js/modernizr.min.js",
+      "wwwroot/themes/care4hair/js/jquery.validate.min.js",
+      "wwwroot/themes/care4hair/js/jqBootstrapValidation.js",
+      "wwwroot/themes/care4hair/js/jquery.lazyload.min.js",
+      "wwwroot/themes/care4hair/js/gsap.js",
+      "wwwroot/themes/care4hair/js/scrolltrigger.js",
+      "wwwroot/themes/care4hair/js/lazyloading.js",
+      "wwwroot/themes/care4hair/js/scripts.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]
