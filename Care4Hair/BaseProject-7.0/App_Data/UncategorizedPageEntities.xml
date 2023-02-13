@@ -8,7 +8,7 @@
 	
 	
 
-  <UncategorizedPageEntity id="hairloss" url="hair-loss" urlspanish="perdida-de-cabello" name="Hair Loss" namespanish="Pérdida de Cabello">
+  <UncategorizedPageEntity id="hairloss" url="hair-loss" urlspanish="perdida-de-cabello" name="Hair Loss Overview" namespanish="Pérdida de Cabello">
   </UncategorizedPageEntity>
 
   <UncategorizedPageEntity id="hairlosscauses" url="hair-loss-causes" urlspanish="causas-de-la-caida-de-cabello" name="Hair Loss Causes" namespanish="Causas de la Caída de Cabello">

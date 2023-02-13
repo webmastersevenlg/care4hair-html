@@ -1,0 +1,47 @@
+﻿@model UncategorizedPageViewModel
+
+
+<div class="contact-page">
+        <div class="contact-page-wrap">
+            @await Html.PartialAsync("ContactForms/PageContactForm")
+            <div class="contact-message">
+                <img src="~/themes/care4hair/images/services/services-bg.jpeg" alt="background image" class="contact-message-bg">
+                <div class="subheader">contact details</div>
+                <h1>Get In Touch</h1>
+                <p>
+                    Schedule a free consultation today or let us know how we can help you.
+                </p>
+                <div class="contact-page-info">
+                    <div class="contact-info-row">
+                        <img src="~/themes/care4hair/images/contact-location.svg" alt="location icon">
+                        <div class="row-text">
+                            <span>Our address:</span>
+                            <a href=@Settings.GetAddressLink>@Settings.GetFullAddress</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-row">
+                        <img src="~/themes/care4hair/images/contact-email.svg" alt="email icon">
+                        <div class="row-text">
+                            <span>Our email:</span>
+                            <a href=@Settings.GetEmailLink>@Settings.GetEmail</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-row">
+                        <img src="~/themes/care4hair/images/contact-phone.svg" alt="phone icon">
+                        <div class="row-text">
+                            <span>Our phone:</span>
+                            <a href=@Settings.GetPhoneLink>@Settings.GetPhoneFormated</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-doctor-social-media" style="margin-top: 60px;">
+                    <div class="blog-social-media-icon facebook"><img src="~/themes/care4hair/images/blog/facebook.svg" alt="social media icon"></div>
+                    <div class="blog-social-media-icon instagram"><img src="~/themes/care4hair/images/blog/instagram.svg" alt="social media icon"></div>
+                    <div class="blog-social-media-icon youtube"><img src="~/themes/care4hair/images/blog/youtube.svg" alt="social media icon"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-page-iframe"><iframe loading="lazy" src="https://maps.google.com/maps?q=1645%20SW%20107th%20Ave%2C%202nd%20Floor%2C%20Miami%2C%20FL%2033165&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" title="1645 SW 107th Ave, 2nd Floor, Miami, FL 33165" aria-label="1645 SW 107th Ave, 2nd Floor, Miami, FL 33165"></iframe></div>
+

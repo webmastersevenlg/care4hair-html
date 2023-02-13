@@ -91,11 +91,11 @@ namespace BaseProject_7_0.Models.BaseModels
         }
 
 
-        public BasePartialViewModel MiamiLocation
+        public BasePartialViewModel HairLoss
         {
             get
             {
-                return UncategorizedPages.FirstOrDefault(u => u.Id == "miami");
+                return UncategorizedPages.FirstOrDefault(u => u.Id == "hairloss");
             }
         }
 

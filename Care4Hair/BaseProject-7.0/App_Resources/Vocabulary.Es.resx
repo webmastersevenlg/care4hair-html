@@ -579,6 +579,12 @@
   <data name="Our1" xml:space="preserve">
     <value>Nuestra</value>
   </data>
+  <data name="OurAddress" xml:space="preserve">
+    <value>Nuestra dirección</value>
+  </data>
+  <data name="OurEmail" xml:space="preserve">
+    <value />
+  </data>
   <data name="OurFirm" xml:space="preserve">
     <value />
   </data>

@@ -81,33 +81,53 @@ function activateSelector6() {
 let selector7 = document.querySelector('.selector-sec-item-7');
 let selector8 = document.querySelector('.selector-sec-item-8');
 let selector9 = document.querySelector('.selector-sec-item-9');
+let selector90 = document.querySelector('.selector-sec-item-90');
 let selectorText7 = document.querySelector('.selector-sec-text-7');
 let selectorText8 = document.querySelector('.selector-sec-text-8');
 let selectorText9 = document.querySelector('.selector-sec-text-9');
+let selectorText90 = document.querySelector('.selector-sec-text-90');
 
 function activateSelector7() {
     selector7.classList.add('active');
     selector8.classList.remove('active');
     selector9.classList.remove('active');
+    selector90.classList.remove('active');
 
     selectorText7.classList.add('active');
     selectorText8.classList.remove('active');
     selectorText9.classList.remove('active');
+    selectorText90.classList.remove('active');
 }
 function activateSelector8() {
     selector8.classList.add('active');
     selector7.classList.remove('active');
     selector9.classList.remove('active');
+    selector90.classList.remove('active');
 
     selectorText8.classList.add('active');
     selectorText7.classList.remove('active');
     selectorText9.classList.remove('active');
+    selectorText90.classList.remove('active');
 }
 function activateSelector9() {
     selector9.classList.add('active');
     selector8.classList.remove('active');
     selector7.classList.remove('active');
+    selector90.classList.remove('active');
 
+    selectorText9.classList.add('active');
+    selectorText8.classList.remove('active');
+    selectorText7.classList.remove('active');
+    selectorText90.classList.remove('active');
+}
+
+function activateSelector90() {
+    selector90.classList.add('active');
+    selector9.classList.remove('active');
+    selector8.classList.remove('active');
+    selector7.classList.remove('active');
+
+    selectorText90.classList.add('active');
     selectorText9.classList.add('active');
     selectorText8.classList.remove('active');
     selectorText7.classList.remove('active');

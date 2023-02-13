@@ -1,69 +1,66 @@
-﻿@model UncategorizedPageViewModel
-@{ Layout = "~/Views/Shared/_Layout.cshtml";}
-<style>
-    html .bg-color-light, html .bg-light {
-        background-color: #FFF !important;
-    }
-
-    .custom-thumb-carousel {
-        padding: 8px;
-    }
-
-    .custom-box-shadow {
-        -webkit-box-shadow: 0px 0px 60px -10px rgb(139 139 139 / 50%);
-        box-shadow: 0px 0px 60px -10px rgb(139 139 139 / 50%);
-    }
-
-    .custom-location {
-        padding-left: 60px;
-    }
-
-        .custom-location > img {
-            position: absolute;
-            left: 30px;
-            top: 7px;
-        }
-
-    .list li {
-        margin-bottom: 3px;
-    }
-
-    .g-recaptcha {
-        transform: scale(0.77);
-        transform-origin: 0 0;
-    }
-</style>
-<section class="page-header page-header-classic page-header-sm">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h1 data-title-border>@Model.GetName</h1>
-            </div>
-            <div class="col-md-4 order-1 order-md-2 align-self-center">
-                <ul class="breadcrumb d-block text-md-right">
-                    <li><a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a></li>
-                    <li class="active">@Model.GetName</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-@Html.Partial(Model.GetArticleFilePath)
-
-
-@section pageMetas{
-    @Html.Partial(Model.GetMetasFilePath)
-    <link rel="alternate" hreflang="@Language.English.Code" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
-    <link rel="alternate" hreflang="@Language.Spanish.Code" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
+﻿
+@model UncategorizedPageViewModel
+@{ Layout = "~/Views/Shared/_Layout.cshtml";
+    
 }
 
-@section pageStyles{
-    @BundleHelpers.StyleBundle("globalbundle")
+ <section class="hair-loss-main-sec">
+        <img class="bg-img" src="@Model.GetImage("1920x950", "jpeg")" alt="background image">
+        <div class="hair-loss-main-sec-text">
+            <h1>@Model.GetH1
+            </h1>
+            <span>
+            <a href="@Site.Instance.HomePage.GetPageUrl()">@Vocabulary.Home</a>
+                &nbsp;&nbsp;/&nbsp;&nbsp;
+                @Model.GetName
+            </span>
+        </div>
+    </section>
 
+  @await Html.PartialAsync(Model.GetArticleFilePath)  
+
+
+@section pageMetas{    
+    <link rel="alternate" hreflang="@Language.English.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.English.AbbreviatedName)" />
+    <link rel="alternate" hreflang="@Language.Spanish.Code.ToLower()" href="@Settings.GetFullDomain@Model.GetPageUrl(Language.Spanish.AbbreviatedName)" />
+}
+
+@section pageStyles{ 
+        <link rel="stylesheet" href="/themes/care4hair/css/header.css">
+        <link rel="stylesheet" href="/themes/care4hair/css/style.css">
+        <link rel="stylesheet" href="/themes/care4hair/css/footer.css">
+
+        @if (Model.IsMobile)
+        {
+        }
+        else
+        {
+        }
 }
 
 @section pageScripts{
-    @BundleHelpers.ScriptBundle("globalbundle")
-    @{Html.RenderPartial(Model.GetPageArticleFolderPath + "/articleCustomScripts");}
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollTrigger.min.js"></script>
+        <script src="/themes/care4hair/js/scripts.js"></script>
+         <script src="themes/care4hair/js/hairLoss.js"></script>
+        <script>
+            gsap.to("header", {
+                scrollTrigger: {
+                    trigger: "body",
+                    start: "150 top",
+                    toggleClass: { targets: "header", className: "header-bg" }
+                },
+            });
+        </script>
+
+    @if (Model.IsMobile)
+    {
+
+    }
+    else
+    {
+
+    }
 }
+

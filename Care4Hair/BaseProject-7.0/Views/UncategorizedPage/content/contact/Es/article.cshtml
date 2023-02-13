@@ -1,0 +1,106 @@
+@model UncategorizedPageViewModel
+
+
+<div class="post-content container">
+
+    
+    <div class="row mb-0">
+        <div class="col-lg-4">
+            <div class="overflow-hidden mb-3">
+                <h4 class=" mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200" data-plugin-options="{'accY': -200}">
+                    @Vocabulary.ContactUs
+                </h4>
+            </div>
+            <div class="overflow-hidden mb-3">
+                <p class="lead text-4 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="400" data-plugin-options="{'accY': -200}">
+                    @Vocabulary.OurTeam
+                </p>
+            </div>
+            <div class="overflow-hidden">
+                <p class="mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="600" data-plugin-options="{'accY': -200}">
+                    @Vocabulary.ContactUSTo
+                </p>
+
+                <ul class="list list-icons list-icons-style-3 mt-2">
+                    <li>
+                        @*<i class="fas fa-phone top-6"></i><strong>@Vocabulary.Phone: </strong><a href="tel:@(Settings.GetPhone)">@Settings.GetPhoneFormated</a>*@
+                        <i class="fas fa-phone top-6"></i><strong>@Vocabulary.Phone: </strong><a class="phone-number" href="tel:@(Settings.GetPhone)">@Settings.GetPhoneFormated</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope top-6"></i><strong>@Vocabulary.Email: </strong><a href="mailto:@(Settings.GetEmail)">@Settings.GetEmail</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            @Html.Partial("contactforms/FullWidthKuatroleapContactForm")
+        </div>
+    </div>
+    <section class="section section-no-border bg-color-light mb-1 pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="font-weight-bold">@Vocabulary.Our1 @Vocabulary.Location</h2>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="custom-thumb-carousel bg-color-light custom-box-shadow">
+                        <div class="lightbox" data-plugin-options="{'delegate': 'a', 'type': 'image', 'gallery': {'enabled': true}, 'mainClass': 'mfp-with-zoom', 'zoom': {'enabled': false, 'duration': 300}}">
+                            <div class="owl-carousel owl-theme custom-arrows-style-2" data-plugin-options="{'items': 1, 'loop': false, 'nav': true, 'dots': false}">
+                                @*<div>
+                                    <a class="img-thumbnail d-block img-thumbnail-hover-icon" href="~/Content/themes/avana/img/avana-plastic-surgery-miami-fl-location.jpg">
+                                        <img class="img-fluid" height="300" src="~/Content/themes/avana/img/avana-plastic-surgery-miami-fl-location.jpg" alt="Avana Plastic Surgery Miami, Fl Office">
+                                    </a>
+                                </div>*@
+
+                                <div class="lazy">
+                                    <a href="~/Content/themes/avana/img/avana-plastic-surgery-miami-fl-location.jpg">@ViewHelpers.Picture("/Content/themes/avana/img/avana-plastic-surgery-miami-fl-location.jpg", "Avana Plastic Surgery Miami, Fl Office", "https://via.placeholder.com/1350x900", "img-fluid box-shadow-3")</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="custom-location">
+                                    <img src="/content/themes/avana/img/pin.png" alt="pin location" class="img-fluid" />
+                                    <h4 class="font-weight-bold custom-primary-font mb-0">@Vocabulary.Office Miami</h4>
+                                    <p>
+                                        @Settings.GetFullAddress<br>
+
+                                        <a target="_blank" href="@Settings.GetAddressLink">(@Vocabulary.ViewDirections)</a>
+
+                                    </p>
+                                    <span class="custom-phone custom-xs-ml-1">
+                                        <strong>@Vocabulary.Phone:</strong>
+                                        <a class="custom-text-color-default" href="tel:@Settings.GetPhone"> @Settings.GetPhoneFormated</a>
+                                    </span><br />
+                                    <a class="custom-xs-ml-1" href="mailto:@(Settings.GetEmail)">@Settings.GetEmail</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6 pt-4 mt-1 custom-xs-padding-1 custom-location">
+                                <h4 class=""> <strong>@Vocabulary.BusinessHours</strong></h4>
+                                <ul class="list list-icons list-dark mt-2">
+                                    <li><i class="far fa-clock top-6"></i>@Vocabulary.Monday-@Vocabulary.Friday: 9am - 5pm</li>
+                                    <li><i class="far fa-clock top-6"></i>@Vocabulary.Saturday: 9am - 2pm</li>
+                                    <li><i class="far fa-clock top-6"></i>@Vocabulary.Sunday: @Vocabulary.Closed</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.0609067084374!2d-80.33968228454384!3d25.76855171460509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b91ddc87dd79%3A0xdc08514a36d686af!2s8700%20W%20Flagler%20St%20STE%20250%2C%20Miami%2C%20FL%2033174!5e0!3m2!1sen!2sus!4v1621454663850!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+
+
+
+
+

@@ -2376,6 +2376,15 @@ namespace BaseProject_7_0.App_Resources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string String2 {
+            get {
+                return ResourceManager.GetString("String2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string StudentConsent {
             get {
                 return ResourceManager.GetString("StudentConsent", resourceCulture);

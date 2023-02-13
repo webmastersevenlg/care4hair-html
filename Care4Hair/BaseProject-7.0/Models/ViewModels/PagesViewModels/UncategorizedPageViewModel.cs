@@ -5,6 +5,7 @@ using System.Web;
 using BaseProject_7_0.Models.BaseModels;
 using BaseProject_7_0.Models.EntityModels.DbEntities;
 using BaseProject_7_0.Models.EntityModels.XmlEntities;
+using BaseProject_7_0.App_Resources;
 using BaseProject_7_0.XmlTools;
 using Shyjus.BrowserDetection;
 
@@ -21,6 +22,7 @@ namespace BaseProject_7_0.Models.ViewModels
         {           
 
             SkinName = "UncategorizedPageSkin";
+            ImagesFolderPath = "/themes/" + Settings.GetTheme + "/images/uncategorized-pages";
             Professionals = new List<ProfessionalPartialViewModel>();
 
             var xmlprofessionals = XmlReader.GetElementsByFileNameAttributeNameAndAttributeValue<ProfessionalEntity>(
@@ -43,6 +45,15 @@ namespace BaseProject_7_0.Models.ViewModels
                     }
                     Professionals.Add(professionalVm);
                 }
+            }
+        }
+
+
+        public override string GetH1
+        {
+            get
+            {
+                return GetName;
             }
         }
     }
