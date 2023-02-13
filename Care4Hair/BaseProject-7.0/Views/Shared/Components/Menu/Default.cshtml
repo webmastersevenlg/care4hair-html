@@ -77,7 +77,7 @@
                 string variable = ",";
                 string honorifsuf = "";
             }
-           
+
             @foreach (var professional in Model.Professionals)
             {
 
@@ -126,35 +126,34 @@
             </div>
             <div class="submenu-list">
                 <div class="submenu-header">@Vocabulary.Procedures</div>
-                @foreach (var category in Model.Categories)
-                {
-                    if (category.Id=="hairtransplant")
-                    {
-                         @foreach (var service in category.Services)
-                         {
-                           <a href="@service.GetPageUrl()" class="submenu-item">
-                            @service.GetShortName
-                           </a>
-                         }
-                    }
-                   
+                @{
+                    var hairtransplantCategory = Model.Categories.FirstOrDefault(e => e.Id == "hairtransplant");
                 }
+                @if (hairtransplantCategory != null)
+                {
+                    @foreach (var service in hairtransplantCategory.Services)
+                    {
+                        <a href="@service.GetPageUrl()" class="submenu-item">
+                            @service.GetShortName
+                        </a>
+                    }
+                }
+
             </div>
         </div>
         <div class="nonsurgical-submenu submenu">
-             @foreach (var category in Model.Categories)
+            @{
+                var nonSurgicalCategory = Model.Categories.FirstOrDefault(e => e.Id == "nonsurgical");
+            }
+            @if (nonSurgicalCategory != null)
+            {
+                @foreach (var service in nonSurgicalCategory.Services)
                 {
-                    if (category.Id=="nonsurgical")
-                    {
-                         @foreach (var service in category.Services)
-                         {
-                           <a href="@service.GetPageUrl()" class="submenu-item">
-                            @service.GetShortName
-                           </a>
-                         }
-                    }
-                   
+                    <a href="@service.GetPageUrl()" class="submenu-item">
+                        @service.GetShortName
+                    </a>
                 }
+            }
         </div>
         <div class="resources-submenu submenu">
             <a href="@Site.Instance.FinancingOptionPage.GetPageUrl()" class="submenu-item">
