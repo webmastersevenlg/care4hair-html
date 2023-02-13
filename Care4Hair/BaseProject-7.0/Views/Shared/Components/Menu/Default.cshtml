@@ -128,25 +128,33 @@
                 <div class="submenu-header">@Vocabulary.Procedures</div>
                 @foreach (var category in Model.Categories)
                 {
-                    @foreach (var service in category.Services)
+                    if (category.Id=="hairtransplant")
                     {
-                        <a href="@service.GetPageUrl()" class="submenu-item">
+                         @foreach (var service in category.Services)
+                         {
+                           <a href="@service.GetPageUrl()" class="submenu-item">
                             @service.GetShortName
-                        </a>
+                           </a>
+                         }
                     }
+                   
                 }
             </div>
         </div>
         <div class="nonsurgical-submenu submenu">
-            <a href="#" class="submenu-item">
-                Platelet Rich Plasma Injection (PRP)
-            </a>
-            <a href="#" class="submenu-item">
-                Capillus laser therapy
-            </a>
-            <a href="#" class="submenu-item">
-                Scalp Micropigmentation
-            </a>
+             @foreach (var category in Model.Categories)
+                {
+                    if (category.Id=="nonsurgical")
+                    {
+                         @foreach (var service in category.Services)
+                         {
+                           <a href="@service.GetPageUrl()" class="submenu-item">
+                            @service.GetShortName
+                           </a>
+                         }
+                    }
+                   
+                }
         </div>
         <div class="resources-submenu submenu">
             <a href="@Site.Instance.FinancingOptionPage.GetPageUrl()" class="submenu-item">
