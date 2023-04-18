@@ -64,8 +64,7 @@ namespace BaseProject_7_0.Models.BaseModels
             var userAgent = request?.Headers.UserAgent.ToString();
             var referer = request?.GetTypedHeaders()?.Referer;
             var referrerAbsoluteUri = referer?.AbsoluteUri;
-            var query = QueryHelpers.ParseQuery(referer?.Query);            
-             
+            var query = QueryHelpers.ParseQuery(referer?.Query); 
             
 
             Referrer = !string.IsNullOrEmpty(referrerAbsoluteUri) ? referrerAbsoluteUri : "Direct Traffic";

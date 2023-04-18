@@ -125,7 +125,9 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="ServiceStack.Interfaces" Version="6.5.0" />
     <PackageReference Include="Shyjus.BrowserDetector" Version="2.0.0" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="7.0.0" />
     <PackageReference Include="Twilio" Version="6.2.2" />
+    <PackageReference Include="WebMarkupMin.Core" Version="2.13.8" />
   </ItemGroup>
 
   <ItemGroup>
