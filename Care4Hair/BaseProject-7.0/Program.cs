@@ -26,7 +26,7 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     {
                 new CultureInfo("en-US"),
                 new CultureInfo("es-US"),
-            };
+    };
     options.DefaultRequestCulture = new RequestCulture("en-US", "en-US");
 
     // You must explicitly state which cultures your application supports.
